@@ -1,0 +1,76 @@
+﻿<vw:View 
+	    x:Class="HMI.DialogRegion.Recipes.Views.Article_Browser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	    xmlns:vw="http://inosoft.com/visiwin7"
+	    Width="1920" Height="1080" Background="{DynamicResource DialogSurroundBrush}" Opacity="1">
+
+    <Grid  >
+        <vw:Button Background="Transparent" BorderThickness="0" Command="{Binding Close}"/>
+
+        <Grid x:Name="border" RenderTransformOrigin="1, 0.5" Width="1200" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Grid.RenderTransform>
+                <ScaleTransform ScaleX="0.3" ScaleY="0.3" />
+            </Grid.RenderTransform>
+            <vw:Border Background="White"  Opacity="0.7" CornerRadius="5" >
+                <Border.Effect>
+                    <BlurEffect Radius="10"/>
+                </Border.Effect>
+            </vw:Border>
+
+            <Border  BorderBrush="White" Margin="5" BorderThickness="0" Background="{DynamicResource BackgroundBrush}" CornerRadius="5" >
+                <Grid  Margin="10,0,10,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="12" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="12" />
+                        <RowDefinition Height="70" />
+                    </Grid.RowDefinitions>
+                    <vw:TextBlock x:Name="HeaderText" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White" FontSize="18" FontWeight="Bold" LocalizableText="@RecipeSystem.Text6" Width="400" />
+                    <vw:Button x:Name="CancelButton" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{DynamicResource B_Close}" Width="80" Height="40" Text="X" Command="{Binding Close}" Margin="0,0,0,0"/>
+                    <Border Grid.Row="1" VerticalAlignment="Top" Background="{DynamicResource FP_Red}"  Height="2" CornerRadius="2" />
+
+                    <StackPanel Grid.Row="2" Margin="10,0,10,0" >
+                        <vw:TextVarIn Style="{DynamicResource TVI_Main}" LocalizableLabelText="@RecipeSystem.Text1" Value="{Binding NameBuffer, Mode=TwoWay}" VariableName="__UNLINKED_BSTR" Height="50" TextLengthMin="3" TextLengthMax="40" AuthorizationRight="RecipeA"/>
+                        <vw:TextVarIn Style="{DynamicResource TVI_Main}" LocalizableLabelText="@RecipeSystem.Text2" Value= "{Binding DescriptionBuffer, Mode=TwoWay}"  VariableName="__UNLINKED_BSTR" Height="50" TextLengthMax="40" Margin="0,5,0,0" AuthorizationRight="RecipeA"/>
+                        <DataGrid x:Name="dg_articles" BorderThickness="2" BorderBrush="{DynamicResource FP_BorderBrush}" Height="390"  ItemsSource="{Binding Articles, Mode=TwoWay}"  SelectedItem="{Binding SelectedArticle}" Margin="0,5,0,0" Style="{DynamicResource DG_StandartC}" >
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@RecipeSystem.Text7}" Binding="{Binding Header.Name}" Width="250"/>
+                                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@RecipeSystem.Text8}" Binding="{Binding Header.Description}" Width="*"/>
+                                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@RecipeSystem.Text9}" Binding="{Binding Header.LastChanged, StringFormat=dd.MM.yyyy HH:mm:ss}" ElementStyle="{StaticResource TB_Center}"   Width="200"/>
+                                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@RecipeSystem.Text10}" Binding="{Binding Header.User}" Width="200"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <vw:TextVarIn VariableName="__UNLINKED_BSTR" Value="{Binding Filter, Mode=TwoWay}" Height="45" Style="{DynamicResource TVI_Main}" LocalizableLabelText="@RecipeSystem.Text11" Margin="0,5,0,0" />
+
+                    </StackPanel>
+                    <Border Grid.Row="3" VerticalAlignment="Bottom" Background="{DynamicResource FP_Red}"  Height="2" CornerRadius="2" />
+
+                    <Grid  Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <vw:Button Grid.Column="0" Height="50" Width="200" LocalizableText="@Buttons.Text10" IsEnabled="{Binding IsSelected}" Command="{Binding Load}" Style="{DynamicResource B_Blue_ns}" HorizontalAlignment="Left" />
+                        <vw:Button Grid.Column="1" Height="50"  Width="200" LocalizableText="@Buttons.Text25" Style="{DynamicResource B_Blue_ns}" Command="{Binding Save}" AuthorizationRight="RecipeA"/>
+                        <vw:Button Grid.Column="2" Height="50"  Width="200" LocalizableText="@Buttons.Text9" IsEnabled="{Binding IsSelected}" Command="{Binding Delete}"  Style="{DynamicResource B_Red_ns}" HorizontalAlignment="Right" AuthorizationRight="RecipeA"/>
+                    </Grid>
+
+                    <Grid Grid.RowSpan="5" Margin="-10,0,-10,0"  Background="{DynamicResource DialogSurroundBrush}" Visibility="{Binding Wait}">
+                        <vw:Border Background="White"  Opacity="0.7" CornerRadius="10" Margin="0,100,0,0"  Height="150" Width="290" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Border.Effect>
+                                <BlurEffect Radius="10"/>
+                            </Border.Effect>
+                        </vw:Border>
+                        <Border Background="{DynamicResource FP_Wait}"  Opacity="0.7" Margin="0,100,0,0"  CornerRadius="10" Height="140" Width="280" BorderThickness="3" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                            <Image x:Name="gif" Stretch="None"/>
+                        </Border>
+
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</vw:View>

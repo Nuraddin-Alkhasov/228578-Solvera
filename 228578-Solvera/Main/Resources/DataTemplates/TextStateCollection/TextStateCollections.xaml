@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vw="http://inosoft.com/visiwin7">
+
+    <vw:TextStateCollection x:Key="Steps">
+        <vw:TextState LocalizableText="@" Value="0" />
+    </vw:TextStateCollection>
+
+    <vw:TextStateCollection x:Key="M_OnOff">
+        <vw:TextState Text="@Lists.M_OnOff.Text1" Value="0" />
+        <vw:TextState Text="@Lists.M_OnOff.Text1" Value="1" />
+        <vw:TextState Text="@Lists.M_OnOff.Text2" Value="2" />
+        <vw:TextState Text="@Lists.M_OnOff.Text2" Value="3" />
+    </vw:TextStateCollection>
+
+
+    <vw:TextStateCollection x:Key="TSC_DTPositions">
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text1" Value="0" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text2" Value="1" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text3" Value="2" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text4" Value="3" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text5" Value="4" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text6" Value="5" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text7" Value="6" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text8" Value="7" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text9" Value="8" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text10" Value="8" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text11" Value="8" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text12" Value="8" />
+        <vw:TextState LocalizableText="@Lists.DTPositions.Text13" Value="8" />
+    </vw:TextStateCollection>
+</ResourceDictionary>

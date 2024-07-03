@@ -1,0 +1,184 @@
+﻿<vw:View
+	x:Class="HMI.MainRegion.MO.MO_CZ"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:vw="http://inosoft.com/visiwin7" 
+    xmlns:UC="clr-namespace:HMI.Resources.UserControls.MO"
+    Background="{DynamicResource FP_Black_Gradient}" Width="1832" Height="1000" >
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <vw:PictureBox  SymbolResourceKey="BCZ" Width="1337" Height="418" Margin="0,300,300,0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <vw:PictureBox.Effect>
+                    <DropShadowEffect Color="Blue" BlurRadius="30"  Direction="270"  Opacity="1"/>
+                </vw:PictureBox.Effect>
+            </vw:PictureBox>
+
+            <StackPanel Margin="140,80,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                <StackPanel>
+                    <vw:GroupBox Style="{DynamicResource GB_Group2}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Margin="0,5,0,0" LocalizableHeaderText="@MachineOverview.Text81"  >
+                        <Grid Margin="10,20,10,10">
+                            <vw:Gauge Width="125" Height="125" FontSize="9" Style="{DynamicResource RealisticGaugeStyle_2}" HorizontalAlignment="Left" VerticalAlignment="Center" LocalizableUnitText="@Units.rpm" LocalizableLabelText="@MachineOverview.Text86" 
+                          RawLimitMax="3500"
+                          RawLimitMin="0" VariableName="CPU2.PLC.Blocks.04 Tray handling.07 CZ.01 Air 1.DB CZ Air 1 HMI.Actual.Circulating fan.Motor.Actual.Speed 2">
+                                <vw:Gauge.Limits>
+                                    <vw:Limit Fill="Red" StartValue="3000" EndValue="3500" />
+                                    <vw:Limit Fill="GreenYellow"  StartValue="2000" EndValue="3000"/>
+                                    <vw:Limit Fill="Green" StartValue="0" EndValue="2000" />
+                                </vw:Gauge.Limits>
+                            </vw:Gauge>
+                            <vw:Gauge Width="150" Height="150" FontSize="11" FormatString="{}0"
+                          RawLimitMax="50"
+                          RawLimitMin="0" 
+                          Style="{DynamicResource RealisticGaugeStyle_1}" HorizontalAlignment="Right" VerticalAlignment="Center" LocalizableUnitText="@Units.grad" LocalizableLabelText="@MachineOverview.Text66" VariableName="CPU2.PLC.Blocks.04 Tray handling.07 CZ.01 Air 1.DB CZ Air 1 HMI.Actual.Temperature" >
+                                <vw:Gauge.Limits>
+                                    <vw:Limit Fill="Red" StartValue="40" EndValue="50" />
+                                    <vw:Limit Fill="OrangeRed" StartValue="30" EndValue="40" />
+                                    <vw:Limit Fill="Orange" StartValue="20" EndValue="30" />
+                                    <vw:Limit Fill="GreenYellow"  StartValue="10" EndValue="20"/>
+                                    <vw:Limit Fill="Green" StartValue="0" EndValue="10" />
+                                </vw:Gauge.Limits>
+                            </vw:Gauge>
+                            <vw:Button Style="{DynamicResource B_Function}" Width="160"  CornerRadius="100" Margin="0,-5,-5,-5" HorizontalAlignment="Right" Click="Button_Click"/>
+                        </Grid>
+
+                    </vw:GroupBox>
+                </StackPanel>
+                <StackPanel Margin="85,0,0,0">
+                    <vw:GroupBox Style="{DynamicResource GB_Group2}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Margin="0,5,0,0" LocalizableHeaderText="@MachineOverview.Text82"  >
+                        <Grid Margin="10,20,10,10">
+                            <vw:Gauge Width="125" Height="125" FontSize="9" Style="{DynamicResource RealisticGaugeStyle_2}" HorizontalAlignment="Left" VerticalAlignment="Center" LocalizableUnitText="@Units.rpm" LocalizableLabelText="@MachineOverview.Text86" 
+                          RawLimitMax="3500"
+                          RawLimitMin="0" VariableName="CPU2.PLC.Blocks.04 Tray handling.07 CZ.02 Air 2.DB CZ Air 2 HMI.Actual.Circulating fan.Motor.Actual.Speed 2">
+                                <vw:Gauge.Limits>
+                                    <vw:Limit Fill="Red" StartValue="3000" EndValue="3500" />
+                                    <vw:Limit Fill="GreenYellow"  StartValue="2000" EndValue="3000"/>
+                                    <vw:Limit Fill="Green" StartValue="0" EndValue="2000" />
+                                </vw:Gauge.Limits>
+                            </vw:Gauge>
+                            <vw:Gauge Width="150" Height="150" FontSize="11" FormatString="{}0"
+                          RawLimitMax="50"
+                          RawLimitMin="0" 
+                          Style="{DynamicResource RealisticGaugeStyle_1}" HorizontalAlignment="Right" VerticalAlignment="Center" LocalizableUnitText="@Units.grad" LocalizableLabelText="@MachineOverview.Text66" VariableName="CPU2.PLC.Blocks.04 Tray handling.07 CZ.02 Air 2.DB CZ Air 2 HMI.Actual.Temperature" >
+                                <vw:Gauge.Limits>
+                                    <vw:Limit Fill="Red" StartValue="40" EndValue="50" />
+                                    <vw:Limit Fill="OrangeRed" StartValue="30" EndValue="40" />
+                                    <vw:Limit Fill="Orange" StartValue="20" EndValue="30" />
+                                    <vw:Limit Fill="GreenYellow"  StartValue="10" EndValue="20"/>
+                                    <vw:Limit Fill="Green" StartValue="0" EndValue="10" />
+                                </vw:Gauge.Limits>
+                            </vw:Gauge>
+                            <vw:Button Style="{DynamicResource B_Function}" Width="160"  CornerRadius="100" Margin="0,-5,-5,-5" HorizontalAlignment="Right" Click="Button_Click_1"/>
+                        </Grid>
+
+                    </vw:GroupBox>
+
+                </StackPanel>
+                <StackPanel Margin="85,0,0,0">
+                    <vw:GroupBox Style="{DynamicResource GB_Group2}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Margin="0,5,0,0" LocalizableHeaderText="@MachineOverview.Text83"  >
+                        <Grid Margin="10,20,10,10">
+                            <vw:Gauge Width="125" Height="125" FontSize="9" Style="{DynamicResource RealisticGaugeStyle_2}" HorizontalAlignment="Left" VerticalAlignment="Center" LocalizableUnitText="@Units.rpm" LocalizableLabelText="@MachineOverview.Text86" 
+                          RawLimitMax="3500"
+                          RawLimitMin="0" VariableName="CPU2.PLC.Blocks.04 Tray handling.07 CZ.03 Air 3.DB CZ Air 3 HMI.Actual.Circulating fan.Motor.Actual.Speed 2">
+                                <vw:Gauge.Limits>
+                                    <vw:Limit Fill="Red" StartValue="3000" EndValue="3500" />
+                                    <vw:Limit Fill="GreenYellow"  StartValue="2000" EndValue="3000"/>
+                                    <vw:Limit Fill="Green" StartValue="0" EndValue="2000" />
+                                </vw:Gauge.Limits>
+                            </vw:Gauge>
+                            <vw:Gauge Width="150" Height="150" FontSize="11" FormatString="{}0"
+                          RawLimitMax="50"
+                          RawLimitMin="0" 
+                          Style="{DynamicResource RealisticGaugeStyle_1}" HorizontalAlignment="Right" VerticalAlignment="Center" LocalizableUnitText="@Units.grad" LocalizableLabelText="@MachineOverview.Text66" VariableName="CPU2.PLC.Blocks.04 Tray handling.07 CZ.03 Air 3.DB CZ Air 3 HMI.Actual.Temperature" >
+                                <vw:Gauge.Limits>
+                                    <vw:Limit Fill="Red" StartValue="40" EndValue="50" />
+                                    <vw:Limit Fill="OrangeRed" StartValue="30" EndValue="40" />
+                                    <vw:Limit Fill="Orange" StartValue="20" EndValue="30" />
+                                    <vw:Limit Fill="GreenYellow"  StartValue="10" EndValue="20"/>
+                                    <vw:Limit Fill="Green" StartValue="0" EndValue="10" />
+                                </vw:Gauge.Limits>
+                            </vw:Gauge>
+                            <vw:Button Style="{DynamicResource B_Function}" Width="160"  CornerRadius="100" Margin="0,-5,-5,-5" HorizontalAlignment="Right" Click="Button_Click_2"/>
+                        </Grid>
+                    </vw:GroupBox>
+
+                </StackPanel>
+                <StackPanel Margin="85,0,0,0">
+                    <vw:GroupBox Style="{DynamicResource GB_Group2}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Margin="0,5,0,0" LocalizableHeaderText="@MachineOverview.Text84"  >
+                        <Grid Margin="10,20,10,10">
+                            <vw:Gauge Width="125" Height="125" FontSize="9" Style="{DynamicResource RealisticGaugeStyle_2}" HorizontalAlignment="Left" VerticalAlignment="Center" LocalizableUnitText="@Units.rpm" LocalizableLabelText="@MachineOverview.Text86" 
+                          RawLimitMax="3500"
+                          RawLimitMin="0" VariableName="CPU2.PLC.Blocks.04 Tray handling.07 CZ.04 Air 4.DB CZ Air 4 HMI.Actual.Circulating fan.Motor.Actual.Speed 2">
+                                <vw:Gauge.Limits>
+                                    <vw:Limit Fill="Red" StartValue="3000" EndValue="3500" />
+                                    <vw:Limit Fill="GreenYellow"  StartValue="2000" EndValue="3000"/>
+                                    <vw:Limit Fill="Green" StartValue="0" EndValue="2000" />
+                                </vw:Gauge.Limits>
+                            </vw:Gauge>
+                            <vw:Gauge Width="150" Height="150" FontSize="11" FormatString="{}0"
+                          RawLimitMax="50"
+                          RawLimitMin="0" 
+                          Style="{DynamicResource RealisticGaugeStyle_1}" HorizontalAlignment="Right" VerticalAlignment="Center" LocalizableUnitText="@Units.grad" LocalizableLabelText="@MachineOverview.Text66" VariableName="CPU2.PLC.Blocks.04 Tray handling.07 CZ.04 Air 4.DB CZ Air 4 HMI.Actual.Temperature" >
+                                <vw:Gauge.Limits>
+                                    <vw:Limit Fill="Red" StartValue="40" EndValue="50" />
+                                    <vw:Limit Fill="OrangeRed" StartValue="30" EndValue="40" />
+                                    <vw:Limit Fill="Orange" StartValue="20" EndValue="30" />
+                                    <vw:Limit Fill="GreenYellow"  StartValue="10" EndValue="20"/>
+                                    <vw:Limit Fill="Green" StartValue="0" EndValue="10" />
+                                </vw:Gauge.Limits>
+                            </vw:Gauge>
+                            <vw:Button Style="{DynamicResource B_Function}" Width="160"  CornerRadius="100" Margin="0,-5,-5,-5" HorizontalAlignment="Right" Click="Button_Click_3"/>
+                        </Grid>
+                    </vw:GroupBox>
+
+                </StackPanel>
+            </StackPanel>
+            <vw:GroupBox Style="{DynamicResource GB_Group2}" HorizontalAlignment="Right" VerticalAlignment="Center" LocalizableHeaderText="@MachineOverview.Text59" Margin="0,0,20,0" >
+                <StackPanel Orientation="Horizontal" Margin="5,10,5,5">
+                    <vw:NumericVarOut x:Name="Tmin" Style="{DynamicResource NVO_Main}" Width="85" Height="45" LocalizableUnitText="@Units.m" VariableName="CPU2.PLC.Blocks.04 Tray handling.07 CZ.00 Main.DB CZ HMI.Actual.Clock.Minute"/>
+                    <vw:NumericVarOut x:Name="Tsec" Style="{DynamicResource NVO_Main}" Width="85" Height="45" Margin="5,0,0,0" LocalizableUnitText="@Units.s" VariableName="CPU2.PLC.Blocks.04 Tray handling.07 CZ.00 Main.DB CZ HMI.Actual.Clock.Second" />
+                </StackPanel>
+            </vw:GroupBox>
+
+            <UC:M_WorkMode_L HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" 
+                       Header="@MachineOverview.Text19"
+                        Automatic="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Operating Mode.Automatic"
+                       Manual="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Operating Mode.Manual"
+                       SetUp="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Operating Mode.Setup"
+                       Start="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Automatic.Start"
+                       Stop="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Automatic.Stop"
+                       StartStatus="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.to.Automatic.State"
+                       WorkingModeStatus="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.to.Operating Mode.State"/>
+            <UC:WorkModeOption HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,15,0" 
+                               Header="@MachineOverview.Text73"
+                                Start="CPU2.PLC.Blocks.04 Tray handling.00 Main.DB TH HMI.PC.Gerneral.On"
+                               StartStatus="CPU2.PLC.Blocks.04 Tray handling.00 Main.DB TH HMI.Actual.State"
+                               Stop="CPU2.PLC.Blocks.04 Tray handling.00 Main.DB TH HMI.PC.Gerneral.Off"/>
+
+            <Grid x:Name="Trays" Loaded="Trays_Loaded" >
+            </Grid>
+
+        </Grid>
+
+        <vw:NavigationButton Width="160" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1635,200,0,0"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text22" ViewName="MO_CZ_T" RegionName="DialogRegion1" Grid.Row="1"/>
+
+
+
+        <Grid Background="{DynamicResource FP_Blue_Gradient}">
+            <Grid.Effect>
+                <DropShadowEffect Color="White" Direction="270" Opacity="0.7"/>
+            </Grid.Effect>
+            <vw:TextBlock x:Name="header" LocalizableText="@MachineOverview.Text76" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="48" Margin="50,0,0,0" />
+        </Grid>
+        <vw:Border x:Name="Mod" Height="80" Background="{DynamicResource FP_Green_Gradient}" CornerRadius="4" BorderThickness="2" BorderBrush="White" Width="250" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <vw:TextBlock x:Name="txt" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Width="200" Foreground="White" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" LocalizableText="@Lists.Modus.Text1"/>
+        </vw:Border>
+
+    </Grid>
+
+</vw:View>

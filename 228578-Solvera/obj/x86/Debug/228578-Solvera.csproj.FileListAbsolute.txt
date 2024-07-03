@@ -1,0 +1,1135 @@
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Main\Reports\Protocol\Order\Order.rdlc
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Main\Reports\Protocol\Orders\Orders.rdlc
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Main\Reports\Protocol\Charge\Charge.rdlc
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\228578-Solvera.exe.config
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\228578-Solvera.exe
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\228578-Solvera.pdb
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.Wpf.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\System.Data.SqlClient.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\System.Windows.Interactivity.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\VisiWin7.Styles.WPF.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\VisiWin7.System.WPF.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\VisiWin7.View.WPF.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\WpfAnimatedGif.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\EnvDTE.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\stdole.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.pdb
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.xml
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.Wpf.pdb
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.Wpf.xml
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\System.Data.SqlClient.xml
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\VisiWin7.View.WPF.xml
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\WpfAnimatedGif.pdb
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\WpfAnimatedGif.xml
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Interop.EKSEthLib.dll
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.csproj.ResolveComReference.cache
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Logging\Views\Logging_Filter.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\CoatingPicker\MO_CoatingPicker.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_SF.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_EF.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_VC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_DT.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\CZ\MO_CZ_T.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\HZ\MO_HZ_T.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\HZ\MO_HZ_EF.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_WZ_T .baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_PZ_T.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_WZ_EF.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_PZ_EF.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Sheduler\MO_Sheduler.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_Box2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_Tray.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_Box1.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_Basket.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_1.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_BS.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_DC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_HC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_LD.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_MC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_BT.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_CI.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_ST.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_BM.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_DT.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_V.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_CD.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ4.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ3.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ1.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_HZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_TM.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_PO.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_US.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_WZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_PZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\PD\Views\BarcodeScanner.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\PD\Views\EKS.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Trend.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_MR.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Data.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Filter.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Coating_Browser.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Article_Browser.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\MR_Browser.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Coating_Selector.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_PSC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_TYW.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_WDC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_WDO.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_1.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_PN.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Steps\MO_CD_Dip.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Steps\MO_CD_Spin.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Trend\Trend.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Handling\MOH_BH.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Coating\MOH_Coating.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Feeding\MOH_BF.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Tray Handling\MOH_CZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Tray Handling\MOH_TH.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_BS.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_DC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_MC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_HC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_BT.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_LD.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\MR_Binding.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Brushes\Brushes.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Brushes\Color\Colors.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Brushes\LinearGradientBrush\LinearGradientBrushes.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Brushes\RadialGradientBrush\RadialGradientBrushes.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Brushes\SolidColorBrush\SolidColorBrushes.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\Buttons.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_AppBar.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Dashboard_Add2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Dashboard_Delete.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Dashboard_Edit.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Filter.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Function.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Green.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Gray_HM.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Gray_ns2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Peripheral.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Blue.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Blue_ns.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Close.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Dashboard_Add.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Gray.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Gray_ns.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Keyboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Material.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Red2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Red.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Yellow_ns.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Red_ns.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Start_UC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Station.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Stop_UC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_WM_HM_UC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ComboBox\CB_Main.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ComboBox\ComboBoxes.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ControlStyles.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DashboardWidgetHost\DashboardWidgetHosts.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DashboardWidgetHost\DWH_DashBoard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridCell\DataGridCells.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridCell\DGC_Standart.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridColumnHeadersPresenter\DataGridCoumnHeaders.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridColumnHeadersPresenter\DGCHP_Standart.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridCoumnHeader\DataGridCoumnHeaders.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridCoumnHeader\DGCH_Standart.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridRow\DataGridRows.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridRow\DGR_IE.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridRow\DGR_Standart.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGrid\DataGrids.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGrid\DG_StandartC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGrid\DG_Standart.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DateTimeVarIn\DateTimeVarIns.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DateTimeVarIn\DTVI_Main.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DateTimeVarOut\DateTimeVarOuts.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DateTimeVarOut\DTVO_Main.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Gauge\Gauges.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Gauge\RealisticGaugeStyle_1.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Gauge\RealisticGaugeStyle_2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Gauge\RealisticGaugeStyle_3.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\GroupBox\GB_Group2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\GroupBox\GB_Group.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\GroupBox\GroupBoxes.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\HorizontalScroolBar\HSB_Main.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBoxItem\LBI_DashBoard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBoxItem\LBI_Diagnose.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBoxItem\LBI_PanoramaNavigation_H.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBoxItem\LBI_PanoramaNavigation_V.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBoxItem\ListBoxItems.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBox\LB_Dashboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBox\LB_PanoramaNavigation_H.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBox\LB_PanoramaNavigation_V.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\HorizontalScroolBar\HorizontalScroolBars.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBox\ListBoxes.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NavigationRadioButton\NavigationRadioButtons.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NavigationRadioButton\NRB_AppBar.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericTextBox\NumericTextBoxes.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericTextBox\NTB_Keyboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarIn\NumericVarIns.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarIn\NVI_Keyboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarIn\NVI_Main.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarIn\NVI_Time.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarOut\NumericVarOuts.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarOut\NVO_Main.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\PasswordVarIn\PasswordVarIns.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\PasswordVarIn\PVI_Main.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ProgressBar\PB_Loading.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ProgressBar\ProgressBars.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\RadioButton\RadioButtons.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\RadioButton\RB_Group.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\RadioButton\RB_Switcher.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\RepeatButton\RB_Keyboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\RepeatButton\RepeatButtons.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ScrollViewer\ScrollViewers.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ScrollViewer\SV_Standart.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Switch\Switches.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Switch\S_Status.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TabItem\TabItems.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TabItem\TI_Filter.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextBlock\TB_Trend.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextBlock\TB_Center.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextBlock\TB_Right.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextBlock\TextBlocks.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarIn\TextVarIns.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarIn\TVI_Keyboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarIn\TVI_Main.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarIn\TVI_RecipeBrowser.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarOut\TextVarOuts.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarOut\TVO_Main.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Thumb\Thumbs.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Thumb\T_Standart.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ToggleButton\TB_MainR.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ToggleButton\TB_Main.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ToggleButton\TB_Dashboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ToggleButton\TB_Reports.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ToggleButton\ToggleButtons.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TouchKeyboard\AlphaTouchKeyboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TouchKeyboard\NumericTouchKeyboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TouchKeyboard\TouchKeyboards.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\UpDownNumericVarIn\UDNVI_TimePad.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\UpDownNumericVarIn\UpDownNumericVarIns.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\DataTemplates.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\StateCollection\StateCollections.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\Symbols.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_Dashboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_Articles.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_Header.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_AppBar.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_General.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_MachineOverview.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_MessageBox.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_Recipe.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\TextStateCollection\TextStateCollections.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\LocalizedResources\TouchKeyboardLayoutResources.de-DE.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\LocalizedResources\TouchKeyboardLayoutResources.en-US.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\System\TouchKeyboardResources.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Dashboard\DBTemperature.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\CDBasket.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\CZTray.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\MVTray.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\HZTray.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\PZWZTray.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\PZWZBasket.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\STBasket.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\LDBasket.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\MVBasket.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\MVMaterial.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Paint\PaintType.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CD.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_HZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_ST.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\M_WorkMode_L.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\M_WorkMode_R.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\WorkModeOption.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\ArticleRecipe.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\ArticleGeneral.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep4.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep3.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep1.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Add.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Article.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Coating.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Tracking.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\SplashWindow\SplashWindow.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\AppBar\Views\AppBar.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Views\EmptyView.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Header\Views\Header.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Dashboard.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Dashboard\Views\WidgetSelector.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_Calendar.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_Clock.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_FP_Logo.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_TYC.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_PSW.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\WidgetEmptyView.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Diagnose\Views\Diagnose_Filter.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_Current.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_Archive.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_PN.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Logging\Views\Logging.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\DataPicker\MO_DataPicker.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_PN.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_OH.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_Current.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Charges.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Layers.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Orders.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_PN.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Recipes_PN.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Recipe_Selector.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Recipes_Article.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Coating\Recipes_Coating.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_Groups.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_AddChangeGroup.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_Users.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_PN.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_LogOnOff.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_AddChangeUser.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_ChangePassword.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\MessageBox\Views\MessageBoxView.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\AlphaTouchpadView.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\DateTimeTouchpadView.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\NumericTouchpadView.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\PasswordTouchpadView.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Windows\MainWindow.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\App.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Logging\Views\Logging_Filter.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\CoatingPicker\MO_CoatingPicker.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_SF.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_EF.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_VC.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_DT.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\CZ\MO_CZ_T.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\HZ\MO_HZ_T.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\HZ\MO_HZ_EF.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_WZ_T .g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_PZ_T.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_WZ_EF.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_PZ_EF.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Sheduler\MO_Sheduler.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_2.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_Box2.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_Tray.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_Box1.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_Basket.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_1.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_BS.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_DC.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_HC.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_LD.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_MC.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_BT.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_CI.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_ST.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_BM.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_DT.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_V.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_CD.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ4.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ3.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ2.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ1.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_HZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_TM.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_PO.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_US.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_WZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_PZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\PD\Views\BarcodeScanner.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\PD\Views\EKS.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Trend.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_MR.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Data.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Filter.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Coating_Browser.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Article_Browser.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\MR_Browser.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Coating_Selector.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_PSC.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_TYW.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_WDC.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_WDO.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT4.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT3.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT2.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_HZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\MO_CD.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_2.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_1.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_PN.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Steps\MO_CD_Dip.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Steps\MO_CD_Spin.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_CZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_PZWZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_HZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_ST.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_LD.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Trend\Trend.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Handling\MOH_BH.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Coating\MOH_Coating.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Feeding\MOH_BF.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Tray Handling\MOH_CZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Tray Handling\MOH_TH.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_BS.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_DC.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_MC.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_HC.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_BT.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_LD.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\MR_Binding.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Dashboard\DBTemperature.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\CDBasket.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\CZTray.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\MVTray.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\HZTray.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\PZWZTray.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\PZWZBasket.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\STBasket.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\LDBasket.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\MVBasket.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\MVMaterial.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Paint\PaintType.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_BSMP.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CD.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_US.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_PO.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_TM.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_MCPZWZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CI.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_HZ.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_ST.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_LD.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\M_WorkMode_L.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\M_WorkMode_R.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\WorkModeOption.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\ArticleRecipe.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\ArticleGeneral.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep4.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep3.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep2.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep1.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Add.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Article.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Coating.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Tracking.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\SplashWindow\SplashWindow.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\AppBar\Views\AppBar.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Views\EmptyView.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Header\Views\Header.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Dashboard.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Dashboard\Views\WidgetSelector.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_Calendar.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_Clock.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_FP_Logo.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_TYC.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_PSW.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT1 .g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_DT.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_WZT.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_PZT.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\WidgetEmptyView.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Diagnose\Views\Diagnose_Filter.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_Current.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_Archive.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_PN.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Logging\Views\Logging.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\DataPicker\MO_DataPicker.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\MO_MainView.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_PN.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_OH.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_Current.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Charges.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Layers.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Orders.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_PN.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Recipes_PN.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Recipe_Selector.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Recipes_Article.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Coating\Recipes_Coating.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\MR\Recipes_MR.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_Groups.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_AddChangeGroup.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_Users.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_PN.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_LogOnOff.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_AddChangeUser.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_ChangePassword.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\MessageBox\Views\MessageBoxView.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\AlphaTouchpadView.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\DateTimeTouchpadView.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\NumericTouchpadView.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\PasswordTouchpadView.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Windows\MainWindow.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\App.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera_Content.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera_MarkupCompile.cache
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera_MarkupCompile.lref
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT4.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT3.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT2.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_HZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\MO_CD.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_CZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_PZWZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_HZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_ST.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_LD.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Converters\Converters.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_BSMP.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_US.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_PO.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_TM.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_MCPZWZ.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CI.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_LD.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT1 .baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_DT.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_WZT.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_PZT.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\MO_MainView.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\MR\Recipes_MR.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.g.resources
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\HMI.Properties.Resources.resources
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.csproj.GenerateResource.cache
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.exe
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.pdb
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\GitHub\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.MSXML.dll
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_PO.baml
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_PO.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.g.resources
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.pdb
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Main\Reports\Protocol\Order\Order.rdlc
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Main\Reports\Protocol\Orders\Orders.rdlc
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Main\Reports\Protocol\Charge\Charge.rdlc
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\228578-Solvera.exe.config
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\228578-Solvera.exe
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\228578-Solvera.pdb
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\VisiWin7.Styles.WPF.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\VisiWin7.System.WPF.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\VisiWin7.View.WPF.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\EnvDTE.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\stdole.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.pdb
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.xml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\VisiWin7.View.WPF.xml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\WpfAnimatedGif.xml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Interop.EKSEthLib.dll
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.csproj.ResolveComReference.cache
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Logging\Views\Logging_Filter.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\CoatingPicker\MO_CoatingPicker.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_SF.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_EF.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_VC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_DT.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\CZ\MO_CZ_T.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\HZ\MO_HZ_T.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\HZ\MO_HZ_EF.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_WZ_T .baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_PZ_T.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_WZ_EF.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_PZ_EF.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Sheduler\MO_Sheduler.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_Box2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_Tray.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_Box1.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_Basket.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_1.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_BS.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_DC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_HC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_LD.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_MC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_BT.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_CI.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_ST.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_BM.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_DT.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_V.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_CD.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ4.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ3.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ1.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_HZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_TM.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_PO.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_US.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_WZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_PZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\PD\Views\BarcodeScanner.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\PD\Views\EKS.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Trend.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_MR.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Data.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Filter.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Coating_Browser.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Article_Browser.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\MR_Browser.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Coating_Selector.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_PSC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_TYW.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_WDC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_WDO.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_1.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_PN.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Steps\MO_CD_Dip.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Steps\MO_CD_Spin.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Trend\Trend.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Handling\MOH_BH.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Coating\MOH_Coating.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Feeding\MOH_BF.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Tray Handling\MOH_CZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Tray Handling\MOH_TH.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_BS.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_DC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_PO.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_MC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_HC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_BT.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_LD.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\MR_Binding.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Brushes\Brushes.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Brushes\Color\Colors.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Brushes\LinearGradientBrush\LinearGradientBrushes.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Brushes\RadialGradientBrush\RadialGradientBrushes.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Brushes\SolidColorBrush\SolidColorBrushes.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\Buttons.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_AppBar.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Dashboard_Add2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Dashboard_Delete.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Dashboard_Edit.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Filter.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Function.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Green.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Gray_HM.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Gray_ns2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Peripheral.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Blue.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Blue_ns.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Close.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Dashboard_Add.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Gray.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Gray_ns.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Keyboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Material.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Red2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Red.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Yellow_ns.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Red_ns.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Start_UC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Station.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_Stop_UC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Button\B_WM_HM_UC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ComboBox\CB_Main.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ComboBox\ComboBoxes.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ControlStyles.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DashboardWidgetHost\DashboardWidgetHosts.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DashboardWidgetHost\DWH_DashBoard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridCell\DataGridCells.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridCell\DGC_Standart.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridColumnHeadersPresenter\DataGridCoumnHeaders.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridColumnHeadersPresenter\DGCHP_Standart.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridCoumnHeader\DataGridCoumnHeaders.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridCoumnHeader\DGCH_Standart.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridRow\DataGridRows.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridRow\DGR_IE.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGridRow\DGR_Standart.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGrid\DataGrids.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGrid\DG_StandartC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DataGrid\DG_Standart.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DateTimeVarIn\DateTimeVarIns.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DateTimeVarIn\DTVI_Main.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DateTimeVarOut\DateTimeVarOuts.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\DateTimeVarOut\DTVO_Main.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Gauge\Gauges.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Gauge\RealisticGaugeStyle_1.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Gauge\RealisticGaugeStyle_2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Gauge\RealisticGaugeStyle_3.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\GroupBox\GB_Group2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\GroupBox\GB_Group.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\GroupBox\GroupBoxes.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\HorizontalScroolBar\HSB_Main.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBoxItem\LBI_DashBoard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBoxItem\LBI_Diagnose.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBoxItem\LBI_PanoramaNavigation_H.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBoxItem\LBI_PanoramaNavigation_V.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBoxItem\ListBoxItems.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBox\LB_Dashboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBox\LB_PanoramaNavigation_H.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBox\LB_PanoramaNavigation_V.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\HorizontalScroolBar\HorizontalScroolBars.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ListBox\ListBoxes.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NavigationRadioButton\NavigationRadioButtons.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NavigationRadioButton\NRB_AppBar.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericTextBox\NumericTextBoxes.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericTextBox\NTB_Keyboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarIn\NumericVarIns.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarIn\NVI_Keyboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarIn\NVI_Main.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarIn\NVI_Time.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarOut\NumericVarOuts.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\NumericVarOut\NVO_Main.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\PasswordVarIn\PasswordVarIns.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\PasswordVarIn\PVI_Main.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ProgressBar\PB_Loading.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ProgressBar\ProgressBars.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\RadioButton\RadioButtons.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\RadioButton\RB_Group.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\RadioButton\RB_Switcher.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\RepeatButton\RB_Keyboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\RepeatButton\RepeatButtons.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ScrollViewer\ScrollViewers.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ScrollViewer\SV_Standart.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Switch\Switches.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Switch\S_Status.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TabItem\TabItems.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TabItem\TI_Filter.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextBlock\TB_Trend.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextBlock\TB_Center.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextBlock\TB_Right.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextBlock\TextBlocks.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarIn\TextVarIns.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarIn\TVI_Keyboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarIn\TVI_Main.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarIn\TVI_RecipeBrowser.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarOut\TextVarOuts.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TextVarOut\TVO_Main.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Thumb\Thumbs.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\Thumb\T_Standart.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ToggleButton\TB_MainR.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ToggleButton\TB_Main.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ToggleButton\TB_Dashboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ToggleButton\TB_Reports.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\ToggleButton\ToggleButtons.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TouchKeyboard\AlphaTouchKeyboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TouchKeyboard\NumericTouchKeyboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\TouchKeyboard\TouchKeyboards.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\UpDownNumericVarIn\UDNVI_TimePad.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\ControlStyles\UpDownNumericVarIn\UpDownNumericVarIns.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\DataTemplates.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\StateCollection\StateCollections.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\Symbols.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_Dashboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_Articles.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_Header.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_AppBar.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_General.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_MachineOverview.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_MessageBox.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\Symbol\S_Recipe.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\DataTemplates\TextStateCollection\TextStateCollections.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\LocalizedResources\TouchKeyboardLayoutResources.de-DE.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\LocalizedResources\TouchKeyboardLayoutResources.en-US.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\System\TouchKeyboardResources.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Dashboard\DBTemperature.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\CDBasket.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\CZTray.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\MVTray.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\HZTray.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\PZWZTray.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\PZWZBasket.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\STBasket.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\LDBasket.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\MVBasket.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\MVMaterial.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Paint\PaintType.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CD.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_HZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_ST.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\M_WorkMode_L.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\M_WorkMode_R.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\WorkModeOption.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\ArticleRecipe.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\ArticleGeneral.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep4.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep3.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep1.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Add.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Article.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Coating.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Tracking.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\SplashWindow\SplashWindow.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\AppBar\Views\AppBar.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Views\EmptyView.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Header\Views\Header.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Dashboard.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Dashboard\Views\WidgetSelector.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_Calendar.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_Clock.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_FP_Logo.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_TYC.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_PSW.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\WidgetEmptyView.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Diagnose\Views\Diagnose_Filter.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_Current.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_Archive.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_PN.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Logging\Views\Logging.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\DataPicker\MO_DataPicker.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_PN.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_OH.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_Current.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Charges.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Layers.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Orders.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_PN.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Recipes_PN.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Recipe_Selector.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Recipes_Article.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Coating\Recipes_Coating.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_Groups.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_AddChangeGroup.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_Users.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_PN.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_LogOnOff.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_AddChangeUser.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_ChangePassword.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\MessageBox\Views\MessageBoxView.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\AlphaTouchpadView.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\DateTimeTouchpadView.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\NumericTouchpadView.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\PasswordTouchpadView.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Windows\MainWindow.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\App.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Logging\Views\Logging_Filter.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\CoatingPicker\MO_CoatingPicker.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_SF.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_EF.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_VC.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Coating\MO_Coating_DT.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\CZ\MO_CZ_T.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\HZ\MO_HZ_T.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\HZ\MO_HZ_EF.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_WZ_T .g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_PZ_T.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_WZ_EF.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\PZWZ\MO_PZ_EF.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Sheduler\MO_Sheduler.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_2.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_Box2.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 2\MO_Status_Tray.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_Box1.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_Basket.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\Status\CPU 1\MO_Status_1.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_BS.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_DC.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_HC.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Feeding\MOH_BF_LD.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_MC.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_BT.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_CI.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_ST.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Handling\MOH_BH_BM.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_DT.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_V.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Basket Coating\MOH_C_CD.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ4.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ3.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ2.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_CZ1.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_HZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_TM.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_PO.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_US.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_WZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Maintenance\Tray Handling\MOH_TH_PZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\PD\Views\BarcodeScanner.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\PD\Views\EKS.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Trend.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_MR.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Data.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Protocol\Views\Protocol_Filter.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Coating_Browser.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Article_Browser.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\MR_Browser.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Coating_Selector.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_PSC.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_TYW.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_WDC.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_WDO.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT4.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT3.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT2.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_HZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\MO_CD.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_2.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_1.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Paints\MO_Paints_PN.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Steps\MO_CD_Dip.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\Steps\MO_CD_Spin.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_CZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_PZWZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_HZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_ST.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_LD.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Trend\Trend.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Handling\MOH_BH.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Coating\MOH_Coating.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Basket Feeding\MOH_BF.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Tray Handling\MOH_CZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Tray Handling\MOH_TH.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_BS.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_DC.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_PO.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_MC.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_HC.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_BT.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Stations\Recipe_Article_LD.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\MR_Binding.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Dashboard\DBTemperature.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\CDBasket.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\CZTray.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\MVTray.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\HZTray.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Trays\PZWZTray.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\PZWZBasket.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\STBasket.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\LDBasket.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\Baskets\MVBasket.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Material\MVMaterial.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Paint\PaintType.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_BSMP.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CD.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_US.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_PO.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_TM.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_MCPZWZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CI.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_HZ.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_ST.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_LD.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\M_WorkMode_L.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\M_WorkMode_R.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\OperatingMode\WorkModeOption.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\ArticleRecipe.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\ArticleGeneral.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep4.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep3.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep2.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\CoatingStep1.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Add.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Article.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\Recipe\MR_Coating.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Tracking.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\SplashWindow\SplashWindow.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\AppBar\Views\AppBar.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Views\EmptyView.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Header\Views\Header.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Dashboard.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Dashboard\Views\WidgetSelector.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_Calendar.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_Clock.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\General\DB_Widget_FP_Logo.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_TYC.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Statistic\DB_Widget_PSW.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT1 .g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_DT.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_WZT.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_PZT.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\WidgetEmptyView.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Diagnose\Views\Diagnose_Filter.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_Current.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_Archive.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Diagnose\Views\Diagnose_PN.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Logging\Views\Logging.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\MachineOverview\DataPicker\MO_DataPicker.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\MO_MainView.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_PN.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_OH.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Maintenance\Views\Maintenance_Current.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Charges.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Layers.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_Orders.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Protocol\Views\Protocol_PN.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Recipes_PN.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\Recipes\Views\Recipe_Selector.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Article\Recipes_Article.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\Coating\Recipes_Coating.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\MR\Recipes_MR.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_Groups.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_AddChangeGroup.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_Users.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\UM\Views\UM_PN.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_LogOnOff.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_AddChangeUser.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Dialog\UM\Views\UM_ChangePassword.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\MessageBox\Views\MessageBoxView.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\AlphaTouchpadView.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\DateTimeTouchpadView.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\NumericTouchpadView.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Touchpad\TouchPads\Views\PasswordTouchpadView.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Windows\MainWindow.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\App.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera_Content.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera_MarkupCompile.cache
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera_MarkupCompile.lref
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT4.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT3.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT2.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_HZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\Forplanet\MO_CD.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_CZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_PZWZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_HZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_ST.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\Stations\MO_LD.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\Converters\Converters.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_BSMP.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_US.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_PO.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_TM.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_MCPZWZ.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_CI.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Resources\User Controls\MO\Station\MV_LD.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_CZT1 .baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_DT.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_WZT.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Dashboard\Views\Widgets\Temperature\DB_Widget_PZT.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\MachineOverview\Views\MO_MainView.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\Main\Regions\Main\Recipes\Views\MR\Recipes_MR.baml
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\HMI.Properties.Resources.resources
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.csproj.GenerateResource.cache
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.csproj.CoreCompileInputs.cache
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.csproj.CopyComplete
+C:\Users\Forplan\source\repos\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.exe
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.csproj.AssemblyReference.cache
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.csproj.CoreCompileInputs.cache
+C:\GitHub\228578-Solvera\228578-Solvera\obj\x86\Debug\228578-Solvera.csproj.CopyComplete

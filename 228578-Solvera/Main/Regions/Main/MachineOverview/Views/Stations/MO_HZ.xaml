@@ -1,0 +1,89 @@
+﻿<vw:View
+    x:Class="HMI.MainRegion.MO.Views.MO_HZ"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7" 
+    xmlns:UC="clr-namespace:HMI.Resources.UserControls.MO"
+    Background="{DynamicResource FP_Black_Gradient}" Width="1832" Height="1000" >
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+
+
+            <vw:PictureBox  SymbolResourceKey="BHZ"  Width="680" Height="862" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <vw:PictureBox.Effect>
+                    <DropShadowEffect Color="Red" BlurRadius="30"  Direction="90"  Opacity="0.8"/>
+                </vw:PictureBox.Effect>
+            </vw:PictureBox>
+
+            <Grid x:Name="Trays" Loaded="Trays_Loaded" >
+
+            </Grid>
+
+            <vw:GroupBox Style="{DynamicResource GB_Group2}" HorizontalAlignment="Left" VerticalAlignment="Bottom" LocalizableHeaderText="@MachineOverview.Text59" Margin="20,0,0,20" >
+                <StackPanel Orientation="Horizontal" Margin="5,10,5,5">
+                    <vw:NumericVarOut x:Name="Tmin" Style="{DynamicResource NVO_Main}" Width="85" Height="45" LocalizableUnitText="@Units.m" VariableName="CPU2.PLC.Blocks.04 Tray handling.05 HZ 1.00 Main.DB HZ 1 HMI.Actual.Clock.Minute"/>
+                    <vw:NumericVarOut x:Name="Tsec" Style="{DynamicResource NVO_Main}" Width="85" Height="45" Margin="5,0,0,0" LocalizableUnitText="@Units.s" VariableName="CPU2.PLC.Blocks.04 Tray handling.05 HZ 1.00 Main.DB HZ 1 HMI.Actual.Clock.Second" />
+                </StackPanel>
+            </vw:GroupBox>
+            <UC:M_WorkMode_L HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" 
+                       Header="@MachineOverview.Text19"
+                      Automatic="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Operating Mode.Automatic"
+                       Manual="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Operating Mode.Manual"
+                       SetUp="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Operating Mode.Setup"
+                       Start="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Automatic.Start"
+                       Stop="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Automatic.Stop"
+                       StartStatus="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.to.Automatic.State"
+                       WorkingModeStatus="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.to.Operating Mode.State"/>
+            <UC:WorkModeOption HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,10,0,0" 
+                               Header="@MachineOverview.Text73"
+                               Start="CPU2.PLC.Blocks.04 Tray handling.00 Main.DB TH HMI.PC.Gerneral.On"
+                               StartStatus="CPU2.PLC.Blocks.04 Tray handling.00 Main.DB TH HMI.Actual.State"
+                               Stop="CPU2.PLC.Blocks.04 Tray handling.00 Main.DB TH HMI.PC.Gerneral.Off"/>
+
+            <vw:GroupBox Style="{DynamicResource GB_Group2}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="315" Margin="45,267,0,0" LocalizableHeaderText="@MachineOverview.Text75"  >
+                <Grid Margin="10,20,10,10">
+                    <vw:Gauge Width="150" Height="150" FontSize="9" Style="{DynamicResource RealisticGaugeStyle_2}" HorizontalAlignment="Left" VerticalAlignment="Center" LocalizableUnitText="@Units.rpm" LocalizableLabelText="@MachineOverview.Text56" 
+                          RawLimitMax="3500"
+                          RawLimitMin="0" VariableName="CPU2.PLC.Blocks.04 Tray handling.05 HZ 1.01 Air.DB HZ 1 Air HMI.Actual.Circulation fan.Motor.Actual.Speed 2">
+                        <vw:Gauge.Limits>
+                            <vw:Limit Fill="Red" StartValue="2950" EndValue="3500" />
+                            <vw:Limit Fill="GreenYellow"  StartValue="2000" EndValue="2950"/>
+                            <vw:Limit Fill="Green" StartValue="0" EndValue="2000" />
+                        </vw:Gauge.Limits>
+                    </vw:Gauge>
+                    <vw:Gauge Width="200" Height="200" FontSize="11" FormatString="{}0"
+                          RawLimitMax="300"
+                          RawLimitMin="0" 
+                          Style="{DynamicResource RealisticGaugeStyle_1}" HorizontalAlignment="Right" VerticalAlignment="Center" LocalizableUnitText="@Units.grad" LocalizableLabelText="@MachineOverview.Text66" VariableName="CPU2.PLC.Blocks.04 Tray handling.05 HZ 1.01 Air.DB HZ 1 Air HMI.Actual.Temperature" >
+                        <vw:Gauge.Limits>
+                            <vw:Limit Fill="Red" StartValue="270" EndValue="300" />
+                            <vw:Limit Fill="GreenYellow"  StartValue="250" EndValue="270"/>
+                            <vw:Limit Fill="Green" StartValue="0" EndValue="250" />
+                        </vw:Gauge.Limits>
+                    </vw:Gauge>
+                    <vw:Button Style="{DynamicResource B_Function}" Width="210"  CornerRadius="100" Margin="0,-5,-5,-5" HorizontalAlignment="Right" Click="Button_Click"/>
+                </Grid>
+
+            </vw:GroupBox>
+            <vw:PictureBox VerticalAlignment="Bottom" HorizontalAlignment="Right" IsBlinkEnabled="True" BlinkMode="Visibility" SymbolResourceKey="BurnerFire" Width="32" Height="44" Margin="0,0,1477,574" Visibility="{vw:VariableBinding VariableName=CPU2.PLC.Blocks.04 Tray handling.05 HZ 1.01 Air.DB HZ 1 Air HMI.Actual.Burner.isOn, Converter={StaticResource BoolToVisibility_1_1}}"/>
+
+            <vw:NavigationButton Width="160" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1592,66,0,0"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text22" ViewName="MO_HZ_T" RegionName="DialogRegion1"/>
+
+        </Grid>
+        <Grid Background="{DynamicResource FP_Blue_Gradient}">
+            <Grid.Effect>
+                <DropShadowEffect Color="White" Direction="270" Opacity="0.7"/>
+            </Grid.Effect>
+            <vw:TextBlock x:Name="header" LocalizableText="@MachineOverview.Text74" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="48" Margin="50,0,0,0" />
+        </Grid>
+        <vw:Border x:Name="Mod" Height="80" Background="{DynamicResource FP_Green_Gradient}" CornerRadius="4" BorderThickness="2" BorderBrush="White" Width="250" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <vw:TextBlock x:Name="txt" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Width="200" Foreground="White" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" LocalizableText="@Lists.Modus.Text1"/>
+        </vw:Border>
+
+    </Grid>
+</vw:View>

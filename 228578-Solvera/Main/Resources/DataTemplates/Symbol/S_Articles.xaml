@@ -1,0 +1,49 @@
+﻿<ResourceDictionary
+	            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Einträge ins SymbolResourceDictionary sollten hier erfolgen -->
+
+    <DataTemplate x:Key="1">
+        <Image Source="/Main/Resources/Images/Articles/1.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="2">
+        <Image Source="/Main/Resources/Images/Articles/2.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="3">
+        <Image Source="/Main/Resources/Images/Articles/3.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="4">
+        <Image Source="/Main/Resources/Images/Articles/4.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="5">
+        <Image Source="/Main/Resources/Images/Articles/5.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="6">
+        <Image Source="/Main/Resources/Images/Articles/6.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="7">
+        <Image Source="/Main/Resources/Images/Articles/7.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="8">
+        <Image Source="/Main/Resources/Images/Articles/8.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="9">
+        <Image Source="/Main/Resources/Images/Articles/9.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="10">
+        <Image Source="/Main/Resources/Images/Articles/10.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="11">
+        <Image Source="/Main/Resources/Images/Articles/11.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="12">
+        <Image Source="/Main/Resources/Images/Articles/12.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="13">
+        <Image Source="/Main/Resources/Images/Articles/13.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+    <DataTemplate x:Key="14">
+        <Image Source="/Main/Resources/Images/Articles/14.png" Stretch="Fill" Width="190" Height="190" />
+    </DataTemplate>
+
+</ResourceDictionary>

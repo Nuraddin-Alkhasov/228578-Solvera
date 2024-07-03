@@ -1,0 +1,134 @@
+System information:
+Version                                  | VisiWin7 7.2
+Framework                                | DotNet
+Project                                  | Single
+VisiWin.S7_TIA.Brw.dll           | 3.0.1.56(Debug=False)
+VisiWin.Browser.Components.Shared.dll | 7.0.0.41(Debug=False)
+
+Messages
+3/8/2023 11:31:40 AM   | Message | Attention: Some items in the PLC project contain special characters. | TIAParser.FormatName() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_LDT" of item "RFC_SV_State_V2T_D_E_Going" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_LDT" of item "RFC_SV_State_V2T_D_E_Coming" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Traction Main.Change of Order"Move to Orders"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB TM Traction Main.Stöber G6 Profinet"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB TM Traction Main.Stöber G6 Profinet.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB TM Traction Main.Stöber G6 Profinet.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Traction Faults.Fault handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Traction Faults.Fault handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Traction Faults.Fault handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB TM Traction Faults.Fault handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB TM Lift Main.Stöber G6 Pos"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB TM Lift Main.Stöber G6 Pos.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB TM Lift Main.Stöber G6 Pos.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Lift Main.Change of Order"Move to Orders"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Lift Faults.Fault handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Lift Faults.Fault handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Lift Faults.Fault handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB TM Lift Faults.Fault handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB TM Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Chain Faults.Fault handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Chain Faults.Fault handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Chain Faults.Fault handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB TM Chain Faults.Fault handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Arm Faults.Fault handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Arm Faults.Fault handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TM Arm Faults.Fault handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB TM Arm Faults.Fault handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB US 1 Belt Faults.Fault handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB US 1 Belt Faults.Fault handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB US 1 Belt Faults.Fault handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB US 1 Belt Faults.Fault handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB WZ Air Main.Circulation FanBetriebsstunden" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB WZ Air Main.Exhaust FanBetriebsstunden" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB WZ Air Main.Stöber G6 Profinet"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB WZ Air Main.Stöber G6 Profinet.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB WZ Air Main.Stöber G6 Profinet.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB WZ Air Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB WZ Air Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB WZ Air Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB WZ Air Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TO Guide Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TO Guide Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TO Guide Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB TO Guide Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TO Chain Main.Change Of, Move To Order"Move to Orders"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB TO Chain Main.Stöber G6 Profinet"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB TO Chain Main.Stöber G6 Profinet.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB TO Chain Main.Stöber G6 Profinet.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TO Chain Faults.Fault handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TO Chain Faults.Fault handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB TO Chain Faults.Fault handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB TO Chain Faults.Fault handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB MC Belt Main.Stöber G6 Profinet"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB MC Belt Main.Stöber G6 Profinet.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB MC Belt Main.Stöber G6 Profinet.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB MC Belt Main.Change Of, Move To Order"Move to Orders"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB MC Belt Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB MC Belt Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB MC Belt Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB MC Belt Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 4 Main.Circulation FanBetriebsstunden" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 4 Main.Stöber G6 Profinet"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB CZ Air 4 Main.Stöber G6 Profinet.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB CZ Air 4 Main.Stöber G6 Profinet.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 4 Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 4 Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 4 Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 4 Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 3 Main.Circulation FanBetriebsstunden" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 3 Main.Stöber G6 Profinet"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB CZ Air 3 Main.Stöber G6 Profinet.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB CZ Air 3 Main.Stöber G6 Profinet.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 3 Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 3 Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 3 Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 3 Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 1 Main.Circulation FanBetriebsstunden" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 1 Main.Stöber G6 Profinet"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB CZ Air 1 Main.Stöber G6 Profinet.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB CZ Air 1 Main.Stöber G6 Profinet.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 2 Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 2 Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 2 Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 2 Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 2 Main.Circulation FanBetriebsstunden" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 2 Main.Stöber G6 Profinet"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB CZ Air 2 Main.Stöber G6 Profinet.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB CZ Air 2 Main.Stöber G6 Profinet.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 1 Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 1 Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB CZ Air 1 Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB CZ Air 1 Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PO Gripper Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PO Gripper Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PO Gripper Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB PO Gripper Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PO Turn Faults.Fault handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PO Turn Faults.Fault handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PO Turn Faults.Fault handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB PO Turn Faults.Fault handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PO Traction Faults.Fault handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PO Traction Faults.Fault handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PO Traction Faults.Fault handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB PO Traction Faults.Fault handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB HZ 1 Air Main.Circulation FanBetriebsstunden" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB HZ 1 Air Main.Exhaust FanBetriebsstunden" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB HZ 1 Air Main.Stöber G6 Profinet"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB HZ 1 Air Main.Stöber G6 Profinet.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB HZ 1 Air Main.Stöber G6 Profinet.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB HZ 1 Air Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB HZ 1 Air Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB HZ 1 Air Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB HZ 1 Air Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PZ Air Faults.Fault Handler 15 Byte"Not Stop"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PZ Air Faults.Fault Handler 15 ByteStop" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_IDB PZ Air Faults.Fault Handler 15 ByteInfo" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB PZ Air Faults.Fault Handler 15 ByteGeneral" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB PZ Air Main.Circulation FanBetriebsstunden" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB PZ Air Main.Exhaust FanBetriebsstunden" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Pointer" of item "RFC_IDB PZ Air Main.Stöber G6 Profinet"Operating Hours"" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB PZ Air Main.Stöber G6 Profinet.S_GETIO_PARTINPUTS" is not supported! | TIAParser.CreateMemberInfo() | 
+3/8/2023 11:31:40 AM   | Message | Datatype "S7_Variant" of item "RFC_RFC_IDB PZ Air Main.Stöber G6 Profinet.S_SETIO_PARTOUTPUTS" is not supported! | TIAParser.CreateMemberInfo() | 

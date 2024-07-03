@@ -1,0 +1,111 @@
+﻿<vw:View x:Class="HMI.DialogRegion.Protocol.Views.Protocol_Data"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7"
+    Width="1920" Height="1080" Background="{DynamicResource DialogSurroundBrush}" Opacity="0">
+
+    <Grid >
+        <vw:Button Background="Transparent" BorderThickness="0" Command="{Binding Close}"/>
+
+        <Grid x:Name="border" RenderTransformOrigin="1, 0.5" Width="1100" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Grid.RenderTransform>
+                <ScaleTransform ScaleX="0.3" ScaleY="0.3" />
+            </Grid.RenderTransform>
+            <vw:Border Background="White"  Opacity="0.7" CornerRadius="5" >
+                <Border.Effect>
+                    <BlurEffect Radius="10"/>
+                </Border.Effect>
+            </vw:Border>
+
+            <Border  BorderBrush="White" Margin="5" BorderThickness="0" Background="{DynamicResource BackgroundBrush}" CornerRadius="5" >
+                <Grid  Margin="10,0,10,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="12" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="12" />
+                        <RowDefinition Height="70" />
+                    </Grid.RowDefinitions>
+                    <vw:TextBlock x:Name="HeaderText" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White" FontSize="18" FontWeight="Bold" LocalizableText="@Protocol.Text39" Width="400" />
+                    <vw:Button x:Name="CancelButton" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{DynamicResource B_Close}" Width="80" Height="40" Text="X"  Margin="0,0,0,0" Command="{Binding Close}"/>
+                    <Border Grid.Row="1" VerticalAlignment="Top" Background="{DynamicResource FP_Red}"  Height="2" CornerRadius="2" />
+
+                    <Grid Grid.Row="2" Margin="10,0,10,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="55"/>
+                            <RowDefinition Height="55"/>
+                            <RowDefinition Height="55"/>
+                            <RowDefinition Height="55"/>
+                            <RowDefinition Height="55"/>
+                            <RowDefinition Height="55"/>
+                            <RowDefinition Height="55"/>
+                            <RowDefinition Height="55"/>
+                            <RowDefinition Height="55"/>
+                            <RowDefinition Height="55"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Background="{DynamicResource FP_Blue}" Grid.ColumnSpan="5"  Height="2" CornerRadius="2" VerticalAlignment="Bottom"/>
+                        <vw:TextBlock LocalizableText="@Protocol.Text40" FontSize="16" Margin="20,0,0,10" FontWeight="Bold" Foreground="White" VerticalAlignment="Bottom" />
+                        <vw:TextVarOut Grid.Row="1" Grid.Column="0" LocalizableLabelText="@Protocol.Text41" Height="45" Width="200" Style="{DynamicResource TVO_Main}" Value="{Binding SelectedRun.SetValues.PaintType}" />
+                        <vw:NumericVarOut Grid.Row="1" Grid.Column="1" LocalizableLabelText="@Protocol.Text38" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.SetValues.PaintTemp}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="1" Grid.Column="2" LocalizableLabelText="@Protocol.Text37" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.PaintTemp}" LocalizableUnitText="@Units.C"  />
+                        <vw:Button Grid.Row="1" Grid.Column="4" HorizontalAlignment="Center" Style="{DynamicResource B_Gray_ns}" LocalizableText="@Protocol.Text49"  Command="{Binding ShowCoating}" Width="200" Height="45"  IsEnabled="False"/>
+
+                        <Border Background="{DynamicResource FP_Blue}" Grid.Row="2" Grid.ColumnSpan="5"  Height="2" CornerRadius="2" VerticalAlignment="Bottom"/>
+                        <vw:TextBlock LocalizableText="@Protocol.Text42" Grid.Row="2" FontSize="16" Margin="20,0,0,10" FontWeight="Bold" Foreground="White" VerticalAlignment="Bottom" />
+                        <vw:NumericVarOut Grid.Row="3" Grid.Column="0" LocalizableLabelText="@Protocol.Text38" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.SetValues.PHZTemp}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="3" Grid.Column="1" LocalizableLabelText="@Protocol.Text43" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.PHZTempMin}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="3" Grid.Column="2" LocalizableLabelText="@Protocol.Text44" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.PHZTemp}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="3" Grid.Column="3" LocalizableLabelText="@Protocol.Text45" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.PHZTempMax}" LocalizableUnitText="@Units.C" />
+                        <vw:Button Grid.Row="3" Grid.Column="4" HorizontalAlignment="Center" Style="{DynamicResource B_Gray_ns}" LocalizableText="@Protocol.Text36" Command="{Binding ShowPZTrend}" IsEnabled="{Binding IsPHZTrend}"  Width="200" Height="45" />
+
+                        <Border Background="{DynamicResource FP_Blue}" Grid.Row="4" Grid.ColumnSpan="5"  Height="2" CornerRadius="2" VerticalAlignment="Bottom"/>
+                        <vw:TextBlock LocalizableText="@Protocol.Text46" Grid.Row="4" FontSize="16" Margin="20,0,0,10" FontWeight="Bold" Foreground="White" VerticalAlignment="Bottom" />
+                        <vw:NumericVarOut Grid.Row="5" Grid.Column="0" LocalizableLabelText="@Protocol.Text38" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.SetValues.WZTemp}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="5" Grid.Column="1" LocalizableLabelText="@Protocol.Text43" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.WZTempMin}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="5" Grid.Column="2" LocalizableLabelText="@Protocol.Text44" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.WZTemp}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="5" Grid.Column="3" LocalizableLabelText="@Protocol.Text45" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.WZTempMax}" LocalizableUnitText="@Units.C" />
+                        <vw:Button Grid.Row="5" Grid.Column="4" HorizontalAlignment="Center" Style="{DynamicResource B_Gray_ns}" LocalizableText="@Protocol.Text36" Command="{Binding ShowWZTrend}" IsEnabled="{Binding IsWZTrend}" Width="200" Height="45" />
+
+                        <Border Background="{DynamicResource FP_Blue}" Grid.Row="6" Grid.ColumnSpan="5"  Height="2" CornerRadius="2" VerticalAlignment="Bottom"/>
+                        <vw:TextBlock LocalizableText="@Protocol.Text47" Grid.Row="6" FontSize="16" Margin="20,0,0,10" FontWeight="Bold" Foreground="White" VerticalAlignment="Bottom" />
+                        <vw:NumericVarOut Grid.Row="7" Grid.Column="0" LocalizableLabelText="@Protocol.Text38" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.SetValues.HZTemp}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="7" Grid.Column="1" LocalizableLabelText="@Protocol.Text43" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.HZTempMin}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="7" Grid.Column="2" LocalizableLabelText="@Protocol.Text44" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.HZTemp}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="7" Grid.Column="3" LocalizableLabelText="@Protocol.Text45" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.HZTempMax}" LocalizableUnitText="@Units.C" />
+                        <vw:Button Grid.Row="7" Grid.Column="4" HorizontalAlignment="Center" Style="{DynamicResource B_Gray_ns}" LocalizableText="@Protocol.Text36" Command="{Binding ShowHZTrend}" IsEnabled="{Binding IsHZTrend}" Width="200" Height="45" />
+
+                        <Border Background="{DynamicResource FP_Blue}" Grid.Row="8" Grid.ColumnSpan="5"  Height="2" CornerRadius="2" VerticalAlignment="Bottom"/>
+                        <vw:TextBlock LocalizableText="@Protocol.Text48" Grid.Row="8" FontSize="16" Margin="20,0,0,10" FontWeight="Bold" Foreground="White" VerticalAlignment="Bottom" />
+                        <vw:NumericVarOut Grid.Row="9" Grid.Column="0" LocalizableLabelText="@Protocol.Text38" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.SetValues.CZTemp}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="9" Grid.Column="1" LocalizableLabelText="@Protocol.Text43" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.CZTempMin}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="9" Grid.Column="2" LocalizableLabelText="@Protocol.Text44" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.CZTemp}" LocalizableUnitText="@Units.C" />
+                        <vw:NumericVarOut Grid.Row="9" Grid.Column="3" LocalizableLabelText="@Protocol.Text45" Height="45" Width="200" Style="{DynamicResource NVO_Main}" Value="{Binding SelectedRun.ActualValues.CZTempMax}" LocalizableUnitText="@Units.C" />
+                        <vw:Button Grid.Row="9" Grid.Column="4" HorizontalAlignment="Center" Style="{DynamicResource B_Gray_ns}" LocalizableText="@Protocol.Text36" Command="{Binding ShowCZTrend}" IsEnabled="{Binding IsCZTrend}" Width="200" Height="45" />
+
+
+                    </Grid>
+
+
+
+                    <Border Grid.Row="3" VerticalAlignment="Bottom" Background="{DynamicResource FP_Red}"  Height="2" CornerRadius="2" />
+
+                    <Grid  Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <vw:Button Grid.Column="0" Height="50" Width="200" LocalizableText="@[ClientSystem].Dialogs.Common.cmdOK"  HorizontalAlignment="Left" Command="{Binding Close}" Style="{DynamicResource B_Gray_ns}" />
+                        <vw:Button Grid.Column="1" Height="50"  Width="200" LocalizableText="@Buttons.Text13" HorizontalAlignment="Right" Command="{Binding Close}"  Style="{DynamicResource B_Red_ns}" Margin="0,10,0,10" />
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</vw:View>

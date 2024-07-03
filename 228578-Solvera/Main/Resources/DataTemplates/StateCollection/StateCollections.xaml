@@ -1,0 +1,46 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vw="http://inosoft.com/visiwin7">
+
+    
+    <vw:StateCollection x:Key="P_YesNo">
+        <vw:State LocalizableText="@Lists.YesNo.Text1" Value="0" />
+        <vw:State LocalizableText="@Lists.YesNo.Text2" Value="1" />
+    </vw:StateCollection>
+    <vw:StateCollection x:Key="P_Tank">
+        <vw:State LocalizableText="@Lists.Tank.Text1" Value="1" />
+        <vw:State LocalizableText="@Lists.Tank.Text2" Value="2" />
+    </vw:StateCollection>
+    <vw:StateCollection x:Key="P_CoatingStepType">
+        <vw:State LocalizableText="@Lists.CoatingStepType.Text1" Value="0" />
+        <vw:State LocalizableText="@Lists.CoatingStepType.Text2" Value="1" />
+        <vw:State LocalizableText="@Lists.CoatingStepType.Text3" Value="2" />
+    </vw:StateCollection>
+    <vw:StateCollection x:Key="P_Paint">
+        <vw:State LocalizableText="@Lists.Paint.Text2" Value="1" />
+        <vw:State LocalizableText="@Lists.Paint.Text1" Value="2" />
+       
+    </vw:StateCollection>
+
+    <vw:StateCollection x:Key="P_BaseTop">
+        <vw:State LocalizableText="@Lists.Paint.Text13" Value="1" />
+        <vw:State LocalizableText="@Lists.Paint.Text14" Value="2" />
+    </vw:StateCollection>
+
+    <vw:StateCollection x:Key="P_Weekdays">
+        <vw:State LocalizableText="@Lists.Weekdays.Monday" Value="1" />
+        <vw:State LocalizableText="@Lists.Weekdays.Tuesday" Value="2" />
+        <vw:State LocalizableText="@Lists.Weekdays.Wednesday" Value="3" />
+        <vw:State LocalizableText="@Lists.Weekdays.Thursday" Value="4" />
+        <vw:State LocalizableText="@Lists.Weekdays.Friday" Value="5" />
+        <vw:State LocalizableText="@Lists.Weekdays.Saturday" Value="6" />
+        <vw:State LocalizableText="@Lists.Weekdays.Sunday" Value="7" />
+    </vw:StateCollection>
+
+    <vw:StateCollection x:Key="P_Function">
+        <vw:State LocalizableText="@Lists.Function.Text3" Value="0" />
+        <vw:State LocalizableText="@Lists.Function.Text2" Value="1" />
+
+    </vw:StateCollection>
+
+</ResourceDictionary>

@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.MR_Article"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vw="http://inosoft.com/visiwin7" Opacity="0" Loaded="UserControl_Loaded">
+
+    <vw:RadioButton x:Name="A" Style="{DynamicResource RB_Group}" Margin="0" GroupName="CC" LocalizableLabelText="@RecipeSystem.Text5" >
+        <StackPanel Margin="5,10,5,5" Orientation="Horizontal"  >
+            <Border BorderThickness="2" CornerRadius="3" Width="95" Height="95" BorderBrush="{DynamicResource FP_BorderBrush}" Background="White">
+                <vw:PictureBox x:Name="_img" SymbolResourceKey="Nor" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            <StackPanel Margin="5,0,5,0">
+                <vw:TextVarOut x:Name="_name" Height="45" Width="594" Style="{DynamicResource TVO_Main}" LocalizableLabelText="@RecipeSystem.Text1" TextLengthMin="1" TextLengthMax="40" />
+                <vw:TextVarOut x:Name="_descr" Height="45" Style="{DynamicResource TVO_Main}" Margin="0,5,0,0" LocalizableLabelText="@RecipeSystem.Text2" />
+            </StackPanel>
+            <vw:Button x:Name="_del"  Style="{DynamicResource B_Red_ns}" Width="95"  LocalizableText="@Buttons.Text9" Command="{Binding DeleteArticle}" AuthorizationRight = "RecipeM"/>
+        </StackPanel>
+    </vw:RadioButton>
+</UserControl>

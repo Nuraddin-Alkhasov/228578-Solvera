@@ -1,0 +1,53 @@
+﻿<ResourceDictionary
+	            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <DataTemplate x:Key="AB_Open">
+        <Image Source="/Main/Resources/Images/Appbar/open.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="AB_Close">
+        <Image Source="/Main/Resources/Images/Appbar/close.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="AB_Dashboard">
+        <Image Source="/Main/Resources/Images/Appbar/dashboard.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="AB_Home">
+        <Image Source="/Main/Resources/Images/Appbar/home.png" Stretch="Fill" Width="76" Height="76" />
+    </DataTemplate>
+    <DataTemplate x:Key="AB_Recipes">
+        <Image Source="/Main/Resources/Images/Appbar/recipe.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="AB_Orders">
+        <Image Source="/Main/Resources/Images/Appbar/protocol.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="AB_Logging">
+        <Image Source="/Main/Resources/Images/Appbar/logging.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="AB_Preventivemaintenance">
+        <Image Source="/Main/Resources/Images/Appbar/preventivemaintenance.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="AB_UserManagement">
+        <Image Source="/Main/Resources/Images/Appbar/usermanagement.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="AB_Diagnose">
+        <Image Source="/Main/Resources/Images/Appbar/diagnose.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    
+    <DataTemplate x:Key="AB_Languages">
+        <Image Source="/Main/Resources/Images/Appbar/languages.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="AB_LogIn">
+        <Image Source="/Main/Resources/Images/Appbar/login.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="AB_Turnoff">
+        <Image Source="/Main/Resources/Images/Appbar/turnoff.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="appbar.filter">
+        <Image Source="/Main/Resources/Images/Appbar/filter.png" Stretch="Fill" Width="80" Height="72" />
+    </DataTemplate>
+
+    
+   
+</ResourceDictionary>

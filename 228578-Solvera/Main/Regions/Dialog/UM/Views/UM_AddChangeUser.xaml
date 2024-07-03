@@ -1,0 +1,123 @@
+﻿<vw:View
+        x:Class="HMI.DialogRegion.UM.Views.UM_AddChangeUser"
+	    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	    xmlns:vw="http://inosoft.com/visiwin7"
+	    Width="1920" Height="1080" Background="{DynamicResource DialogSurroundBrush}" Opacity="0">
+      
+
+    <vw:View.Resources>
+        <vw:UserStateToTextConverter x:Key="UserStateToTextConverter" />
+    </vw:View.Resources>
+    <Grid >
+        <vw:Button Background="Transparent" BorderThickness="0" Command="{Binding Close}"/>
+        <Grid x:Name="border" RenderTransformOrigin="1, 0.5" Width="1000" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Grid.RenderTransform>
+                <ScaleTransform ScaleX="0.3" ScaleY="0.3" />
+            </Grid.RenderTransform>
+            <vw:Border Background="White"  Opacity="0.7" CornerRadius="5" >
+                <Border.Effect>
+                    <BlurEffect Radius="10"/>
+                </Border.Effect>
+            </vw:Border>
+
+            <Border  BorderBrush="White" Margin="5" BorderThickness="0" Background="{DynamicResource BackgroundBrush}" CornerRadius="5" >
+                <Grid  Margin="10,0,10,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="12" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="12" />
+                        <RowDefinition Height="70" />
+                    </Grid.RowDefinitions>
+                    <vw:TextBlock x:Name="HeaderText" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White" FontSize="18" FontWeight="Bold" LocalizableText="{Binding HLocalizableText}" Width="400" />
+                    <vw:Button x:Name="CancelButton" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{DynamicResource B_Close}" Width="80" Height="40" Text="X" Command="{Binding Close}"/>
+
+                    <Border Grid.Row="1" VerticalAlignment="Top" Background="{DynamicResource FP_Red}"  Height="2" CornerRadius="2" />
+
+                    <StackPanel Grid.Row="2" Margin="10,0,10,0">
+
+                        <vw:TextVarIn Style="{DynamicResource TVI_Main}" Value="{Binding UserName, Mode=TwoWay}" VariableName="__UNLINKED_BSTR" IsEnabled="{Binding IsNameEnabled}" Height="45" LocalizableLabelText="@UserManagement.View.UserName" AuthorizationRight="UMUsers"/>
+                        <vw:TextVarIn Style="{DynamicResource TVI_Main}" Margin="0,5,0,0" Value="{Binding UserFullName, Mode=TwoWay}" VariableName="__UNLINKED_BSTR" IsEnabled="{Binding IsNameEnabled}"  Height="45" LocalizableLabelText="@UserManagement.View.FullUserName" AuthorizationRight="UMUsers"/>
+                        <vw:TextVarIn Style="{DynamicResource TVI_Main}" Margin="0,5,0,0" Value="{Binding Comment, Mode=TwoWay}" VariableName="__UNLINKED_BSTR" Height="45" LocalizableLabelText="@UserManagement.View.Comment" AuthorizationRight="UMUsers"/>
+                        <Grid Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions >
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="50"/>
+                            </Grid.ColumnDefinitions>
+                            <vw:TextVarIn Style="{DynamicResource TVI_Main}"  Value="{Binding MachineCode, Mode=TwoWay}" VariableName="__UNLINKED_BSTR" IsEnabled="{Binding IsChecked, ElementName=CheckBoxCodeEnabled}" Height="45" LocalizableLabelText="@UserManagement.View.Code" Margin="0,0,10,0" AuthorizationRight="UMUsers"/>
+                            <vw:CheckBox x:Name="CheckBoxCodeEnabled" Height="45"  Grid.Column="1" Visibility="{Binding UserChangeVisibility}" VerticalContentAlignment="Center" IsChecked="{Binding IsCodeChecked, Mode=TwoWay}" Width="100" LocalizableLabelText="@UserManagement.View.Change" AuthorizationRight="UMUsers"/>
+                        </Grid>
+                        <vw:ComboBox ItemsSource="{Binding GroupList}" Margin="0,5,0,0"  SelectedItem="{Binding SelectedGroup, Mode=TwoWay}" Height="45" LocalizableLabelText="@UserManagement.View.UserGroup" Style="{DynamicResource CB_Main}" AuthorizationRight="UMUsers"/>
+                        <Grid Margin="0,5,0,0">
+                            <Grid.ColumnDefinitions >
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="50"/>
+                            </Grid.ColumnDefinitions>
+                            <vw:PasswordVarIn Style="{DynamicResource PVI_Main}" LostKeyboardFocusBehavior="WriteInput" Value="{Binding Password, Mode=TwoWay}" Margin="0,0,10,0" Height="45" IsEnabled="{Binding IsChecked, ElementName=CheckBoxPasswordEnabled}" LocalizableLabelText="@UserManagement.View.Password" AuthorizationRight="UMUsers"/>
+                            <vw:CheckBox x:Name="CheckBoxPasswordEnabled" Height="45" Grid.Column="1" Visibility="{Binding UserChangeVisibility}" IsChecked="{Binding IsPasswordChecked, Mode=TwoWay}"  Width="100" LabelText="" LocalizableLabelText="@UserManagement.View.Change" AuthorizationRight="UMUsers" />
+
+                        </Grid>
+
+                        <vw:PasswordVarIn Style="{DynamicResource PVI_Main}" LostKeyboardFocusBehavior="WriteInput"  Value="{Binding Password2, Mode=TwoWay}" Margin="0,5,60,0" Height="45" IsEnabled="{Binding IsChecked, ElementName=CheckBoxPasswordEnabled}" LocalizableLabelText="@UserManagement.View.Password" AuthorizationRight="UMUsers"/>
+                        <vw:ComboBox ItemsSource="{Binding StateList}" Margin="0,5,0,5" SelectedItem="{Binding SelectedState, Mode=TwoWay}"  Height="45" LocalizableLabelText="@UserManagement.View.Status" FontWeight="SemiBold" Style="{DynamicResource CB_Main}" AuthorizationRight="UMUsers">
+                            <vw:ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Converter={StaticResource UserStateToTextConverter}}"/>
+                                </DataTemplate>
+                            </vw:ComboBox.ItemTemplate>
+                        </vw:ComboBox>
+                        <Grid  >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <vw:TextBlock Text="Deaktivierung" Foreground="White" FontFamily="SeagoiUI" FontSize="16" FontWeight="SemiBold" LocalizableText="@UserManagement.View.Deactivation" VerticalAlignment="Center" TextAlignment="Right" />
+                                <vw:RadioButton x:Name="DeackNever" Foreground="White" Margin="0,5,0,0"  Grid.Column="1" IsChecked="{Binding DeackNever}" Width="100" Height="45" LocalizableLabelText="@UserManagement.View.DeactNever" AuthorizationRight="UMUsers"/>
+                                <vw:RadioButton x:Name="DeackDate" Foreground="White" Margin="0,5,0,0"  Grid.Row="1" Grid.Column="1" IsChecked="{Binding DeackDate}" Width="100" Height="45" LocalizableLabelText="@UserManagement.View.DeactOnDate" AuthorizationRight="UMUsers"/>
+                                <vw:RadioButton x:Name="DeackTime" Foreground="White" Margin="0,5,0,0"  Grid.Row="2" Grid.Column="1" IsChecked="{Binding DeackTime}" Height="45" LocalizableLabelText="@UserManagement.View.DeactAfterTime" Width="100" AuthorizationRight="UMUsers"/>
+                            </Grid>
+                            <Grid  Grid.Column="1" >
+                                <Grid.RowDefinitions >
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <vw:DateTimeVarIn Value="{Binding Date, Mode=TwoWay}" Style="{DynamicResource DTVI_Main}"  IsEnabled="{Binding IsChecked, ElementName=DeackDate}"  Grid.Row="1" Grid.ColumnSpan="3" Height="45"  VariableName="__UNLINKED_DATE" FormatDate="@LongDate" DateTimeMode="DateTime" LocalizableLabelText="@Diagnose.Text7" FormatTime="@ShortTime"  AuthorizationRight="UMUsers"/>
+                                <vw:NumericVarIn Grid.Row="2" Grid.Column="0" Value="{Binding Days, Mode=TwoWay}" IsEnabled="{Binding IsChecked, ElementName=DeackTime}" Style="{ DynamicResource NVI_Main}" HorizontalContentAlignment="Right" VariableName="__UNLINKED_I2" Text="0" HorizontalAlignment="Stretch" RawLimitMax="365" Height="45" LocalizableLabelText="@Units.Days"  Margin="0,0,2,0" AuthorizationRight="UMUsers"/>
+                                <vw:NumericVarIn Grid.Row="2" Grid.Column="1" Value="{Binding Hours, Mode=TwoWay}" IsEnabled="{Binding IsChecked, ElementName=DeackTime}" Style="{ DynamicResource NVI_Main}" HorizontalContentAlignment="Right"  VariableName="__UNLINKED_I2" Text="0" HorizontalAlignment="Stretch" RawLimitMax="23" Height="45" LocalizableLabelText="@Units.h" Margin="1,0,1,0" AuthorizationRight="UMUsers"/>
+                                <vw:NumericVarIn Grid.Row="2" Grid.Column="2" Value="{Binding Minutes, Mode=TwoWay}" IsEnabled="{Binding IsChecked, ElementName=DeackTime}" Style="{ DynamicResource NVI_Main}" HorizontalContentAlignment="Right"  VariableName="__UNLINKED_I2"  Text="0" HorizontalAlignment="Stretch" RawLimitMax="59" Height="45" LocalizableLabelText="@Units.m" Margin="2,0,0,0" AuthorizationRight="UMUsers"/>
+                            </Grid>
+                        </Grid>
+                    </StackPanel>
+                    <Border Grid.Row="3" VerticalAlignment="Bottom" Background="{DynamicResource FP_Red}"  Height="2" CornerRadius="2" />
+                    <Grid  Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <vw:Button Command="{Binding AU}" Grid.Column="0" Height="50" Width="200" HorizontalAlignment="Left" LocalizableText="{Binding BLocalizableText}" Style="{DynamicResource B_Blue_ns}" AuthorizationRight="UMUsers"/>
+                        <vw:Button Grid.Column="1" Command="{Binding Close}" Height="50" HorizontalAlignment="Right"  Width="200" LocalizableText="@Buttons.Text13" Style="{DynamicResource B_Red_ns}" />
+                    </Grid>
+
+
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</vw:View>

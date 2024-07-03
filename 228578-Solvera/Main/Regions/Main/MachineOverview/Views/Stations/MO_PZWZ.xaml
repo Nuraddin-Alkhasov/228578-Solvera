@@ -1,0 +1,160 @@
+﻿<vw:View
+	x:Class="HMI.MainRegion.MO.MO_PZWZ"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:vw="http://inosoft.com/visiwin7" 
+    xmlns:UC="clr-namespace:HMI.Resources.UserControls.MO"
+    Background="{DynamicResource FP_Black_Gradient}" Width="1832" Height="1000" >
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <vw:PictureBox  SymbolResourceKey="BMCTO" Width="1548"  HorizontalAlignment="Center" VerticalAlignment="Center" >
+
+                <vw:PictureBox.Effect>
+                    <DropShadowEffect Color="Orange" BlurRadius="30"  Direction="90"  Opacity="0.8"/>
+                </vw:PictureBox.Effect>
+            </vw:PictureBox>
+            <UC:PZWZBasket HorizontalAlignment="Left" VerticalAlignment="Top" Margin="195,200,0,0"
+                           IsBasket="CPU1.PLC.Blocks.02 Basket handling.04 BT.00 Main.DB BT PD.Baskets.isBaskets"
+                           IsMaterial="CPU1.PLC.Blocks.02 Basket handling.04 BT.00 Main.DB BT PD.Charge.isMaterial"
+                           SetLayer="CPU1.PLC.Blocks.02 Basket handling.04 BT.00 Main.DB BT PD.Charge.Layers.Set"
+                           ActualLayer="CPU1.PLC.Blocks.02 Basket handling.04 BT.00 Main.DB BT PD.Charge.Layers.Actual"
+                           CPU="CPU1" AS="Set"/>
+
+            <UC:PZWZBasket HorizontalAlignment="Left" VerticalAlignment="Top" Margin="195,265,0,0"
+                           IsBasket="CPU1.PLC.Blocks.02 Basket handling.04 BT.00 Main.DB BT PD.Baskets.isBaskets"
+                           IsMaterial="CPU1.PLC.Blocks.02 Basket handling.04 BT.00 Main.DB BT PD.Charge.isMaterial"
+                           SetLayer="CPU1.PLC.Blocks.02 Basket handling.04 BT.00 Main.DB BT PD.Charge.Layers.Set"
+                           ActualLayer="CPU1.PLC.Blocks.02 Basket handling.04 BT.00 Main.DB BT PD.Charge.Layers.Actual" 
+                           IsDischarge="CPU1.PLC.Blocks.02 Basket handling.04 BT.00 Main.DB BT PD.Baskets.Functions.Discharge"
+                            CPU="CPU1" AS="Actual"
+                            />
+
+            <vw:Button Click="Button_Click"  Style="{DynamicResource B_Material}" Margin="190,195,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Height="185" />
+
+            <UC:MVMaterial HorizontalAlignment="Left" VerticalAlignment="Top" Margin="286,296,0,0" Width="435" Height="60"
+                           IsMaterial="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.isMaterial"
+                           SetLayer="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.Layers.Set"
+                           ActualLayer="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.Layers.Actual"
+                            CPU="CPU2" AS="Set"/>
+            <UC:MVMaterial HorizontalAlignment="Left" VerticalAlignment="Top" Margin="286,363,0,0" Width="435" Height="60"
+                           IsMaterial="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.isMaterial"
+                           SetLayer="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.Layers.Set"
+                           ActualLayer="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.Layers.Actual"
+                           CPU="CPU2" AS="Actual"/>
+
+            <vw:Button Click="Button_Click_1"  Style="{DynamicResource B_Material}" Margin="281,291,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="445" Height="135" />
+
+            <vw:GroupBox Style="{DynamicResource GB_Group2}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="315" Margin="0,20,600,0" LocalizableHeaderText="@MachineOverview.Text67"  >
+                <Grid Margin="10,20,10,10">
+                    <vw:Gauge Width="150" Height="150" FontSize="9" Style="{DynamicResource RealisticGaugeStyle_2}" HorizontalAlignment="Left" VerticalAlignment="Center" LocalizableUnitText="@Units.rpm" LocalizableLabelText="@MachineOverview.Text56" 
+                          RawLimitMax="3800"
+                          RawLimitMin="0" VariableName="CPU2.PLC.Blocks.04 Tray handling.02 PZ.01 Air.DB PZ Air HMI.Actual.Circulation fan.Motor.Actual.Speed 2">
+                        <vw:Gauge.Limits>
+                            <vw:Limit Fill="Red" StartValue="3350" EndValue="3800" />
+                            <vw:Limit Fill="GreenYellow"  StartValue="2500" EndValue="3350"/>
+                            <vw:Limit Fill="Green" StartValue="0" EndValue="2500" />
+                        </vw:Gauge.Limits>
+                    </vw:Gauge>
+                    <vw:Gauge Width="200" Height="200" FontSize="11"
+                          RawLimitMax="150"
+                          RawLimitMin="0" 
+                          Style="{DynamicResource RealisticGaugeStyle_1}" FormatString="{}0" HorizontalAlignment="Right" VerticalAlignment="Center" LocalizableUnitText="@Units.grad" LocalizableLabelText="@MachineOverview.Text66" VariableName="CPU2.PLC.Blocks.04 Tray handling.02 PZ.01 Air.DB PZ Air HMI.Actual.Temperature" >
+                        <vw:Gauge.Limits>
+                            <vw:Limit Fill="Red" StartValue="120" EndValue="150" />
+                            <vw:Limit Fill="GreenYellow"  StartValue="100" EndValue="120"/>
+                            <vw:Limit Fill="Green" StartValue="0" EndValue="100" />
+                        </vw:Gauge.Limits>
+                    </vw:Gauge>
+                    <vw:Button Style="{DynamicResource B_Function}" Width="210"  CornerRadius="100" Margin="0,-5,-5,-5" HorizontalAlignment="Right" Click="Button_Click_2"/>
+                </Grid>
+
+            </vw:GroupBox>
+            <vw:PictureBox VerticalAlignment="Bottom" HorizontalAlignment="Right" IsBlinkEnabled="True" BlinkMode="Visibility" SymbolResourceKey="BurnerFire" Width="32" Height="45" Margin="0,0,604,821" RenderTransformOrigin="0.438,0.578" Visibility="{vw:VariableBinding VariableName=CPU2.PLC.Blocks.04 Tray handling.02 PZ.01 Air.DB PZ Air HMI.Actual.Burner.isOn, Converter={StaticResource BoolToVisibility_1_1}}"/>
+
+            <vw:GroupBox Style="{DynamicResource GB_Group2}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="315" Margin="0,20,150,0" LocalizableHeaderText="@MachineOverview.Text68"  >
+                <Grid Margin="10,20,10,10">
+                    <vw:Gauge Width="150" Height="150" FontSize="9" Style="{DynamicResource RealisticGaugeStyle_2}" HorizontalAlignment="Left" VerticalAlignment="Center" LocalizableUnitText="@Units.rpm" LocalizableLabelText="@MachineOverview.Text56" 
+                          RawLimitMax="2000"
+                          RawLimitMin="0" VariableName="CPU2.PLC.Blocks.04 Tray handling.03 WZ.01 Air.DB WZ Air HMI.Actual.Circulation fan.Motor.Actual.Speed 2">
+                        <vw:Gauge.Limits>
+                            <vw:Limit Fill="Red" StartValue="1550" EndValue="2000" />
+                            <vw:Limit Fill="GreenYellow"  StartValue="1000" EndValue="1550"/>
+                            <vw:Limit Fill="Green" StartValue="0" EndValue="1000" />
+                        </vw:Gauge.Limits>
+                    </vw:Gauge>
+                    <vw:Gauge Width="200" Height="200" FontSize="11"
+                          RawLimitMax="300"
+                          RawLimitMin="0" 
+                          Style="{DynamicResource RealisticGaugeStyle_1}" FormatString="{}0" HorizontalAlignment="Right" VerticalAlignment="Center" LocalizableUnitText="@Units.grad" LocalizableLabelText="@MachineOverview.Text66" VariableName="CPU2.PLC.Blocks.04 Tray handling.03 WZ.01 Air.DB WZ Air HMI.Actual.Temperature" >
+                        <vw:Gauge.Limits>
+                            <vw:Limit Fill="Red" StartValue="270" EndValue="300" />
+                            <vw:Limit Fill="GreenYellow"  StartValue="250" EndValue="270"/>
+                            <vw:Limit Fill="Green" StartValue="0" EndValue="250" />
+                        </vw:Gauge.Limits>
+                    </vw:Gauge>
+                    <vw:Button Style="{DynamicResource B_Function}" Width="210"  CornerRadius="100" Margin="0,-5,-5,-5" HorizontalAlignment="Right" Click="Button_Click_3"/>
+                </Grid>
+
+            </vw:GroupBox>
+            <vw:PictureBox VerticalAlignment="Bottom" HorizontalAlignment="Right" IsBlinkEnabled="True" BlinkMode="Visibility" SymbolResourceKey="BurnerFire" Width="32" Height="45" Margin="0,0,154,821" Visibility="{vw:VariableBinding VariableName=CPU2.PLC.Blocks.04 Tray handling.03 WZ.01 Air.DB WZ Air HMI.Actual.Burner.isOn, Converter={StaticResource BoolToVisibility_1_1}}"/>
+
+            <UC:M_WorkMode_L HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" 
+                       Header="@MachineOverview.Text19"
+                       Automatic="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Operating Mode.Automatic"
+                       Manual="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Operating Mode.Manual"
+                       SetUp="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Operating Mode.Setup"
+                       Start="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Automatic.Start"
+                       Stop="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.from.Automatic.Stop"
+                       StartStatus="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.to.Automatic.State"
+                       WorkingModeStatus="CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Tray handling.to.Operating Mode.State"/>
+            <UC:WorkModeOption HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,10,0,0" 
+                               Header="@MachineOverview.Text73"
+                               Start="CPU2.PLC.Blocks.04 Tray handling.00 Main.DB TH HMI.PC.Gerneral.On"
+                               StartStatus="CPU2.PLC.Blocks.04 Tray handling.00 Main.DB TH HMI.Actual.State"
+                               Stop="CPU2.PLC.Blocks.04 Tray handling.00 Main.DB TH HMI.PC.Gerneral.Off"/>
+            <vw:Button x:Name="dEmpty" Opacity="1" LocalizableText="@MachineOverview.Text65" Height="80" CornerRadius="4" Width="160" Style="{DynamicResource B_Gray}"  Click="dEmpty_Click" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="475,72,0,0" AuthorizationRight="Empty"  IsDefault="{vw:VariableBinding VariableName=CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Production.to.Option.Run Empty}"/>
+            <vw:Button x:Name="fEmpty" Opacity="1" LocalizableText="@MachineOverview.Text104" Height="80" CornerRadius="4" Width="160" Style="{DynamicResource B_Gray}"  Click="fEmpty_Click" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="475,172,0,0" AuthorizationRight="Empty" IsDefault="{vw:VariableBinding VariableName=CPU2.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Production.to.Mode.Emptying}"/>
+
+            <vw:NavigationButton Width="160" Height="80" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="680,0,992,738" Style="{DynamicResource B_Gray}" IsDefault="{vw:VariableBinding VariableName=CPU2.PLC.Blocks.00 Main.02 HMI.01 PC.DB PC.General.Timer.On}" LocalizableText="@MachineOverview.Text64" RegionName="DialogRegion1" ViewName="MO_Sheduler" AuthorizationRight="Scheduler"/>
+            <Grid x:Name="Trays" Loaded="Trays_Loaded" >
+
+            </Grid>
+
+            <vw:GroupBox Style="{DynamicResource GB_Group2}" HorizontalAlignment="Left" VerticalAlignment="Bottom" LocalizableHeaderText="@MachineOverview.Text59" Margin="20,0,0,20" >
+                <StackPanel Orientation="Horizontal" Margin="5,10,5,5">
+                    <vw:NumericVarOut x:Name="Tmin" Style="{DynamicResource NVO_Main}" Width="85" Height="45" LocalizableUnitText="@Units.m" VariableName="CPU2.PLC.Blocks.04 Tray handling.01 MC.01 Belt.DB MC Belt HMI.Actual.Clock.Minute"/>
+                    <vw:NumericVarOut x:Name="Tsec" Style="{DynamicResource NVO_Main}" Width="85" Height="45" Margin="5,0,0,0" LocalizableUnitText="@Units.s" VariableName="CPU2.PLC.Blocks.04 Tray handling.01 MC.01 Belt.DB MC Belt HMI.Actual.Clock.Second" />
+                </StackPanel>
+            </vw:GroupBox>
+        </Grid>
+        <vw:NavigationButton Width="160" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="290,740,0,0"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text93" ViewName="MO_PZ_EF" RegionName="DialogRegion1" Grid.Row="1"/>
+        <vw:NavigationButton Width="160" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="475,740,0,0"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text95" ViewName="MO_PZ_T" RegionName="DialogRegion1" Grid.Row="1"/>
+
+        <vw:NavigationButton Width="160" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1205,740,0,0"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text94" ViewName="MO_WZ_EF" RegionName="DialogRegion1" Grid.Row="1"/>
+        <vw:NavigationButton Width="160" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1395,740,0,0"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text96" ViewName="MO_WZ_T" RegionName="DialogRegion1" Grid.Row="1"/>
+
+        <Line  X1="0" Y1="0" X2="0" Y2="400" Margin="1034,418,0,0" Stroke="{DynamicResource FP_Red}" StrokeThickness="5" HorizontalAlignment="Left" VerticalAlignment="Top" Height="260" Grid.Row="1"/>
+
+
+
+        <Grid Background="{DynamicResource FP_Blue_Gradient}">
+            <Grid.Effect>
+                <DropShadowEffect Color="White" Direction="270" Opacity="0.7"/>
+            </Grid.Effect>
+            <vw:TextBlock x:Name="header" LocalizableText="@MachineOverview.Text63" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="48" Margin="50,0,0,0" />
+        </Grid>
+        <vw:Border x:Name="Mod" Height="80" Background="{DynamicResource FP_Green_Gradient}" CornerRadius="4" BorderThickness="2" BorderBrush="White" Width="250" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <vw:TextBlock x:Name="txt" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Width="200" Foreground="White" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" LocalizableText="@Lists.Modus.Text1"/>
+        </vw:Border>
+        <vw:Key Width="120" Height="60" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="150,0,0,20"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text112" AuthorizationRight="DataClock" AuthorizationMode="Visibility" Grid.Row="1" KeyMode="KeyMode" VariableName="CPU2.PLC.Blocks.04 Tray handling.02 TO.01 Chain.DB TO Chain HMI.PC.Data.+"/>
+        <vw:Key Width="120" Height="60" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,150,20"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text113" AuthorizationRight="DataClock" AuthorizationMode="Visibility" Grid.Row="1" KeyMode="KeyMode" VariableName="CPU2.PLC.Blocks.04 Tray handling.02 TO.01 Chain.DB TO Chain HMI.PC.Data.-"/>
+
+    </Grid>
+
+</vw:View>

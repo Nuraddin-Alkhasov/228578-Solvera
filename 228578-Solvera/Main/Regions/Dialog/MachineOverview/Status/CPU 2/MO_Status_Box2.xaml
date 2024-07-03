@@ -1,0 +1,11 @@
+﻿<vw:View 
+    x:Class="HMI.DialogRegion.MO.Views.MO_Status_Box2"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+	xmlns:vw="http://inosoft.com/visiwin7" >
+    <Grid>
+        <vw:GroupBox Style="{DynamicResource GB_Group2}" LocalizableHeaderText="@Status.Text1" >
+            <vw:ComboBox Height="45" Style="{DynamicResource CB_Main}" HorizontalAlignment="Right" Width="305" LocalizableLabelText="@Status.Text21" Margin="5,10,5,5" StateList="{DynamicResource P_YesNo}" VariableName="CPU2.PLC.Blocks.00 Main.02 HMI.01 PC.DB PC.Status.to.Data.Box.isBox" AuthorizationRight="Status"/>
+        </vw:GroupBox>
+    </Grid>
+</vw:View>

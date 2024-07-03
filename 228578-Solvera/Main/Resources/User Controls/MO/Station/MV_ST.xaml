@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.MO.MV_ST"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vw="http://inosoft.com/visiwin7" Opacity="0" Loaded="UserControl_Loaded">
+    <Grid x:Name="A"   >
+        <vw:PictureBox SymbolResourceKey="MV_ST" Width="140" Height="233" Margin="3" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <vw:PictureBox.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="3"  Direction="270"  Opacity="0.5"/>
+            </vw:PictureBox.Effect>
+        </vw:PictureBox>
+        <vw:Button Click="Button_Click_1" Margin="0"  Style="{DynamicResource B_Station}" />
+
+
+    </Grid>
+
+</UserControl>

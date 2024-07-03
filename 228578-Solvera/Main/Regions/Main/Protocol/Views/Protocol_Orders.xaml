@@ -1,0 +1,35 @@
+﻿<vw:View 
+    x:Class="HMI.MainRegion.Protocol.Views.Protocol_Orders"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7"
+    Width="1832" Height="890" >
+
+    <Grid x:Name="LayoutRoot">
+        <DataGrid x:Name="dgv_orders" ItemsSource="{Binding Orders}" SelectedItem="{Binding SelectedOrder, Mode=TwoWay }" Style="{DynamicResource DG_Standart}">
+            <DataGrid.ItemContainerStyle>
+                <Style TargetType="DataGridRow">
+                    <EventSetter Event="PreviewTouchDown" Handler="DataGridRow_PreviewTouchDown"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsError}" Value="True">
+                            <Setter Property="Background" Value="{DynamicResource FP_Red_Gradient}"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.ItemContainerStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@Protocol.Text5}" Binding="{Binding Start, StringFormat=dd.MM.yyyy HH:mm:ss}" Width="200" ElementStyle="{DynamicResource TB_Center}"/>
+                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@Protocol.Text4}" Binding="{Binding End, StringFormat=dd.MM.yyyy HH:mm:ss}" Width="200" ElementStyle="{DynamicResource TB_Center}"/>
+                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@Protocol.Text6}" Binding="{Binding Data_1}" Width="250"/>
+                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@Protocol.Text7}" Binding="{Binding Data_2}" Width="250"/>
+                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@Protocol.Text8}" Binding="{Binding Data_3}" Width="250"/>
+                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@Protocol.Text22}" Binding="{Binding Boxes}" Width="200" ElementStyle="{DynamicResource TB_Right}"/>
+                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@Protocol.Text19}" Binding="{Binding Weight}" ElementStyle="{DynamicResource TB_Right}" Width="250"/>
+                <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@Protocol.Text10}" Binding="{Binding User}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <vw:NavigationButton Style="{DynamicResource B_Filter}" Height="72" Width="80" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="1740,760,0,0" SymbolResourceKey="Filter" Command="{Binding OpenFilter}" AuthorizationRight="Protocol"/>
+      
+    </Grid>
+
+</vw:View>

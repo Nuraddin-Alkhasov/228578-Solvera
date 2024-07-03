@@ -1,0 +1,55 @@
+﻿<vw:View 
+x:Class="HMI.MainRegion.MO.Views.MO_CD_Dip"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+	xmlns:vw="http://inosoft.com/visiwin7" HorizontalAlignment="Center" Opacity="0" VerticalAlignment="Center" Loaded="_Loaded">
+
+    <vw:GroupBox x:Name="Type1"  Margin="0,0,0,0" Style="{DynamicResource GB_Group}" LocalizableHeaderText="@RecipeSystem.Text59" HorizontalAlignment="Center" VerticalAlignment="Top" >
+        <StackPanel Orientation="Vertical" Margin="0">
+            <vw:GroupBox  Style="{DynamicResource GB_Group}" Tag="50" LocalizableHeaderText="@RecipeSystem.Text64" >
+                <StackPanel Margin="5,15,5,10" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <vw:ComboBox x:Name="tanks" IsEnabled="False"  Style="{DynamicResource CB_Main}" Height="45" Width="405" Padding="0,0,40,0" LocalizableLabelText="@RecipeSystem.Text50" StateList="{DynamicResource P_Tank}" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Dipping.DT"/>
+                </StackPanel>
+            </vw:GroupBox>
+            <vw:GroupBox  Style="{DynamicResource GB_Group}" Tag="50" Margin="0,0,0,0" LocalizableHeaderText="@RecipeSystem.Text65" >
+                <StackPanel Margin="5,15,5,10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" LocalizableLabelText="@RecipeSystem.Text46" FormatString="{}0.0" LocalizableUnitText="@Units.grad" Height="45" Width="405" ValueChanged="NumericVarOut_ValueChanged" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Dipping.Angle"/>
+
+                    </StackPanel>
+
+                </StackPanel>
+            </vw:GroupBox>
+            <vw:GroupBox Style="{DynamicResource GB_Group}" Tag="50" Margin="0,0,0,0" LocalizableHeaderText="@RecipeSystem.Text66" >
+                <StackPanel Margin="5,10,5,5">
+                    <StackPanel x:Name="pack" Margin="0,0,0,0" Orientation="Horizontal">
+                        <StackPanel Margin="0,0,5,0">
+                            <vw:ComboBox  Width="200" IsEnabled="False" Style="{DynamicResource CB_Main}" Height="45" Margin="0,0,0,0" LocalizableLabelText="@RecipeSystem.Text69" StateList="{DynamicResource P_YesNo}" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Dipping.Straight"/>
+                            <vw:NumericVarOut  Style="{DynamicResource NVO_Main}" Height="45" Margin="0,5,0,0"  LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text70" RawLimitMin="0" RawLimitMax="59"  FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Dipping.Straight time"/>
+                        </StackPanel>
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="200" Height="95" FontSize="25" LocalizableUnitText="@Units.s" LocalizableLabelText="@MachineOverview.Text28" RawLimitMax="59" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Actual active Step.Dipping.Straight time"/>
+                    </StackPanel>
+                    <Border x:Name="border1" Background="{DynamicResource FP_Red}" Margin="0,5,0,0" Height="2" CornerRadius="2" />
+                    <StackPanel Margin="0,5,0,0" Orientation="Horizontal">
+                        <StackPanel Margin="0,0,5,0">
+                            <vw:NumericVarOut x:Name="setdtime" Style="{DynamicResource NVO_Main}" Height="45" Margin="0,0,0,0" LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text56" RawLimitMin="5" RawLimitMax="59"  FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Dipping.Time"/>
+                            <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Height="45" Margin="0,5,0,0"  LocalizableUnitText="@Units.rpm" LocalizableLabelText="@RecipeSystem.Text58" RawLimitMin="-10" RawLimitMax="10" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Dipping.Planet"/>
+                            <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="200" Height="45" Margin="0,5,0,0"  LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text67" RawLimitMin="0" RawLimitMax="59" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Dipping.Reverse"/>
+                        </StackPanel>
+                        <vw:NumericVarOut x:Name="actdtime" Style="{DynamicResource NVO_Main}" Width="200" Height="145" Margin="0,0,0,0" FontSize="25" LocalizableUnitText="@Units.s" LocalizableLabelText="@MachineOverview.Text28" RawLimitMax="59" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Actual active Step.Dipping.Time"/>
+                    </StackPanel>
+                    <Border Background="{DynamicResource FP_Red}" Margin="0,5,0,0" Height="2" CornerRadius="2" />
+
+                    <StackPanel Margin="0,5,0,0" Orientation="Horizontal">
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="200" Height="45" Margin="0,0,0,0"  LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text68" RawLimitMin="0" RawLimitMax="59" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Dipping.Draining"/>
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="200" Height="45" Margin="5,0,0,0" FontSize="20" LocalizableUnitText="@Units.s" LocalizableLabelText="@MachineOverview.Text28" RawLimitMax="59" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Actual active Step.Dipping.Draining"/>
+                    </StackPanel>
+                 
+              
+                </StackPanel>
+            </vw:GroupBox>
+        </StackPanel>
+    </vw:GroupBox>
+
+
+</vw:View>

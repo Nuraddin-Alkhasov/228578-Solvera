@@ -1,0 +1,165 @@
+﻿<ResourceDictionary
+	            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <DataTemplate x:Key="MV">
+        <Image Source="/Main/Resources/Images/MachineOverview/MV.png" Stretch="Fill" Width="1703" Height="950" />
+    </DataTemplate>
+    <DataTemplate x:Key="BurnerFire">
+        <Image Source="/Main/Resources/Images/MachineOverview/Fire.png" Stretch="Fill" Width="32" Height="45" />
+    </DataTemplate>
+
+
+
+    <DataTemplate x:Key="MV_Box">
+        <Image Source="/Main/Resources/Images/MachineOverview/Box.png" Stretch="Fill" Width="86" Height="89" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="MV_BasketN">
+        <Image Source="/Main/Resources/Images/MachineOverview/Baskets/MV_BasketN.png" Stretch="Fill" Width="51" Height="65" />
+    </DataTemplate>
+
+
+    <DataTemplate x:Key="LDBasket">
+        <Image Source="/Main/Resources/Images/MachineOverview/Baskets/LDBasket.png" Stretch="Fill" Width="86" Height="110" />
+    </DataTemplate>
+    <DataTemplate x:Key="STBasket">
+        <Image Source="/Main/Resources/Images/MachineOverview/Baskets/STBasket.png" Stretch="Fill" Width="169" Height="144" />
+    </DataTemplate>
+    <DataTemplate x:Key="CDBasket">
+        <Image Source="/Main/Resources/Images/MachineOverview/Baskets/CDBasket.png" Stretch="Fill" Width="153" Height="128" />
+    </DataTemplate>
+    <DataTemplate x:Key="PZWZBasket">
+        <Image Source="/Main/Resources/Images/MachineOverview/Baskets/PZWZBasket.png" Stretch="Fill" Width="86" Height="110" />
+    </DataTemplate>
+    
+
+    <DataTemplate x:Key="MVTrayN">
+        <Image Source="/Main/Resources/Images/MachineOverview/Trays/MV_TrayN.png" Stretch="Fill" Width="56" Height="98" />
+    </DataTemplate>
+    <DataTemplate x:Key="MVTrayT">
+        <Image Source="/Main/Resources/Images/MachineOverview/Trays/MV_TrayT.png" Stretch="Fill" Width="55" Height="98" />
+    </DataTemplate>
+    <DataTemplate x:Key="PZWZTray">
+        <Image Source="/Main/Resources/Images/MachineOverview/Trays/PZWZTray.png" Stretch="Fill" Width="93" Height="168" />
+    </DataTemplate>
+    <DataTemplate x:Key="HZTray">
+        <Image Source="/Main/Resources/Images/MachineOverview/Trays/HZTray.png" Stretch="Fill" Width="220" Height="63" />
+    </DataTemplate>
+    <DataTemplate x:Key="CZTray">
+        <Image Source="/Main/Resources/Images/MachineOverview/Trays/CZTray.png" Stretch="Fill" Width="135" Height="246" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="BLD">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Big/BLD.png" Stretch="Fill" Width="1840" Height="890" />
+    </DataTemplate>
+    <DataTemplate x:Key="BST">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Big/BST.png" Stretch="Fill" Width="429" Height="815" />
+    </DataTemplate>
+    <DataTemplate x:Key="BSTD">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Big/BSTD.png" Stretch="Fill" Width="386" Height="215" />
+    </DataTemplate>
+    <DataTemplate x:Key="BCD">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Big/BCD.png" Stretch="Fill" Width="781" Height="826" />
+    </DataTemplate>
+    <DataTemplate x:Key="BCDT">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Big/BCDT.png" Stretch="Fill" Width="377" Height="267" />
+    </DataTemplate>
+    <DataTemplate x:Key="BMCTO">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Big/BMCTO.png" Stretch="Fill" Width="1548" Height="545" />
+    </DataTemplate>
+    <DataTemplate x:Key="BHZ">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Big/BHZ.png" Stretch="Fill" Width="680" Height="862" />
+    </DataTemplate>
+    <DataTemplate x:Key="BCZ">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Big/BCZ.png" Stretch="Fill" Width="1337" Height="418" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="MV_LDHCDC">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MV_LDHCDC.png" Stretch="Fill" Width="352" Height="364" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_BS">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MV_BS.png" Stretch="Fill" Width="110" Height="83" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_ST">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MV_ST.png" Stretch="Fill" Width="140" Height="233" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MCPZWZ">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MV_MCPZWZ.png" Stretch="Fill" Width="895" Height="326" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MCPZWZ_fix">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MV_MCPZWZ_fix.png" Stretch="Fill" Width="17" Height="107" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MCPZWZ_fix2">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MV_MCPZWZ_fix2.png" Stretch="Fill" Width="75" Height="226" />
+    </DataTemplate>
+    
+    <DataTemplate x:Key="MV_CZ">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MV_CZ.png" Stretch="Fill" Width="527" Height="225" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_CZ_fix">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MV_CZ_fix.png" Stretch="Fill" Width="55" Height="205" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_HZ">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MV_HZ.png" Stretch="Fill" Width="165" Height="299" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="MV_POArm">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/POArm.png" Stretch="Fill" Width="36" Height="71" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_PORam">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/PORam.png" Stretch="Fill" Width="353" Height="155" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="MV_CI">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/CI/MV_CI.png" Stretch="Fill" Width="50" Height="96" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_CI_Rail">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/CI/MV_CI_Rail.png" Stretch="Fill" Width="43" Height="152" />
+    </DataTemplate>
+   
+
+    <DataTemplate x:Key="MV_CD">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/CD/MV_CD.png" Stretch="Fill" Width="200" Height="327" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="MV_US">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/PO/MV_US.png" Stretch="Fill" Width="74" Height="170" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="MV_MP1">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MP/MV_MP1.png" Stretch="Fill" Width="500" Height="500" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MP2">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MP/MV_MP2.png" Stretch="Fill" Width="500" Height="500" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MP3">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MP/MV_MP3.png" Stretch="Fill" Width="500" Height="500" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MP4">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MP/MV_MP4.png" Stretch="Fill" Width="500" Height="500" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MP5">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MP/MV_MP5.png" Stretch="Fill" Width="500" Height="500" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MP6">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MP/MV_MP6.png" Stretch="Fill" Width="500" Height="500" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MP7">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MP/MV_MP7.png" Stretch="Fill" Width="500" Height="500" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MP8">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MP/MV_MP8.png" Stretch="Fill" Width="500" Height="500" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_MP9">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/MP/MV_MP9.png" Stretch="Fill" Width="500" Height="500" />
+    </DataTemplate>
+
+    <DataTemplate x:Key="MV_TH">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/TH/MV_TH.png" Stretch="Fill" Width="119" Height="193" />
+    </DataTemplate>
+    <DataTemplate x:Key="MV_TH_Rail">
+        <Image Source="/Main/Resources/Images/MachineOverview/Stations/Small/TH/MV_TH_Rail.png" Stretch="Fill" Width="864" Height="69" />
+    </DataTemplate>
+</ResourceDictionary>

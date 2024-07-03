@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.MO.MV_HZ"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vw="http://inosoft.com/visiwin7" Loaded="UserControl_Loaded" Opacity="0">
+    <Grid>
+        <StackPanel x:Name="A"  Orientation="Horizontal" >
+            <Grid x:Name="HZ1">
+                <vw:PictureBox SymbolResourceKey="MV_HZ" Width="165" Height="299" Margin="3" HorizontalAlignment="Left" VerticalAlignment="Top" >
+                    <vw:PictureBox.Effect>
+                        <DropShadowEffect Color="Red" BlurRadius="20"  Direction="90"  Opacity="0.5"/>
+                    </vw:PictureBox.Effect>
+                </vw:PictureBox>
+                <vw:Button x:Name="hzNL" Height="80" Width="100" Style="{DynamicResource B_Blue_ns}" Visibility="Hidden" LocalizableText="@MachineOverview.Text55" IsEnabled="False"  Margin="36,-86,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                <Border  Width="100" CornerRadius="4" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="160,20,0,0" BorderThickness="2" BorderBrush="White"  Background="{DynamicResource FP_Blue_Gradient}">
+                    <StackPanel >
+                        <vw:TextBlock LocalizableText="@MachineOverview.Text56" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="SemiBold" FontSize="13" Height="20" Foreground="White" Margin="0,4,0,0"/>
+                        <vw:NumericVarOut x:Name="HZ1F" Padding="0,0,3,0" Style="{DynamicResource NVO_Main}" Height="30" LocalizableUnitText="@Units.rpm" Value="2500" TextAlignment="Center" VerticalAlignment="Bottom" FormatString="{}0"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Width="90" CornerRadius="4" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="165,90,0,0" BorderBrush="White" BorderThickness="2" Background="{DynamicResource FP_Green_Gradient}">
+                    <StackPanel>
+                        <vw:TextBlock LocalizableText="@MachineOverview.Text22" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="SemiBold" Height="20" Margin="0,4,0,0" FontSize="13" Foreground="White" />
+                        <vw:NumericVarOut x:Name="HZ1T" Padding="0,0,3,0" Style="{DynamicResource NVO_Main}" Height="30" LocalizableUnitText="@Units.C" Value="500" TextAlignment="Center" VerticalAlignment="Bottom" FormatString="{}0"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </StackPanel>
+        <vw:Button Click="Button_Click_1" Margin="-5,-5,85,-5"  Style="{DynamicResource B_Station}" />
+    </Grid>
+   
+</UserControl>

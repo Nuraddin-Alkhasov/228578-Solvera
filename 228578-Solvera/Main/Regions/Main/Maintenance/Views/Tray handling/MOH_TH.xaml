@@ -1,0 +1,39 @@
+﻿<vw:View x:Class="HMI.MainRegion.Maintenance.Views.MOH_TH"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7"
+    Width="1832" Height="1000" Background="{StaticResource FP_BackgroundBrush}">
+   
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="4">
+            <Border Background="{DynamicResource FP_Blue_Gradient}">
+                <Border.Effect>
+                    <DropShadowEffect Color="White" Direction="270" Opacity="0.7"/>
+                </Border.Effect>
+                <vw:TextBlock x:Name="header" LocalizableText="@Maintenance.Text50" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="48" Margin="50,0,0,0" />
+            </Border>
+        </Grid>
+        <vw:NavigationButton Grid.ColumnSpan="4" Grid.RowSpan="3" Background="Transparent" BorderThickness="0" RegionName="MainRegion" ViewName="Maintenance_PN" />
+        <vw:NavigationButton Grid.Column="0"  Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text43"  SymbolMargin="0,0,0,10"  Grid.Row="1" RegionName="DialogRegion1" ViewName="MOH_TH_MC" />
+        <vw:NavigationButton Grid.Column="1" Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text67"  SymbolMargin="0,0,0,5"  Grid.Row="1" RegionName="DialogRegion1" ViewName="MOH_TH_PZ" />
+        <vw:NavigationButton Grid.Column="2" Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text68"  SymbolMargin="0,0,0,10"  Grid.Row="1" RegionName="DialogRegion1" ViewName="MOH_TH_WZ" />
+        <vw:NavigationButton Grid.Column="3" Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text69"  SymbolMargin="0,0,0,10"  Grid.Row="1" RegionName="DialogRegion1" ViewName="MOH_TH_HZ" />
+        <vw:NavigationButton Grid.Column="0" Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text70"  SymbolMargin="0,0,0,10"  Grid.Row="2" RegionName="MainRegion" ViewName="MOH_CZ" />
+        <vw:NavigationButton Grid.Column="1"  Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text34"  SymbolMargin="0,0,0,10"  Grid.Row="2" RegionName="DialogRegion1" ViewName="MOH_TH_TM" />
+        <vw:NavigationButton Grid.Column="2"  Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text53"  SymbolMargin="0,0,0,10"  Grid.Row="2" RegionName="DialogRegion1" ViewName="MOH_TH_PO" />
+        <vw:NavigationButton Grid.Column="3"  Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text54"  SymbolMargin="0,0,0,10"  Grid.Row="2" RegionName="DialogRegion1" ViewName="MOH_TH_US" />
+
+    </Grid>
+</vw:View>

@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.MO.MVMaterial"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vw="http://inosoft.com/visiwin7"
+        >
+ 
+    <Grid >
+        <Grid x:Name="pack" Opacity="0">
+            <vw:Border x:Name="cl"  Background="White" BorderThickness="1" BorderBrush="Black" CornerRadius="10" Margin="3"/>
+            <vw:NumericVarOut x:Name="Value" Visibility="Hidden"  BorderThickness="0" Background="Transparent" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="31" />
+            <vw:NumericVarOut x:Name="Weight" Style="{DynamicResource NVO_Main}"  Visibility="Hidden"  Height="34"  Width="90" HorizontalAlignment="Center" VerticalAlignment="Center" LocalizableUnitText="@Units.kg" FormatString="{}0.0"/>
+
+        </Grid>
+        <vw:Button Click="Button_Click" Style="{DynamicResource B_Material}"  Margin="-5"/>
+    </Grid>
+           
+   
+
+</UserControl>

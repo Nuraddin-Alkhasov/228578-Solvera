@@ -1,0 +1,1 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">    <ResourceDictionary.MergedDictionaries>        <ResourceDictionary Source="/228578-Solvera;component/Main/Resources/ControlStyles/DateTimeVarIn/DTVI_Main.xaml"/>            </ResourceDictionary.MergedDictionaries></ResourceDictionary>

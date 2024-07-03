@@ -1,0 +1,13 @@
+﻿<vw:View x:Class="HMI.MainRegion.Maintenance.Views.Maintenance_Current"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7"
+    Width="1832" Height="890" >
+    <DataGrid x:Name="dgv_service" ItemContainerStyle="{DynamicResource LBI_Diagnose}" ItemsSource="{Binding Alarms}" ColumnHeaderHeight="70"   Style="{DynamicResource DG_Standart}">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="{vw:LocalizedText Text=@[ClientSystem].Components.AlarmList.ActivationTime}" Binding="{Binding ActivationTime, StringFormat=dd.MM.yyyy HH:mm:ss}" Width="200" Foreground="White" ElementStyle="{StaticResource TB_Center}"/>
+            <DataGridTextColumn  Header="{vw:LocalizedText Text=@[ClientSystem].Components.AlarmList.Text}"  Width="*" Binding="{Binding Text}" Foreground="White" />
+        </DataGrid.Columns>
+    </DataGrid>
+
+</vw:View>

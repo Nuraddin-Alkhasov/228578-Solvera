@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.MO.MV_CD"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vw="http://inosoft.com/visiwin7" Opacity="0" Loaded="UserControl_Loaded">
+    <Grid x:Name="A" >
+        <vw:PictureBox SymbolResourceKey="MV_CD" Width="200" Height="327"   Margin="3" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <vw:PictureBox.Effect>
+                <DropShadowEffect Color="LightBlue" BlurRadius="20"  Direction="90"  Opacity="0.5"/>
+            </vw:PictureBox.Effect>
+        </vw:PictureBox>
+        <Border x:Name="DT" Width="90" CornerRadius="4" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="150,-70,0,0" BorderBrush="White" BorderThickness="2" Background="{DynamicResource FP_Green_Gradient}">
+            <StackPanel>
+                <vw:TextBlock  LocalizableText="@MachineOverview.Text22" Height="20" Margin="0,4,0,0" HorizontalAlignment="Center" FontWeight="SemiBold" FontSize="13" Foreground="White" />
+                <vw:NumericVarOut x:Name="dtTemp" Padding="0,0,3,0" Style="{DynamicResource NVO_Main}" Height="30" LocalizableUnitText="@Units.C" Value="500" TextAlignment="Center" VerticalAlignment="Bottom" FormatString="{}0"/>
+            </StackPanel>
+        </Border>
+        <vw:Button x:Name="PT" Height="80" Width="100" Style="{DynamicResource B_Blue_ns}" Visibility="Hidden" LocalizableText="@MachineOverview.Text21" FontSize="13" IsEnabled="False" Margin="-120,60,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <vw:Button x:Name="Visco" Height="80" Width="100" Style="{DynamicResource B_Yellow_ns}" Visibility="Hidden" IsEnabled="False" LocalizableText="@MachineOverview.Text45" FontSize="13"   Margin="-120,-30,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+        <vw:Button Click="Button_Click_1" Margin="-5" Style="{DynamicResource B_Station}" />
+    </Grid>
+
+</UserControl>

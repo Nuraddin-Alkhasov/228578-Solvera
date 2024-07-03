@@ -1,0 +1,33 @@
+﻿<vw:View  x:Class="HMI.MainRegion.UM.Views.UM_PN"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7"
+     Width="1832" Height="1000" Background="{StaticResource FP_BackgroundBrush}">
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <vw:PanoramaNavigation Name="pn_um" Grid.Row="1"  Orientation="Horizontal" IsManipulationEnabled="False" SelectedPanoramaRegionChanged="Pn_SelectedPanoramaRegionChanged" Loaded="pn_um_Loaded">
+            <vw:PanoramaNavigation.PanoramaRegions>
+                <vw:PanoramaRegion StartView="UM_Users" />
+                <vw:PanoramaRegion StartView="UM_Groups" />
+            </vw:PanoramaNavigation.PanoramaRegions>
+        </vw:PanoramaNavigation>
+        <Grid Background="{DynamicResource FP_Blue_Gradient}">
+            <Grid.Effect>
+                <DropShadowEffect Color="White" Direction="270" Opacity="0.7"/>
+            </Grid.Effect>
+
+            <vw:TextBlock x:Name="header" LocalizableText="@UserManagement.View.Text1" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="48" Margin="50,0,0,0" />
+           
+        </Grid>
+        <ListBox Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Center"  Opacity="0.7"
+                 ItemContainerStyle="{DynamicResource LBI_PanoramaNavigation_H}"  Style="{DynamicResource LB_PanoramaNavigation_H}"
+                 SelectedIndex="{Binding SelectedPanoramaRegionIndex, ElementName=pn_um, Mode=TwoWay, NotifyOnTargetUpdated=True, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}">
+            <vw:ListBoxItem />
+            <vw:ListBoxItem Margin="10,0,0,0" />
+        </ListBox>
+    </Grid>
+</vw:View>

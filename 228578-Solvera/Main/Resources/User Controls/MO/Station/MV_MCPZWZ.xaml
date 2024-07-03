@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.MO.MV_MCPZWZ"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vw="http://inosoft.com/visiwin7" 
+             xmlns:UC="clr-namespace:HMI.Resources.UserControls.MO" Opacity="0" Loaded="UserControl_Loaded">
+    <Grid x:Name="A"  >
+        <vw:PictureBox SymbolResourceKey="MV_MCPZWZ" Width="895" Height="326"  Margin="31,3,3,3" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <vw:PictureBox.Effect>
+                <DropShadowEffect Color="Orange" BlurRadius="20"  Direction="90"  Opacity="0.5"/>
+            </vw:PictureBox.Effect>
+        </vw:PictureBox>
+       
+        <UC:MVMaterial Margin="40,123,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="111" Height="37"
+                       IsMaterial="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.isMaterial" 
+                       SetLayer="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.Layers.Set"
+                       ActualLayer="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.Layers.Actual" 
+                        CPU="CPU2" AS="Set" />
+        <UC:MVMaterial Margin="40,162,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="111" Height="37"
+                       IsMaterial="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.isMaterial" 
+                       SetLayer="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.Layers.Set"
+                       ActualLayer="CPU2.PLC.Blocks.04 Tray handling.01 MC.00 Main.DB MC PD.Charge.Layers.Actual"
+                        CPU="CPU2" AS="Actual"/>
+        <vw:PictureBox SymbolResourceKey="MV_PORam"  Width="353" Height="155"  VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,3,11,0">
+            <vw:PictureBox.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="3"  Direction="270"  Opacity="0.5"/>
+            </vw:PictureBox.Effect>
+        </vw:PictureBox>
+        <UC:MVTray x:Name="Tray1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="867,130,0,0"
+                    IsTray="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[0].Tray.isTray"
+                    IsDischarge="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[0].Tray.Functions.Discharge"
+                    IsWatch="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[0].Tray.Functions.Watch"
+                    IsMaterial="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[0].Charge.isMaterial"
+                    SetLayer="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[0].Charge.Layers.Set" 
+                    ActualLayer="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[0].Charge.Layers.Actual"
+                    Station="3" Place="20" Header="@Status.Text52" Type="Tray" CPU="CPU2"/>
+        <vw:PictureBox SymbolResourceKey="MV_MCPZWZ_fix" Width="17" Height="107"  Margin="865,133,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <vw:PictureBox.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="3"  Direction="0"  Opacity="0.3"/>
+            </vw:PictureBox.Effect>
+        </vw:PictureBox>
+        <vw:Button Width="55" Height="5" BorderThickness="0" CornerRadius="0" Background="#757575" Margin="57,258,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <vw:Button.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="3"  Direction="270"  Opacity="0.5"/>
+            </vw:Button.Effect>
+        </vw:Button>
+
+        <UC:MVTray x:Name="Tray2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="329,175,0,0"
+                    IsTray="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[10].Tray.isTray"
+                    IsDischarge="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[10].Tray.Functions.Discharge"
+                    IsWatch="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[10].Tray.Functions.Watch"
+                    IsMaterial="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[10].Charge.isMaterial"
+                    SetLayer="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[10].Charge.Layers.Set" 
+                    ActualLayer="CPU2.PLC.Blocks.04 Tray handling.02 TO.00 Main.DB TO PD.Place[10].Charge.Layers.Actual"
+                    Station="3" Place="20" Header="@Status.Text52" Type="Tray" CPU="CPU2"/>
+        <vw:PictureBox SymbolResourceKey="MV_MCPZWZ_fix2" Width="75" Height="226"   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="323,32,0,0">
+            <vw:PictureBox.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="3"  Direction="270"  Opacity="0.4"/>
+            </vw:PictureBox.Effect>
+        </vw:PictureBox>
+
+
+        <Border  Width="100" CornerRadius="4" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="730,-148,0,0"  BorderThickness="2" BorderBrush="White" Background="{DynamicResource FP_Blue_Gradient}">
+            <StackPanel >
+                <vw:TextBlock LocalizableText="@MachineOverview.Text56" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="SemiBold" FontSize="13" Height="20" Foreground="White" Margin="0,4,0,0"/>
+                <vw:NumericVarOut x:Name="WZF" Padding="0,0,3,0" Style="{DynamicResource NVO_Main}" Height="30" LocalizableUnitText="@Units.rpm" Value="2500" TextAlignment="Center" VerticalAlignment="Bottom" FormatString="{}0"/>
+            </StackPanel>
+        </Border>
+        
+        <Border Width="90" CornerRadius="4" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="735,-80,0,0" BorderBrush="White" BorderThickness="2" Background="{DynamicResource FP_Green_Gradient}">
+            <StackPanel>
+                <vw:TextBlock LocalizableText="@MachineOverview.Text22" HorizontalAlignment="Center" FontWeight="SemiBold" FontSize="13" Height="20" Foreground="White" Margin="0,4,0,0"/>
+                <vw:NumericVarOut x:Name="WZT" Padding="0,0,3,0" Style="{DynamicResource NVO_Main}" Height="30" LocalizableUnitText="@Units.C" Value="500"  FormatString="{}0"/>
+            </StackPanel>
+        </Border>
+        
+        <Border  Width="100" CornerRadius="4" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="270,-128,0,0" BorderThickness="2" BorderBrush="White"  Background="{DynamicResource FP_Blue_Gradient}">
+            <StackPanel >
+                <vw:TextBlock LocalizableText="@MachineOverview.Text56" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="SemiBold" FontSize="13" Height="20" Foreground="White" Margin="0,4,0,0"/>
+                <vw:NumericVarOut x:Name="PZF" Padding="0,0,3,0" Style="{DynamicResource NVO_Main}" Height="30" LocalizableUnitText="@Units.rpm" Value="2500" TextAlignment="Center" VerticalAlignment="Bottom" FormatString="{}0"/>
+            </StackPanel>
+        </Border>
+
+        <Border Width="90" CornerRadius="4" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="275,-60,0,0" BorderBrush="White" BorderThickness="2" Background="{DynamicResource FP_Green_Gradient}">
+            <StackPanel>
+                <vw:TextBlock LocalizableText="@MachineOverview.Text22" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="SemiBold" Height="20" Margin="0,4,0,0" FontSize="13" Foreground="White" />
+                <vw:NumericVarOut x:Name="PZT" Padding="0,0,3,0" Style="{DynamicResource NVO_Main}" Height="30" LocalizableUnitText="@Units.C" Value="500" TextAlignment="Center" VerticalAlignment="Bottom" FormatString="{}0"/>
+            </StackPanel>
+        </Border>
+
+        <vw:ToggleButton x:Name="vh" Height="80" Width="140" Style="{DynamicResource TB_Main}"  CornerRadius="4" LocalizableText="@MachineOverview.Text58" IsEnabled="False" Margin="400,-60,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+        <vw:Button x:Name="phzNL" Height="80" Width="100" Style="{DynamicResource B_Blue_ns}" Visibility="Hidden" LocalizableText="@MachineOverview.Text55" IsEnabled="False"  Margin="140,-150,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <vw:Button x:Name="phzPT" Height="80" Width="100" Style="{DynamicResource B_Yellow_ns}" Visibility="Hidden" LocalizableText="@MachineOverview.Text21" IsEnabled="False" Opacity="1" Margin="140,-60,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+        <vw:Button x:Name="oNL" Height="80" Width="100" Style="{DynamicResource B_Blue_ns}" Visibility="Hidden"  LocalizableText="@MachineOverview.Text55" IsEnabled="False" Opacity="1"  Margin="600,-170,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <vw:Button x:Name="oPT" Height="80" Width="100" Style="{DynamicResource B_Yellow_ns}" Visibility="Hidden"  LocalizableText="@MachineOverview.Text21" IsEnabled="False" Opacity="1"  Margin="600,-80,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        
+   
+        <vw:Button Click="Button_Click_3"  Style="{DynamicResource B_Station}" Margin="0,-1,-10,50" />
+
+
+    </Grid>
+
+</UserControl>

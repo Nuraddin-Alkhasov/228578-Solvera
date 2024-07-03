@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.ArticleRecipe"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7" 
+    Width="1832" Height="Auto" Loaded="UserControl_Loaded"  VerticalAlignment="Top" HorizontalAlignment="Center" Opacity="0">
+
+    <vw:GroupBox Style="{DynamicResource GB_Group}" LocalizableHeaderText="@RecipeSystem.Text13" Height="696">
+        <Grid Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <GroupBox x:Name="Reg" Grid.Column="1" Margin="0,-10,0,0" Grid.RowSpan="5"  BorderThickness="0" Content="{Binding Content}"/>
+
+            <vw:RadioButton Width="200" Height="80" Margin="50,0,0,0" Style="{DynamicResource RB_Switcher}"   LocalizableText="@RecipeSystem.Text14" IsChecked="{Binding LDIsChecked}" />
+            <vw:RadioButton Grid.Row="1" Width="200" Margin="50,0,0,0" Height="80" Style="{DynamicResource RB_Switcher}" LocalizableText="@RecipeSystem.Text19" Command="{Binding HC}" IsEnabled="False"/>
+            <vw:RadioButton Grid.Row="2" Width="200" Margin="50,0,0,0" Height="80"  Style="{DynamicResource RB_Switcher}" LocalizableText="@RecipeSystem.Text20" Command="{Binding DC}" IsEnabled="False"/>
+            <vw:RadioButton Grid.Row="3" Width="200" Margin="50,0,0,0" Height="80" Style="{DynamicResource RB_Switcher}" LocalizableText="@RecipeSystem.Text21" Command="{Binding BS}" />
+
+            <vw:RadioButton Grid.Column="2" Width="200" Margin="0,0,50,0" Height="80"  Style="{DynamicResource RB_Switcher}" LocalizableText="@RecipeSystem.Text22" Command="{Binding BT}" />
+            <vw:RadioButton Grid.Row="1" Grid.Column="2" Margin="0,0,50,0" Width="200" Height="80" Style="{DynamicResource RB_Switcher}"  LocalizableText="@RecipeSystem.Text23" Command="{Binding MC}" />
+            <vw:RadioButton Grid.Row="2" Grid.Column="2" Margin="0,0,50,0"  Width="200" Height="80" Style="{DynamicResource RB_Switcher}"  LocalizableText="@RecipeSystem.Text28" Command="{Binding POReturn}"  />
+
+        </Grid>
+    </vw:GroupBox>
+
+
+</UserControl>

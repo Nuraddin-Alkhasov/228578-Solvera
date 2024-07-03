@@ -1,0 +1,51 @@
+﻿<vw:View 
+        x:Class="HMI.MainRegion.Recipes.Views.Recipe_Article_LD"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vw="http://inosoft.com/visiwin7" VerticalAlignment="Center" HorizontalAlignment="Center" Width="800" Opacity="0">
+
+    <vw:GroupBox Style="{DynamicResource GB_Group}" Tag="55" Loaded="View_Loaded" LocalizableHeaderText="@RecipeSystem.Text14">
+            <Grid Margin="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            <vw:GroupBox Grid.ColumnSpan="2" Tag="50" Style="{DynamicResource GB_Group}" LocalizableHeaderText="@RecipeSystem.Text29" >
+                    <StackPanel Margin="5,10,5,5">
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" FontWeight="Bold" Height="45" LocalizableLabelText="@RecipeSystem.Text30" LocalizableUnitText="@Units.times"  RawLimitMax="10" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.LD.Shakes" AuthorizationRight="RecipeA"/>
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" FontWeight="Bold" Height="45" Margin="0,5,0,0" LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text31" RawLimitMax="10" RawLimitMin="0" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.LD.Backwards" AuthorizationRight="RecipeA"/>
+                    </StackPanel>
+                </vw:GroupBox>
+            <vw:GroupBox Grid.Column="0" Tag="50" Grid.Row="1" Style="{DynamicResource GB_Group}" Margin="0" LocalizableHeaderText="@RecipeSystem.Text15" >
+                <StackPanel Margin="5,10,5,5">
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" FontWeight="Bold" Height="45" LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text33" RawLimitMax="10" RawLimitMin="0" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.LD.Step[0].Open" AuthorizationRight="RecipeA"/>
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" FontWeight="Bold" Height="45" Margin="0,5,0,0"  LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text32" RawLimitMax="10" RawLimitMin="0" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.LD.Step[0].Wait" AuthorizationRight="RecipeA"/>
+                    </StackPanel>
+                </vw:GroupBox>
+            <vw:GroupBox Grid.Column="1" Tag="50" Grid.Row="1" Style="{DynamicResource GB_Group}" Margin="0" LocalizableHeaderText="@RecipeSystem.Text16" >
+                <StackPanel Margin="5,10,5,5">
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" FontWeight="Bold" Height="45" LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text33" RawLimitMax="10" RawLimitMin="0" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.LD.Step[1].Open" AuthorizationRight="RecipeA"/>
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" FontWeight="Bold" Height="45" Margin="0,5,0,0"  LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text32" RawLimitMax="10" RawLimitMin="0" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.LD.Step[1].Wait" AuthorizationRight="RecipeA"/>
+                    </StackPanel>
+                </vw:GroupBox>
+            <vw:GroupBox Grid.Column="0" Tag="50" Grid.Row="2" Style="{DynamicResource GB_Group}" Margin="0" LocalizableHeaderText="@RecipeSystem.Text17" >
+                <StackPanel Margin="5,10,5,5">
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" FontWeight="Bold" Height="45" LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text33" RawLimitMax="10" RawLimitMin="0" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.LD.Step[2].Open" AuthorizationRight="RecipeA"/>
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" FontWeight="Bold" Height="45" Margin="0,5,0,0"  LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text32" RawLimitMax="10" RawLimitMin="0" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.LD.Step[2].Wait" AuthorizationRight="RecipeA"/>
+                    </StackPanel>
+                </vw:GroupBox>
+            <vw:GroupBox Grid.Column="1" Tag="50" Grid.Row="2" Style="{DynamicResource GB_Group}" Margin="0" LocalizableHeaderText="@RecipeSystem.Text18" >
+                <StackPanel Margin="5,10,5,5">
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" FontWeight="Bold" Height="45" LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text33" RawLimitMax="10" RawLimitMin="0" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.LD.Step[3].Open" AuthorizationRight="RecipeA"/>
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" FontWeight="Bold" Height="45" Margin="0,5,0,0"  LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text32" RawLimitMax="10" RawLimitMin="0" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.LD.Step[3].Wait" AuthorizationRight="RecipeA"/>
+                    </StackPanel>
+                </vw:GroupBox>
+            </Grid>
+        </vw:GroupBox>
+ 
+</vw:View>

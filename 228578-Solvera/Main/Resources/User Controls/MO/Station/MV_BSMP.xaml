@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.MO.MV_BSMP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vw="http://inosoft.com/visiwin7" 
+        xmlns:UC="clr-namespace:HMI.Resources.UserControls.MO" Loaded="UserControl_Loaded" Opacity="0" >
+    <Grid x:Name="A"   >
+        <vw:PictureBox SymbolResourceKey="MV_BS" Width="110" Height="83" Margin="98,442,0,0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="1"  >
+            <vw:PictureBox.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="3"  Direction="270"  Opacity="0.5"/>
+            </vw:PictureBox.Effect>
+        </vw:PictureBox>
+        <vw:PictureBox x:Name="ManiPosition" SymbolResourceKey="MV_MP3" Width="500" Height="500" Margin="3,3,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.ColumnSpan="2" >
+            <vw:PictureBox.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="3"  Direction="270"  Opacity="0.5"/>
+            </vw:PictureBox.Effect>
+        </vw:PictureBox>
+
+        <UC:MVBasket Margin="99,411,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                        IsBasket="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Baskets.isBaskets"
+                        IsMaterial="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.isMaterial"
+                        SetLayer="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.Layers.Set"
+                        ActualLayer="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.Layers.Actual"
+                        IsDischarge="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Baskets.Functions.Discharge"
+                        CPU="CPU1" Station="4" AS="Set" Grid.Column="1"/>
+        <UC:MVBasket  Margin="150,427,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                        IsBasket="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Baskets.isBaskets"
+                        IsMaterial="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.isMaterial"
+                        SetLayer="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.Layers.Set"
+                        ActualLayer="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.Layers.Actual"
+                         
+                      CPU="CPU1" AS="Actual" Grid.Column="1"/>
+        <Grid  x:Name="B" Grid.ColumnSpan="2"/>
+
+
+        <vw:Button Click="Button_Click_1"  Style="{DynamicResource B_Material}" Margin="75,106,100,124" Grid.Column="1" />
+        <vw:Button Click="Button_Click_2"  Style="{DynamicResource B_Material}" Margin="30,400,260,-5" Grid.Column="1"  />
+    </Grid>
+
+
+</UserControl>

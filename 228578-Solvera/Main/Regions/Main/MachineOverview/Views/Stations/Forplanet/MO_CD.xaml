@@ -1,0 +1,157 @@
+﻿<vw:View
+	x:Class="HMI.MainRegion.MO.Views.MO_CD"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:vw="http://inosoft.com/visiwin7" 
+    xmlns:UC="clr-namespace:HMI.Resources.UserControls.MO"
+    Background="{DynamicResource FP_Black_Gradient}" Width="1832" Height="1000" >
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+
+            <vw:PictureBox  SymbolResourceKey="BCD" Width="781" Height="826" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <vw:PictureBox.Effect>
+                    <DropShadowEffect Color="LightBlue" BlurRadius="30"  Direction="90"  Opacity="0.8"/>
+                </vw:PictureBox.Effect>
+            </vw:PictureBox>
+            <UC:CDBasket HorizontalAlignment="Left" VerticalAlignment="Top" Margin="767,412,0,0" 
+                          IsBasket="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD PD.Baskets.isBaskets"
+                            IsMaterial="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD PD.Charge.isMaterial"
+                            
+                          SetLayer="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD PD.Charge.Layers.Set"
+                         ActualLayer="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD PD.Charge.Layers.Actual"
+                            IsDischarge="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD PD.Baskets.Functions.Discharge"
+                            CPU="CPU1" Station="7" AS="Set"/>
+            <UC:CDBasket HorizontalAlignment="Left" VerticalAlignment="Top" Margin="945,412,0,0"
+                        IsBasket="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD PD.Baskets.isBaskets"
+                            IsMaterial="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD PD.Charge.isMaterial"
+                         SetLayer="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD PD.Charge.Layers.Set"
+                        ActualLayer="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD PD.Charge.Layers.Actual"
+                        
+                       CPU="CPU1" Station="7" AS="Actual"/>
+
+            <vw:Button Click="Button_Click_1"  Style="{DynamicResource B_Material}" Margin="760,400,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="355" Height="160" />
+
+            <Grid x:Name="LTB" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="746,0,0,34"  >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="194*"/>
+                    <ColumnDefinition Width="183*"/>
+                </Grid.ColumnDefinitions>
+                <vw:PictureBox  SymbolResourceKey="BCDT" Width="377" Height="267" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2"  >
+                    <vw:PictureBox.Effect>
+                        <DropShadowEffect Color="LightBlue" BlurRadius="30"  Direction="90"  Opacity="0.8"/>
+                    </vw:PictureBox.Effect>
+                </vw:PictureBox>
+                <vw:TextVarOut Height="40" Margin="7,0,2,35" Style="{DynamicResource TVO_Main}" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" Value="{vw:VariableBinding VariableName=CPU1.PLC.Blocks.03 Basket coating.02 DT.01 Lift.DB DT Lift HMI.Actual.State, Converter={StaticResource ValueToStateTextConverter}, States={StaticResource TSC_DTPositions}, StateMode=Value}" Grid.ColumnSpan="2"/>
+                <vw:TextVarOut x:Name="PaintTyp" Height="45" Style="{DynamicResource TVO_Main}" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"  LocalizableLabelText="@MachineOverview.Text27" Margin="54,0,49,160"  ValueChanged="TextVarOut_ValueChanged" VariableName="CPU1.PLC.Blocks.03 Basket coating.02 DT.00 Main.DB DT HMI.Actual.Dipping tank.Paint" Grid.ColumnSpan="2" />
+                <vw:TextVarOut Height="45" Style="{DynamicResource TVO_Main}"  LocalizableLabelText="@MachineOverview.Text26" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="54,14,49,0"  VariableName="CPU1.PLC.Blocks.03 Basket coating.02 DT.00 Main.DB DT HMI.Actual.Dipping tank.Number" Grid.ColumnSpan="2" />
+            </Grid>
+            <vw:GroupBox Style="{DynamicResource GB_Group2}" Width="180" HorizontalAlignment="Right" VerticalAlignment="Top" LocalizableHeaderText="@MachineOverview.Text106" Margin="0,15,5,0" >
+                <StackPanel Orientation="Horizontal" Margin="5,10,5,5">
+                    <vw:NumericVarOut x:Name="Tmin" Style="{DynamicResource NVO_Main}" Width="166" Height="45" LocalizableUnitText="@Units.s" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD HMI.Actual.Coating Time"/>
+                </StackPanel>
+            </vw:GroupBox>
+            <Grid VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="760" Width="515" Margin="0,0,0,0">
+                <vw:Region x:Name="region" VerticalAlignment="Center" HorizontalAlignment="Center" Loaded="region_Loaded"/>
+            </Grid>
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Width="310" Margin="45,45,0,0">
+                <vw:Gauge x:Name="planet" Width="130" Height="130" FontSize="9" Style="{DynamicResource RealisticGaugeStyle_2}" HorizontalAlignment="Left" VerticalAlignment="Center" LocalizableUnitText="@Units.grad" LocalizableLabelText="@MachineOverview.Text25" 
+                          RawLimitMax="50" FormatString="{}0"
+                          RawLimitMin="0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.04 Tilt.DB CD Tilt HMI.Actual.Motor.Actual.Position">
+                    <vw:Gauge.Limits>
+                        <vw:Limit Fill="Red" StartValue="40" EndValue="50" />
+                        <vw:Limit Fill="OrangeRed" StartValue="30" EndValue="40" />
+                        <vw:Limit Fill="Orange" StartValue="20" EndValue="30" />
+                        <vw:Limit Fill="GreenYellow"  StartValue="10" EndValue="20"/>
+                        <vw:Limit Fill="Green" StartValue="0" EndValue="10" />
+                    </vw:Gauge.Limits>
+                </vw:Gauge>
+                <vw:Gauge x:Name="swing" Width="130" Height="130" FontSize="9"  Style="{DynamicResource RealisticGaugeStyle_3}" HorizontalAlignment="Right" VerticalAlignment="Center" LocalizableUnitText="@Units.rpm" LocalizableLabelText="@MachineOverview.Text24"
+                          RawLimitMax="10" FormatString="{}0"
+                          RawLimitMin="-10" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.02 Planet.DB CD Planet HMI.Actual.Motor.Actual.Speed 2">
+                    <vw:Gauge.Limits>
+                        <vw:Limit Fill="Red" StartValue="8" EndValue="10" />
+                        <vw:Limit Fill="OrangeRed" StartValue="6" EndValue="8" />
+                        <vw:Limit Fill="Orange" StartValue="4" EndValue="6" />
+                        <vw:Limit Fill="GreenYellow"  StartValue="2" EndValue="4"/>
+                        <vw:Limit Fill="Green" StartValue="0" EndValue="2" />
+                        <vw:Limit Fill="Green" StartValue="-2" EndValue="0" />
+                        <vw:Limit Fill="GreenYellow"  StartValue="-4" EndValue="-2"/>
+                        <vw:Limit Fill="Orange"  StartValue="-6" EndValue="-4"/>
+                        <vw:Limit Fill="OrangeRed" StartValue="-8" EndValue="-6" />
+                        <vw:Limit Fill="Red" StartValue="-10" EndValue="-8" />
+                    </vw:Gauge.Limits>
+                </vw:Gauge>
+                <vw:Gauge x:Name="rotor" Width="160" Height="160" FontSize="11"
+                          RawLimitMax="220" FormatString="{}0"
+                          RawLimitMin="0" 
+                          Style="{DynamicResource RealisticGaugeStyle_1}" HorizontalAlignment="Center" VerticalAlignment="Center" LocalizableUnitText="@Units.rpm" LocalizableLabelText="@MachineOverview.Text23" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.01 Rotor.DB CD Rotor HMI.Actual.Motor.Actual.Speed 2" >
+                    <vw:Gauge.Limits>
+                        <vw:Limit Fill="Red" StartValue="200" EndValue="250" />
+                        <vw:Limit Fill="OrangeRed" StartValue="150" EndValue="200" />
+                        <vw:Limit Fill="Orange" StartValue="100" EndValue="150" />
+                        <vw:Limit Fill="GreenYellow"  StartValue="50" EndValue="100"/>
+                        <vw:Limit Fill="Green" StartValue="0" EndValue="50" />
+                    </vw:Gauge.Limits>
+                </vw:Gauge>
+            </Grid>
+            <vw:Gauge x:Name="temp" Width="160" Height="160" FontSize="11" Margin="320,0,0,270"  Style="{DynamicResource RealisticGaugeStyle_1}" HorizontalAlignment="Left" VerticalAlignment="Bottom" LocalizableUnitText="@Units.grad" LocalizableLabelText="@MachineOverview.Text22"
+                          RawLimitMax="50" FormatString="{}0"
+                          RawLimitMin="-10" VariableName="CPU1.PLC.Blocks.03 Basket coating.02 DT.00 Main.DB DT HMI.Actual.Dipping tank.isTemperature" >
+                <vw:Gauge.Limits>
+                    <vw:Limit Fill="Red" StartValue="40" EndValue="50" />
+                    <vw:Limit Fill="OrangeRed" StartValue="30" EndValue="40" />
+                    <vw:Limit Fill="Orange"  StartValue="20" EndValue="30"/>
+                    <vw:Limit Fill="GreenYellow"  StartValue="10" EndValue="20"/>
+                    <vw:Limit Fill="{DynamicResource FP_LightGreen}" StartValue="0" EndValue="10" />
+                    <vw:Limit Fill="#FF3399FF" StartValue="-10" EndValue="0" />
+                </vw:Gauge.Limits>
+            </vw:Gauge>
+            <vw:Button Style="{DynamicResource B_Function}" Width="180" Height="180" FontSize="11" CornerRadius="100" Margin="310,0,0,260" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="Button_Click"/>
+            <vw:ToggleButton Margin="50,450,0,0" Width="80" Height="80" HorizontalAlignment="Left" Style="{DynamicResource TB_Main}" SymbolResourceKey="Lamp" VerticalAlignment="Top" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.DB CD HMI.PC.Cabin light.On" />
+            <vw:ToggleButton Margin="50,550,0,0" Width="80" Height="80" HorizontalAlignment="Left" Style="{DynamicResource TB_Main}" CornerRadius="20" SymbolResourceKey="Fan" VerticalAlignment="Top" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.07 Air.DB CD Air HMI.PC.Fans.On" />
+
+            <UC:M_WorkMode_R HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,10" 
+                       Header="@MachineOverview.Text18"
+                       Automatic="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket coating.from.Operating Mode.Automatic"
+                       Manual="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket coating.from.Operating Mode.Manual"
+                       SetUp="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket coating.from.Operating Mode.Setup"
+                       Start="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket coating.from.Automatic.Start"
+                       Stop="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket coating.from.Automatic.Stop"
+                       StartStatus="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket coating.to.Automatic.State"
+                       WorkingModeStatus="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket coating.to.Operating Mode.State"/>
+            <vw:Button Width="160" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,50,0,0"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text29" Command="{Binding AssignRecipe}" Click="Button_Click_2"/>
+            <vw:Button Width="160" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,50,0,0"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text30" Command="{Binding AssignRecipe}" Click="Button_Click_3"/>
+
+            <vw:GroupBox x:Name="vgroup" Style="{DynamicResource GB_Group}" LocalizableHeaderText="@MachineOverview.Text51" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="70,210,0,0">
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="90" Height="45" Margin="20,10,0,0" LocalizableUnitText="@Units.h" VariableName="CPU1.PLC.Blocks.03 Basket coating.02 DT.00 Main.DB DT HMI.Actual.Dipping tank.Viscosity.Hours"/>
+                    <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="90" Height="45" Margin="5,10,0,0" LocalizableUnitText="@Units.m" VariableName="CPU1.PLC.Blocks.03 Basket coating.02 DT.00 Main.DB DT HMI.Actual.Dipping tank.Viscosity.Minutes"/>
+                    <vw:Button Width="160" Height="80" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="20,10,0,0"  Style="{DynamicResource B_Gray_ns}" LocalizableText="@MachineOverview.Text50" Click="Button_Click_4"/>
+
+                </StackPanel>
+            </vw:GroupBox>
+            <vw:NavigationButton Width="160" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="330,690,0,0"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text91" ViewName="MO_Coating_EF" RegionName="DialogRegion1"/>
+            <vw:NavigationButton Width="160" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="330,790,0,0"  Style="{DynamicResource B_Gray}" LocalizableText="@MachineOverview.Text92" ViewName="MO_Coating_SF" RegionName="DialogRegion1"/>
+
+            <vw:NavigationButton Width="160" Height="90" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="578,0,1094,666"  Style="{DynamicResource B_Blue}" LocalizableText="@Buttons.Text63" ViewName="MO_CoatingPicker" RegionName="DialogRegion1"/>
+        </Grid>
+
+        <Grid Background="{DynamicResource FP_Blue_Gradient}">
+            <Grid.Effect>
+                <DropShadowEffect Color="White" Direction="270" Opacity="0.7"/>
+            </Grid.Effect>
+            <vw:TextBlock x:Name="header" LocalizableText="@MachineOverview.Text18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="48" Margin="50,0,0,0" />
+        </Grid>
+        <vw:Border x:Name="Mod" Height="80" Background="{DynamicResource FP_Green_Gradient}" CornerRadius="4" BorderThickness="2" BorderBrush="White" Width="250" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <vw:TextBlock x:Name="txt" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Width="200" Foreground="White" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" LocalizableText="@Lists.Modus.Text1"/>
+        </vw:Border>
+
+    </Grid>
+
+</vw:View>

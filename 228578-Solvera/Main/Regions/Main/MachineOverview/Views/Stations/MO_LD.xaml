@@ -1,0 +1,92 @@
+﻿<vw:View
+	x:Class="HMI.MainRegion.MO.Views.MO_LD"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:vw="http://inosoft.com/visiwin7" 
+    xmlns:UC="clr-namespace:HMI.Resources.UserControls.MO"
+    Background="{DynamicResource FP_Black_Gradient}" Width="1832" Height="1000" >
+   
+    
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <vw:PictureBox  SymbolResourceKey="BLD" Width="1840" Height="890" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <vw:PictureBox.Effect>
+                    <DropShadowEffect Color="White" BlurRadius="30"  Direction="270"  Opacity="0.5"/>
+                </vw:PictureBox.Effect>
+            </vw:PictureBox>
+
+            <UC:MVMaterial HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1084,76,0,0" Height="260" Width="130"
+                           IsMaterial="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD PD.Charge.isMaterial"
+                           CPU="CPU1" Type="Box" Station="1" Header="@Status.Text22" />
+            <UC:MVMaterial HorizontalAlignment="Left" VerticalAlignment="Top" Margin="667,335,0,0" Height="132" Width="358"
+                           IsMaterial="CPU1.PLC.Blocks.01 Basket feeding.02 HC.00 Main.DB HC PD.Charge.isMaterial"
+                           CPU="CPU1" Type="Belt" Station="2" Header="@Status.Text23" />
+            <UC:MVMaterial HorizontalAlignment="Left" VerticalAlignment="Top" Margin="615,318,0,0" Height="292" Width="41"
+                           IsMaterial="CPU1.PLC.Blocks.01 Basket feeding.03 DC.00 Main.DB DC PD.Charge.isMaterial"
+                           CPU="CPU1" Type="Belt" Station="3"  Header="@Status.Text24" />
+
+            <UC:LDBasket HorizontalAlignment="Left" VerticalAlignment="Top" Margin="598,670,0,0"
+                         IsBasket="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Baskets.isBaskets"
+                         IsMaterial="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.isMaterial"
+                          SetLayer="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.Layers.Set"
+                         ActualLayer="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.Layers.Actual"
+                        
+                         IsDischarge="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Baskets.Functions.Discharge"
+                         CPU="CPU1" Station="4" AS="Set"/>
+            <UC:LDBasket HorizontalAlignment="Left" VerticalAlignment="Top" Margin="698,670,0,0"
+                       IsBasket="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Baskets.isBaskets"
+                         IsMaterial="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.isMaterial"
+                         SetLayer="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.Layers.Set"
+                         ActualLayer="CPU1.PLC.Blocks.01 Basket feeding.04 BS.00 Main.DB BS PD.Charge.Layers.Actual"
+                         CPU="CPU1" AS="Actual"/>
+
+            <vw:NumericVarOut Width="200" Height="45" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,551,890,0" Style="{DynamicResource NVO_Main}" LocalizableLabelText="@MachineOverview.Text9" LocalizableUnitText="@Units.kg" FormatString="0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.02 HC.01 Belt.DB HC Belt HMI.Actual.Weight" />
+            <vw:NumericVarOut Width="200" Height="45" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,371,1268,0" Style="{DynamicResource NVO_Main}" LocalizableLabelText="@MachineOverview.Text10" LocalizableUnitText="@Units.kg" FormatString="0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.03 DC.01 Belt.DB DC Belt HMI.Actual.Weight" />
+            <vw:NumericVarOut Width="200" Height="45" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,725,825,0" Style="{DynamicResource NVO_Main}" LocalizableLabelText="@MachineOverview.Text12" LocalizableUnitText="@Units.kg" FormatString="0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.04 BS.01 Rotary.DB BS Rotary HMI.Actual.Basket.Right weight" />
+            <vw:NumericVarOut Width="200" Height="45" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,725,1260,0" Style="{DynamicResource NVO_Main}" LocalizableLabelText="@MachineOverview.Text11" LocalizableUnitText="@Units.kg" FormatString="0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.04 BS.01 Rotary.DB BS Rotary HMI.Actual.Basket.Left weight" />
+            <vw:NumericVarOut x:Name="f_weight" Width="140" Height="45" LocalizableLabelText="@MachineOverview.Text14" Style="{DynamicResource NVO_Main}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,828,1146,0" LocalizableUnitText="@Units.kg" VariableName="__UNLINKED_R4" FormatString="0.0"/>
+            <vw:NumericVarOut x:Name="t_weight" Width="140" Height="45" LocalizableLabelText="@MachineOverview.Text15" Style="{DynamicResource NVO_Main}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,828,1001,0" LocalizableUnitText="@Units.kg" VariableName="__UNLINKED_R4" FormatString="0.0"/>
+
+            <vw:Button Click="Button_Click_2"  Style="{DynamicResource B_Material}" Margin="585,660,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="225" Height="170" />
+            <vw:ToggleButton Margin="0,0,80,767" Visibility="Hidden" Width="80" Height="80" HorizontalAlignment="Right" Style="{DynamicResource TB_Main}" SymbolResourceKey="Lamp" VerticalAlignment="Bottom" />
+
+
+            <vw:GroupBox Style="{DynamicResource GB_Group2}" Width="180" HorizontalAlignment="Right" VerticalAlignment="Top" LocalizableHeaderText="@MachineOverview.Text105" Margin="0,15,5,0" >
+                <StackPanel Orientation="Horizontal" Margin="5,10,5,5">
+                    <vw:NumericVarOut x:Name="Tmin" Style="{DynamicResource NVO_Main}" Width="166" Height="45" LocalizableUnitText="@Units.s" VariableName="CPU1.PLC.Blocks.01 Basket feeding.03 DC.01 Belt.DB DC Belt HMI.Actual.Feeding Time"/>
+                </StackPanel>
+            </vw:GroupBox>
+
+            <UC:M_WorkMode_R HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,10,0,0" 
+                        Header="@MachineOverview.Text8"
+                        Automatic="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket feeding.from.Operating Mode.Automatic"
+                       Manual="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket feeding.from.Operating Mode.Manual"
+                         SetUp="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket feeding.from.Operating Mode.Setup"
+                       Start="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket feeding.from.Automatic.Start"
+                       Stop="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket feeding.from.Automatic.Stop"
+                       StartStatus="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket feeding.to.Automatic.State"
+                       WorkingModeStatus="CPU1.PLC.Blocks.00 Main.02 HMI.00 Main.DB HMI Main.Basket feeding.to.Operating Mode.State"/>
+            <vw:Button x:Name="update" Height="80" Width="140" Style="{DynamicResource B_Gray}"  CornerRadius="4" LocalizableText="@MachineOverview.Text101" Margin="1305,336,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" IsEnabled="False" Click="update_Click"/>
+
+        </Grid>
+
+        <Grid Background="{DynamicResource FP_Blue_Gradient}">
+            <Grid.Effect>
+                <DropShadowEffect Color="White" Direction="270" Opacity="0.7"/>
+            </Grid.Effect>
+            <vw:TextBlock x:Name="header" LocalizableText="@MachineOverview.Text8" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="48" Margin="50,0,0,0" />
+        </Grid>
+
+        <vw:Border x:Name="Mod" Height="80" Background="{DynamicResource FP_Green_Gradient}" CornerRadius="4" BorderThickness="2" BorderBrush="White" Width="250" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <vw:TextBlock x:Name="txt" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" Width="200" Foreground="White" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" LocalizableText="@Lists.Modus.Text1"/>
+        </vw:Border>
+
+
+    </Grid>
+
+</vw:View>

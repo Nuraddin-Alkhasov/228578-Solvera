@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.MR_Add"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vw="http://inosoft.com/visiwin7" Opacity="0" Loaded="UserControl_Loaded">
+
+    <Grid x:Name="Layout" Margin="0,10,10,10"  >
+        
+        <Rectangle Fill="{x:Null}" Stroke="White" StrokeThickness="3" StrokeDashArray="2" RadiusX="5" RadiusY="5" />
+        <vw:Button x:Name="Addbtn"  SymbolResourceKey="D_Add" Height="155" BorderThickness="0" Command="{Binding NewCommand}" Style="{DynamicResource B_Dashboard_Add2}" AuthorizationRight = "RecipeM"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,27 @@
+﻿<ResourceDictionary
+	            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Einträge ins SymbolResourceDictionary sollten hier erfolgen -->
+
+    <DataTemplate x:Key="SplashScreen">
+        <Image Source="/Main/Resources/Images/Splashscreen.png" Stretch="Fill" Width="711" Height="350" />
+    </DataTemplate>
+    <DataTemplate x:Key="Loading">
+        <Image Source="/Main/Resources/Images/Loading.gif" Stretch="Fill" Width="188" Height="96" />
+    </DataTemplate>
+    <DataTemplate x:Key="MenuOpen">
+        <Image Source="/Main/Resources/Images/General/open.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="MenuClose">
+        <Image Source="/Main/Resources/Images/General/close.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="Filter">
+        <Image Source="/Main/Resources/Images/General/filter.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="Lamp">
+        <Image Source="/Main/Resources/Images/General/lamp.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+    <DataTemplate x:Key="Fan">
+        <Image Source="/Main/Resources/Images/General/fan.png" Stretch="Fill" Width="50" Height="50" />
+    </DataTemplate>
+</ResourceDictionary>

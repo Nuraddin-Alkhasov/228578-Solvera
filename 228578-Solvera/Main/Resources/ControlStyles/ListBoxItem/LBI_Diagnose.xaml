@@ -1,0 +1,19 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+
+    <Style x:Key="LBI_Diagnose" TargetType="DataGridRow">
+        <Setter Property="Height" Value="50"/>
+        <Style.Triggers >
+            <DataTrigger Binding="{Binding Group.Name}" Value="Warnings">
+                <Setter Property="Background"  Value="{DynamicResource FP_Yellow_Gradient}" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Group.Name}" Value="Errors">
+                <Setter Property="Background" Value="{DynamicResource FP_Red_Gradient}" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Group.Name}" Value="PM">
+                <Setter Property="Background"  Value="{DynamicResource FP_Yellow_Gradient}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

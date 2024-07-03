@@ -1,0 +1,3 @@
+[04/05/2023 13:21:25]
+Warning
+(Modulname='VisiWinNETDevelopment.Editors.FOptions', Sub='InitMe') Es gibt keine Konfigurationsspalte Information für folgende Datapagespalte = 'PlugInSourceProjectID'

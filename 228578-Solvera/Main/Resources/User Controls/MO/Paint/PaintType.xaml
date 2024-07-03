@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.MO.PaintType"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:vw="http://inosoft.com/visiwin7"
+            VerticalAlignment="Center" HorizontalAlignment="Center" Opacity="0">
+    <vw:GroupBox x:Name="A" Margin="15" Opacity="1" Style="{DynamicResource GB_Group}" Loaded="UserControl_Loaded" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Margin="5,10,5,0">
+            <vw:TextVarIn x:Name="name" Style="{DynamicResource TVI_Main}" Height="45" Width="310" FontWeight="SemiBold" LocalizableLabelText="@MachineOverview.Text32" TextLengthMin="5" TextLengthMax="25" AuthorizationRight="Paint"/>
+            <vw:ComboBox x:Name="painttype" Height="45" Style="{DynamicResource CB_Main}" Width="310" StateList="{DynamicResource P_Paint}" Margin="0,5,0,0"  LocalizableLabelText="@MachineOverview.Text33" FontWeight="DemiBold" AuthorizationRight="Paint"/>
+            <vw:ComboBox x:Name="painttype2" Height="45" Style="{DynamicResource CB_Main}" Width="310" StateList="{DynamicResource P_BaseTop}" Margin="0,5,0,0"  LocalizableLabelText="@MachineOverview.Text33" FontWeight="DemiBold" AuthorizationRight="Paint"/>
+
+            <vw:ToggleButton x:Name="solvent" Visibility="Collapsed" Style="{DynamicResource TB_Main}"  Margin="0,5,0,0" Width="310" Height="45" LocalizableTextOn="@MachineOverview.Text34" LocalizableTextOff="@MachineOverview.Text34" CornerRadius="4"  />
+
+            <vw:ToggleButton x:Name="watchdog" Visibility="Visible"  Style="{DynamicResource TB_Main}"  Margin="0,5,0,0" Width="310" Height="45" LocalizableTextOn="@MachineOverview.Text35" LocalizableTextOff="@MachineOverview.Text35" CornerRadius="4" AuthorizationRight="Paint"/>
+            <vw:NumericVarIn x:Name="setCL" Style="{DynamicResource NVI_Main}" Height="45" Width="310" Margin="0,5,0,0" LocalizableLabelText="@MachineOverview.Text36" RawLimitMin="0" RawLimitMax="999" AuthorizationRight="Paint"/>
+            <Grid Margin="-5,5,-5,0">
+                <vw:GroupBox Style="{DynamicResource GB_Group}" LocalizableHeaderText="@MachineOverview.Text37">
+                    <Grid Margin="5,10,5,5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <vw:NumericVarIn x:Name="pump_on" Grid.Column="0" Height="45" Width="150" Style="{DynamicResource NVI_Main}" Margin="0,0,5,0" LocalizableUnitText="@Units.m" LocalizableLabelText="@MachineOverview.Text38" RawLimitMax="59" AuthorizationRight="Paint"/>
+                        <vw:NumericVarIn x:Name="pump_off" Grid.Column="1" Height="45"  Width="150" Style="{DynamicResource NVI_Main}" Margin="5,0,0,0" LocalizableUnitText="@Units.m" LocalizableLabelText="@MachineOverview.Text39" RawLimitMax="59" AuthorizationRight="Paint"/>
+                    </Grid>
+                </vw:GroupBox>
+                <vw:ToggleButton x:Name="pump" Margin="0,8,8,0" Foreground="White" Width="120" Height="46" HorizontalAlignment="Right" LocalizableTextOn="@Buttons.Text19" LocalizableTextOff="@Buttons.Text17" Style="{DynamicResource TB_Main}" VerticalAlignment="Top" CornerRadius="4" AuthorizationRight="Paint"/>
+            </Grid>
+            <vw:GroupBox Margin="-5,5,-5,0" Style="{DynamicResource GB_Group}" LocalizableHeaderText="@MachineOverview.Text40">
+                <StackPanel Margin="5,10,5,5" Orientation="Horizontal">
+                    <vw:NumericVarIn x:Name="o_UL" Width="90"  Height="45" Style="{DynamicResource NVI_Main}" LocalizableLabelText="@MachineOverview.Text42" FormatString="{}0.0" LocalizableUnitText="@Units.C" RawLimitMax="60" AuthorizationRight="Paint"/>
+                    <vw:NumericVarIn x:Name="o_process" Width="120" Height="45" Style="{DynamicResource NVI_Main}" LocalizableLabelText="@MachineOverview.Text44" FormatString="{}0.0"  LocalizableUnitText="@Units.C" Margin="5,0,5,0" RawLimitMax="250" AuthorizationRight="Paint"/>
+                    <vw:NumericVarIn x:Name="o_LL" Width="90" Height="45" Style="{DynamicResource NVI_Main}" LocalizableLabelText="@MachineOverview.Text43" FormatString="{}0.0" LocalizableUnitText="@Units.C"  RawLimitMax="60" AuthorizationRight="Paint"/>
+                </StackPanel>
+            </vw:GroupBox>
+            <vw:GroupBox Margin="-5,5,-5,0" Style="{DynamicResource GB_Group}" LocalizableHeaderText="@MachineOverview.Text41">
+                <StackPanel Margin="5,10,5,5" Orientation="Horizontal">
+                    <vw:NumericVarIn x:Name="c_UL" Width="90"  Height="45" Style="{DynamicResource NVI_Main}" LocalizableLabelText="@MachineOverview.Text42" FormatString="{}0.0" LocalizableUnitText="@Units.C" RawLimitMax="50" AuthorizationRight="Paint"/>
+                    <vw:NumericVarIn x:Name="c_process" Width="120"  Height="45" Style="{DynamicResource NVI_Main}" LocalizableLabelText="@MachineOverview.Text44" FormatString="{}0.0" LocalizableUnitText="@Units.C" Margin="5,0,5,0" RawLimitMax="50" AuthorizationRight="Paint"/>
+                    <vw:NumericVarIn x:Name="c_LL" Width="90"  Height="45" Style="{DynamicResource NVI_Main}" LocalizableLabelText="@MachineOverview.Text43" FormatString="{}0.0" LocalizableUnitText="@Units.C"  RawLimitMax="50" AuthorizationRight="Paint"/>
+                </StackPanel>
+            </vw:GroupBox>
+            <Grid Margin="-5,5,-5,0">
+                <vw:GroupBox Style="{DynamicResource GB_Group}" LocalizableHeaderText="@MachineOverview.Text45">
+                    <Grid Margin="5,10,5,5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <vw:NumericVarIn x:Name="v_h" Grid.Column="0" Height="45" Width="150" Style="{DynamicResource NVI_Main}" Margin="0,0,5,0" LocalizableUnitText="@Units.h" RawLimitMin="0" RawLimitMax="59" Value="1" AuthorizationRight="Paint"/>
+                        <vw:NumericVarIn x:Name="v_m" Grid.Column="1" Height="45"  Width="150" Style="{DynamicResource NVI_Main}" Margin="5,0,0,0" LocalizableUnitText="@Units.m" RawLimitMin="0" RawLimitMax="59" AuthorizationRight="Paint"/>
+                    </Grid>
+                </vw:GroupBox>
+                <vw:ToggleButton x:Name="v" Margin="0,8,8,0" IsEnabled="False" IsChecked="True" Foreground="White" Width="120" Height="46" HorizontalAlignment="Right" LocalizableTextOn="@Buttons.Text19" LocalizableTextOff="@Buttons.Text17" Style="{DynamicResource TB_Main}" VerticalAlignment="Top" CornerRadius="4"/>
+            </Grid>
+        </StackPanel>
+    </vw:GroupBox>
+</UserControl>

@@ -1,0 +1,14 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ReferencePath>C:\Program Files (x86)\INOSOFT GmbH\VisiWin 7\\7.2\Runtime</ReferencePath>
+    <PublishUrlHistory>publish\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+</Project>

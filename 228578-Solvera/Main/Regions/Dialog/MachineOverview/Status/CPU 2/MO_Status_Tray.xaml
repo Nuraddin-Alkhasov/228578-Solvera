@@ -1,0 +1,30 @@
+﻿<vw:View 
+    x:Class="HMI.DialogRegion.MO.Views.MO_Status_Tray"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+	xmlns:vw="http://inosoft.com/visiwin7" >
+    <Grid>
+        <vw:GroupBox Style="{DynamicResource GB_Group2}" LocalizableHeaderText="@Status.Text5" >
+            <StackPanel Orientation="Horizontal" >
+                <StackPanel Margin="0,0,5,0" >
+                    <vw:GroupBox  Style="{DynamicResource GB_Group2}" LocalizableHeaderText="@Status.Text18" >
+                        <StackPanel Orientation="Horizontal" Margin="0,5" Width="315">
+                            <vw:NumericVarOut Height="45" Style="{DynamicResource NVO_Main}" Width="305" LocalizableLabelText="@Status.Text11" LocalizableUnitText="@Units.kg" Margin="5,5,0,0" VariableName="CPU2.PLC.Blocks.00 Main.02 HMI.01 PC.DB PC.Status.to.Data.Charge.Weight.Left" />
+                        </StackPanel>
+                    </vw:GroupBox>
+                </StackPanel>
+                <StackPanel>
+                    <vw:GroupBox  Style="{DynamicResource GB_Group2}" LocalizableHeaderText="@Status.Text19" >
+                        <StackPanel Margin="0,5" Width="315">
+                            <vw:NumericVarOut Height="45" Style="{DynamicResource NVO_Main}" Margin="0,5,0,0" Width="305" LocalizableUnitText="@Units.kg" LocalizableLabelText="@Status.Text11" VariableName="CPU2.PLC.Blocks.00 Main.02 HMI.01 PC.DB PC.Status.to.Data.Charge.Weight.Right" />
+                        </StackPanel>
+                    </vw:GroupBox>
+                    <vw:ComboBox Height="45" Style="{DynamicResource CB_Main}" Width="305" LocalizableLabelText="@Status.Text21" Margin="0,10,0,5" StateList="{DynamicResource P_YesNo}" VariableName="CPU2.PLC.Blocks.00 Main.02 HMI.01 PC.DB PC.Status.to.Data.Tray.isTray" AuthorizationRight="Status"/>
+
+                </StackPanel>
+            </StackPanel>
+        </vw:GroupBox>
+        <vw:ToggleButton Margin="0,3,3,0" Width="200" Height="46" VerticalAlignment="Top" HorizontalAlignment="Right"  Style="{DynamicResource TB_Main}" LocalizableTextOff="@Status.Text20" LocalizableTextOn="@Status.Text20" CornerRadius="4" VariableName="CPU2.PLC.Blocks.00 Main.02 HMI.01 PC.DB PC.Status.to.Data.Tray.Functions.Discharge" />
+        <vw:ToggleButton Margin="0,3,208,0" Width="200" Height="46" VerticalAlignment="Top" HorizontalAlignment="Right"  Style="{DynamicResource TB_Main}" LocalizableTextOff="@Status.Text79" LocalizableTextOn="@Status.Text79" CornerRadius="4" VariableName="CPU2.PLC.Blocks.00 Main.02 HMI.01 PC.DB PC.Status.to.Data.Tray.Functions.Watch" />
+    </Grid>
+</vw:View>

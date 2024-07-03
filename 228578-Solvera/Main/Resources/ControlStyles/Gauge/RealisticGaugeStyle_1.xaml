@@ -1,0 +1,171 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vw="http://inosoft.com/visiwin7">
+
+    <Style x:Key="RealisticGaugeStyle_1" TargetType="{x:Type vw:Gauge}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                    <GradientStop Color="#FF515151" Offset="0"/>
+                </RadialGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="CentralAngle" Value="270" />
+        <Setter Property="StartAngle" Value="225"/>
+        <Setter Property="LabelTextBrush" Value="White"/>
+        <Setter Property="RulerBaseLineThickness" Value="5"/>
+        <Setter Property="RulerBaseLineFill" Value="Transparent"/>
+        <Setter Property="RulerBaseLineStroke" Value="Transparent"/>
+        <Setter Property="RulerMajorLineBrush" Value="White"/>
+        <Setter Property="RulerMinorLineBrush" Value="White"/>
+        <Setter Property="ScaleTextBrush" Value="White"/>
+        <Setter Property="UnitTextBrush" Value="White"/>
+        <Setter Property="ValueTextBrush" Value="White"/>
+        <Setter Property="MajorThickness" Value="2"/>
+        <Setter Property="ReferenceValueDistanceBrush" Value="Transparent"/>
+        <Setter Property="MinorLength" Value="-10"/>
+        <Setter Property="MajorLength" Value="-15"/>
+        <Setter Property="ScaleTextOffset" Value="-35"/>
+        <Setter Property="PointerOffset" Value="0"/>
+        <Setter Property="LimitMaxVisibility" Value="Automatic"/>
+        <Setter Property="LimitMinVisibility" Value="Automatic"/>
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="SymbolHorizontalAlignment" Value="Center"/>
+        <Setter Property="SymbolMargin" Value="0,30,0,0"/>
+        <Setter Property="UnitTextMargin" Value="3,0,0,0"/>
+        <Setter Property="ValueTextMargin" Value="0,0,0,0"/>
+        <Setter Property="LabelTextMargin" Value="0,0,-1,0"/>
+        <Setter Property="BorderBrush">
+            <Setter.Value>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFBABFCF" Offset="0.314"/>
+                    <GradientStop Color="#FFB6CBDC" Offset="0.682"/>
+                    <GradientStop Color="#FF576470" Offset="0.419"/>
+                    <GradientStop Color="#FF343F47" Offset="1"/>
+                    <GradientStop Color="#FF5D5F66" Offset="0.043"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type vw:Gauge}">
+                    <Grid x:Name="PART_GaugeGrid" ClipToBounds="False" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Canvas>
+                            <Grid>
+                                <!--Hintergrund-->
+                                <Border x:Name="BtnShadow" Margin="-2" Background="White" CornerRadius="100" >
+                                    <Border.Effect>
+                                        <BlurEffect Radius="10"/>
+                                    </Border.Effect>
+                                </Border>
+                                <Ellipse x:Name="Background" Fill="{TemplateBinding Background}" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="{Binding RelativeSource={RelativeSource AncestorType=vw:Gauge}, Path=BorderThickness.Top}"/>
+
+                                <Grid x:Name="PART_HostGrid" ClipToBounds="False" HorizontalAlignment="Left" Height="{TemplateBinding Diameter}" Margin="{TemplateBinding Padding}" VerticalAlignment="Top" Width="{TemplateBinding Diameter}">
+
+                                    <Grid Panel.ZIndex="0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                        </Grid.RowDefinitions>
+                                        <!--SymbolPresenter-->
+                                        <ContentControl VerticalAlignment="{TemplateBinding SymbolVerticalAlignment}" HorizontalAlignment="{TemplateBinding SymbolHorizontalAlignment}" Margin="{TemplateBinding SymbolMargin}" ContentTemplate="{TemplateBinding Symbol}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+                                        <!--Hält die Labels-->
+                                        <StackPanel HorizontalAlignment="Center" Orientation="Vertical" VerticalAlignment="Bottom" Panel.ZIndex="199" Grid.Row="1" Margin="0,0,0,5">
+
+                                            <!--Die Gauge-Beschriftung-->
+                                            <TextBlock Foreground="{TemplateBinding LabelTextBrush}" HorizontalAlignment="Center" Margin="{TemplateBinding LabelTextMargin}" TextWrapping="Wrap" Text="{TemplateBinding LabelText}" Visibility="{TemplateBinding LabelTextVisibility}" VerticalAlignment="Center" />
+
+                                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                                <TextBlock x:Name="ValueFormattedTextBlock" Foreground="{TemplateBinding ValueTextBrush}" HorizontalAlignment="Center" Text="{Binding ValueFormatted, RelativeSource={RelativeSource TemplatedParent}}" FontWeight="Bold" VerticalAlignment="Center" />
+
+                                                <!--Label für die Einheit-->
+                                                <TextBlock Foreground="{TemplateBinding UnitTextBrush}" HorizontalAlignment="Center" Margin="{TemplateBinding UnitTextMargin}" TextWrapping="Wrap" Text="{TemplateBinding UnitText}" Visibility="{TemplateBinding UnitTextVisibility}" VerticalAlignment="Center" />
+
+                                            </StackPanel>                                        
+                                        </StackPanel>
+                                    </Grid>
+
+                                    <!--Bildet die Sclaer und das Lineal-->
+                                    <vw:GaugeArc x:Name="RulerBaseLineControl" ArcThickness="{TemplateBinding RulerBaseLineThickness}" EndAngle="{TemplateBinding EndAngle}" Fill="{TemplateBinding RulerBaseLineFill}" Stroke="{TemplateBinding RulerBaseLineStroke}" StartAngle="{TemplateBinding StartAngle}" Panel.ZIndex="1" />
+
+                                    <!--Lineal welches die Scale vom Ausgangspunkt bis zum Zeiger überdeckt-->
+                                    <vw:GaugeArc x:Name="PART_ReferenceArc" ArcThickness="{TemplateBinding RulerBaseLineThickness}" EndAngle="{TemplateBinding ReferenceEndAngle}" Fill="{TemplateBinding ReferenceValueDistanceBrush}" Stroke="{TemplateBinding RulerBaseLineStroke}" StartAngle="{TemplateBinding ReferenceStartAngle}" Panel.ZIndex="198" />
+
+                                    <!--Zeiger-->
+                                    <vw:GaugePointer x:Name="PART_Pointer" HorizontalAlignment="Center" Height="{TemplateBinding PointerHeight}" Style="{TemplateBinding PointerStyle}" VerticalAlignment="Center" Width="{TemplateBinding PointerWidth}" Panel.ZIndex="200"/>
+
+                                    <!--Zeigerabdeckung-->
+                                    <Ellipse x:Name="PointerCap" VerticalAlignment="Center" HorizontalAlignment="Center" Width="40" Height="40" StrokeThickness="2" Panel.ZIndex="201" >
+                                        <Ellipse.Stroke>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                <GradientStop Color="#FF000000" Offset="0.675"/>
+                                                <GradientStop Color="#FFC1B5B5" Offset="0.031"/>
+                                            </LinearGradientBrush>
+                                        </Ellipse.Stroke>
+                                        <Ellipse.Fill>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                <GradientStop Color="#FF152029" Offset="0.846"/>
+                                                <GradientStop Color="#FF140204" Offset="0.342"/>
+                                            </LinearGradientBrush>
+                                        </Ellipse.Fill>
+                                        <Ellipse.Effect>
+                                            <DropShadowEffect Color="{DynamicResource FP_Red_C}"  ShadowDepth ="0" BlurRadius="30" RenderingBias="Quality"  />
+                                        </Ellipse.Effect>
+                                    </Ellipse>
+                                </Grid>
+                            </Grid>
+                        </Canvas>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="ScaleDisplayMode" Value="ScaleOnly">
+                            <Setter Property="Visibility" TargetName="RulerBaseLineControl" Value="Hidden" />
+                            <Setter Property="Visibility" TargetName="PART_ReferenceArc" Value="Hidden" />
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="BlinkMode" Value="BlinkBrush" />
+                                <Condition Property="BlinkState" Value="True" />
+                            </MultiTrigger.Conditions>
+                            <Setter Property="Foreground" TargetName="ValueFormattedTextBlock" Value="{Binding BlinkBrush, RelativeSource={RelativeSource TemplatedParent}}" />
+                        </MultiTrigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="BlinkMode" Value="Visibility" />
+                                <Condition Property="BlinkState" Value="True" />
+                            </MultiTrigger.Conditions>
+                            <Setter Property="Visibility" TargetName="ValueFormattedTextBlock" Value="Hidden" />
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="PointerStyle">
+            <Setter.Value>
+                <Style TargetType="{x:Type vw:GaugePointer}">
+                    <Setter Property="Height" Value="117" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type vw:GaugePointer}">
+                                <Grid>
+                                    <Path Data="M319.5,239.5 L359.5,159.5 399.5,239.5 z" Height="Auto" Stretch="Fill" Width="10">
+                                        <Path.Fill>
+                                            <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                                                <GradientStop Color="#FF890A0A" Offset="0.197"/>
+                                                <GradientStop Color="#FFC40808" Offset="1"/>
+                                                <GradientStop Color="#FFE32323" Offset="0.61"/>
+                                            </LinearGradientBrush>
+                                        </Path.Fill>
+                                    </Path>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

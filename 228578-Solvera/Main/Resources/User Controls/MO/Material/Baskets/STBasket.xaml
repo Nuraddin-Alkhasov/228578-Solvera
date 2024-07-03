@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="HMI.Resources.UserControls.MO.STBasket"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vw="http://inosoft.com/visiwin7"
+        Background="Transparent" >
+    <Grid >
+        <Grid x:Name="A" Opacity="0" Margin="5" >
+            <vw:PictureBox x:Name="basket" SymbolResourceKey="STBasket"  Width="169" Height="144">
+                <vw:PictureBox.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="3"  Direction="270"  Opacity="0.5"/>
+                </vw:PictureBox.Effect>
+            </vw:PictureBox>
+           
+            <vw:NumericVarOut x:Name="ismaterial" Opacity="1" TextAlignment="Center" CornerRadius="30" Background="White" BorderThickness="1" BorderBrush="Black" Margin="5,24,5,20"/>
+            <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Center" Orientation="Horizontal">
+               
+                <Border x:Name="discharge" Visibility="Collapsed" Background="{DynamicResource FP_Yellow_Gradient}" Margin="0,0,1,0"  BorderThickness="1" BorderBrush="Black" CornerRadius="3" Width="22" Height="22" >
+                    <vw:TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"  FontSize="16" FontWeight="Bold" Foreground="{DynamicResource FP_Red}" LocalizableText="@Status.Text33" />
+                </Border>
+                <Border x:Name="clean" Visibility="Collapsed" Background="{DynamicResource FP_Yellow_Gradient}"  BorderThickness="1" BorderBrush="Black" CornerRadius="3" Width="22" Height="22" >
+                    <vw:TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"  FontSize="16" FontWeight="Bold" Foreground="{DynamicResource FP_Blue}" LocalizableText="@Status.Text34" />
+                </Border>
+
+            </StackPanel>
+        </Grid>
+        <vw:Button Click="Button_Click" Style="{DynamicResource B_Material}" />
+    </Grid>
+
+</UserControl>

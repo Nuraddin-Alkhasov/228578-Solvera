@@ -1,0 +1,39 @@
+﻿<vw:View 
+x:Class="HMI.MainRegion.MO.Views.MO_CD_Spin"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+	xmlns:vw="http://inosoft.com/visiwin7" HorizontalAlignment="Center" VerticalAlignment="Center" Opacity="0" Loaded="_Loaded">
+
+    <vw:GroupBox Margin="0,0,0,0" Style="{DynamicResource GB_Group}" LocalizableHeaderText="@RecipeSystem.Text60" HorizontalAlignment="Center" VerticalAlignment="Top">
+        <StackPanel Margin="0">
+            <vw:RadioButton x:Name="s1" Style="{DynamicResource RB_Group}"  Margin="-2" IsEnabled="False" IsChecked="True" LocalizableLabelText="@RecipeSystem.Text52" >
+                <StackPanel Orientation="Horizontal" Margin="5,10,5,5">
+                    <StackPanel Margin="0,0,5,0">
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="200" FontWeight="Bold" Height="45" LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text56" RawLimitMax="59" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Spinning.1.Time"/>
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" FontWeight="Bold" Height="45" Margin="0,5,0,0"   LocalizableUnitText="@Units.rpm" LocalizableLabelText="@RecipeSystem.Text55" RawLimitMax="210" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Spinning.1.Rotor"/>
+                    </StackPanel>
+                    <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="200" FontWeight="Bold" Height="95" FontSize="25" LocalizableUnitText="@Units.s" LocalizableLabelText="@MachineOverview.Text28" RawLimitMax="59" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Actual active Step.Spinning.1.Time"/>
+                </StackPanel>
+            </vw:RadioButton>
+            <vw:RadioButton x:Name="s2" Style="{DynamicResource RB_Group}" IsEnabled="False" Margin="-2"  LocalizableLabelText="@RecipeSystem.Text53" >
+                <StackPanel Orientation="Horizontal" Margin="5,10,5,5">
+                    <StackPanel Margin="0,0,5,0">
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="200" FontWeight="Bold" Height="45"  LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text56" RawLimitMax="59" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Spinning.2.Time"/>
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" FontWeight="Bold" Height="45" Margin="0,5,0,0"  LocalizableUnitText="@Units.rpm" LocalizableLabelText="@RecipeSystem.Text57" RawLimitMax="210" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Spinning.2.Rotor"/>
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" FontWeight="Bold" Height="45" Margin="0,5,0,0"  LocalizableUnitText="@Units.rpm" LocalizableLabelText="@RecipeSystem.Text58" RawLimitMax="3" RawLimitMin="-3" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Spinning.2.Planet"/>
+                    </StackPanel>
+                    <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="200" FontWeight="Bold" Height="145" FontSize="25" LocalizableUnitText="@Units.s" LocalizableLabelText="@MachineOverview.Text28" RawLimitMax="59" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Actual active Step.Spinning.2.Time"/>
+                </StackPanel>
+            </vw:RadioButton>
+            <vw:RadioButton x:Name="s3" Style="{DynamicResource RB_Group}" IsEnabled="False"  Margin="-2" LocalizableLabelText="@RecipeSystem.Text54" >
+                <StackPanel Orientation="Horizontal" Margin="5,10,5,5">
+                    <StackPanel Margin="0,0,5,0">
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="200" FontWeight="Bold" Height="45"  LocalizableUnitText="@Units.s" LocalizableLabelText="@RecipeSystem.Text56" RawLimitMax="59" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Spinning.3.Time"/>
+                        <vw:NumericVarOut Style="{DynamicResource NVO_Main}" FontWeight="Bold" Height="45" Margin="0,5,0,0" LocalizableUnitText="@Units.rpm" LocalizableLabelText="@RecipeSystem.Text55" RawLimitMax="210" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Set active Step.Data.Spinning.3.Rotor"/>
+                    </StackPanel>
+                    <vw:NumericVarOut Style="{DynamicResource NVO_Main}" Width="200" FontWeight="Bold" Height="95" FontSize="25" LocalizableUnitText="@Units.s" LocalizableLabelText="@MachineOverview.Text28" RawLimitMax="59" RawLimitMin="0" FormatString="{}0" VariableName="CPU1.PLC.Blocks.03 Basket coating.01 CD.00 Main.Library.DB Program control.Actual active Step.Spinning.3.Time"/>
+                </StackPanel>
+            </vw:RadioButton>
+        </StackPanel>
+    </vw:GroupBox>
+</vw:View>

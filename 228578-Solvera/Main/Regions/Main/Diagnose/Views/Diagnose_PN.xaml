@@ -1,0 +1,47 @@
+﻿<vw:View 
+    x:Class="HMI.MainRegion.Diagnose.Views.Diagnose_PN"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7"
+    Width="1832" Height="1000" Background="{StaticResource FP_BackgroundBrush}">
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <vw:PanoramaNavigation Name="pn_diagnose" Orientation="Horizontal" IsManipulationEnabled="False" Grid.Row="1" SelectedPanoramaRegionChanged="Pn_SelectedPanoramaRegionChanged" Loaded="pn_diagnose_Loaded">
+            <vw:PanoramaNavigation.PanoramaRegions>
+                <vw:PanoramaRegion StartView="Diagnose_Current" />
+                <vw:PanoramaRegion  StartView="Diagnose_Archive" />
+            </vw:PanoramaNavigation.PanoramaRegions>
+        </vw:PanoramaNavigation>
+        <Grid Background="{DynamicResource FP_Blue_Gradient}">
+            <Grid.Effect>
+                <DropShadowEffect Color="White" Direction="270" Opacity="0.7"/>
+            </Grid.Effect>
+            <vw:TextBlock x:Name="header" LocalizableText="@Diagnose.Text1" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="48" Margin="50,0,0,0" />
+            <vw:Button x:Name="export"  Width="180" Height="90" HorizontalAlignment="Right" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_ns}" IsEnabled="False"  LocalizableText="@Buttons.Text60" Margin="0,0,10,0" Click="Button_Click"/>
+
+        </Grid>
+
+        <ListBox Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Opacity="0.7"
+                  ItemContainerStyle="{DynamicResource LBI_PanoramaNavigation_H}"  Style="{DynamicResource LB_PanoramaNavigation_H}"
+                 SelectedIndex="{Binding SelectedPanoramaRegionIndex, ElementName=pn_diagnose, Mode=TwoWay, NotifyOnTargetUpdated=True, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}">
+            <vw:ListBoxItem />
+            <vw:ListBoxItem Margin="10,0,0,0" />
+        </ListBox>
+
+        <Grid x:Name="wait" Grid.RowSpan="2"  Background="{DynamicResource DialogSurroundBrush}" Visibility="Hidden">
+            <vw:Border Background="White"  Opacity="0.7" CornerRadius="10" Margin="0,110,0,0"  Height="150" Width="290" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Border.Effect>
+                    <BlurEffect Radius="10"/>
+                </Border.Effect>
+            </vw:Border>
+            <Border Background="{DynamicResource FP_Wait}"  Opacity="0.7" Margin="0,110,0,0"  CornerRadius="10" Height="140" Width="280" BorderThickness="3" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <Image x:Name="gif" Stretch="None"/>
+            </Border>
+
+        </Grid>
+    </Grid>
+</vw:View>

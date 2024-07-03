@@ -1,0 +1,124 @@
+﻿<vw:View
+    x:Class="HMI.MainRegion.Recipes.Views.Recipes_MR"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7"
+    xmlns:UC="clr-namespace:HMI.Resources.UserControls" 
+    Width="1832" Height="890" >
+
+    <Grid x:Name="layout" Margin="0,0,0,0" Background="{DynamicResource BackgroundBrush}" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="820"/>
+            <ColumnDefinition Width="190"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.RowSpan="2" >
+            <GroupBox x:Name="article" Margin="-5,0,5,0" VerticalAlignment="Top"  BorderThickness="0" Content="{Binding ArticleBuffer}"/>
+            <Border Background="{DynamicResource FP_Red}"  Height="2" Margin="0,5,0,0" CornerRadius="2" />
+
+            <ListBox x:Name="SV" Height="700" Margin="1,0,0,0" VerticalAlignment="Top" Background="{DynamicResource BackgroundBrush}" ItemsSource="{Binding CoatingBuffer}" ScrollViewer.VerticalScrollBarVisibility="Hidden" BorderThickness="0">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListBoxItem}">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                    <ContentPresenter />
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.Resources>
+                    <DataTemplate DataType="{x:Type UC:MR_Coating}">
+                        <UC:MR_Coating/>
+                    </DataTemplate>
+                    <DataTemplate DataType="{x:Type UC:MR_Add}">
+                        <UC:MR_Add/>
+                    </DataTemplate>
+                </ListBox.Resources>
+            </ListBox>
+        </StackPanel>
+        <vw:Button Grid.Row="2" Grid.Column="1" Width="160" Height="90" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,10,10"  Style="{DynamicResource B_Gray}" LocalizableText="@RecipeSystem.Text75" Command="{Binding AssignRecipe}" AuthorizationRight="RecipeAssign"/>
+
+        <Grid Grid.Column="2" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <vw:RadioButton x:Name="ArticleList" IsChecked="{Binding IsArticleChecked}" Margin="0,10,0,0" Height="430" VerticalAlignment="Top" Style="{DynamicResource RB_Group}" GroupName="DG_Recipes" LocalizableLabelText="@RecipeSystem.Text5" PreviewTouchMove="AList_PreviewTouchMove" PreviewTouchDown="AList_TouchDown" PreviewTouchUp="AList_PreviewTouchUp" PreviewMouseRightButtonDown="AList_PreviewMouseRightButtonDown" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="730"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="dgv_a" Grid.RowSpan="3" Height="330" ItemsSource="{Binding Articles}" VerticalAlignment="Top" SelectedIndex="{Binding ArticleIndex}"  Style="{DynamicResource DG_Standart}" VerticalScrollBarVisibility="Disabled" ColumnHeaderHeight="50" RowHeight="48" SelectedCellsChanged="dgv_a_SelectedCellsChanged">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@RecipeSystem.Text7}" Binding="{Binding Header.Name}" Width="300"/>
+                            <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@RecipeSystem.Text8}" Binding="{Binding Header.Description}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <vw:TextVarIn Grid.Row="1" VariableName="__UNLINKED_BSTR" Margin="-2,-2,0,-2" Value="{Binding Filter1, Mode=TwoWay}" Height="45" Style="{DynamicResource TVI_Main}" LocalizableLabelText="@RecipeSystem.Text11" Padding="0,0,50,0" VerticalAlignment="Bottom" />
+                    <vw:Button Grid.Column="2" Margin="0,0,0,0" CornerRadius="0" SymbolResourceKey="Arrow_Up" SymbolHorizontalAlignment="Center" Style="{DynamicResource B_Gray_ns2}"  Command="{Binding ArticleDown}" />
+                    <vw:Button Grid.Row="2" Grid.Column="2" CornerRadius="0"  Margin="0,0,0,0" SymbolResourceKey="Arrow_Down" SymbolHorizontalAlignment="Center" Style="{DynamicResource B_Gray_ns2}" Command="{Binding ArticleUp}" />
+
+                    <Grid Grid.RowSpan="2" Grid.ColumnSpan="2"  Background="{DynamicResource DialogSurroundBrush}" Visibility="{Binding Wait1}">
+                        <vw:Border Background="White"  Opacity="0.7" CornerRadius="10" Margin="0,0,0,0"  Height="150" Width="290" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Border.Effect>
+                                <BlurEffect Radius="10"/>
+                            </Border.Effect>
+                        </vw:Border>
+                        <Border Background="{DynamicResource FP_Wait}"  Opacity="0.7" Margin="0,0,0,0"  CornerRadius="10" Height="140" Width="280" BorderThickness="3" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                            <Image x:Name="gif1" Stretch="None"/>
+                        </Border>
+
+                    </Grid>
+                </Grid>
+            </vw:RadioButton>
+            <vw:RadioButton x:Name="CoatingList"  VerticalAlignment="Bottom" Margin="0,0,0,10" Grid.Row="1" IsChecked="{Binding IsCoatingChecked}" Height="430" Style="{DynamicResource RB_Group}" GroupName="DG_Recipes" LocalizableLabelText="@RecipeSystem.Text4" PreviewTouchMove="CList_PreviewTouchMove" PreviewTouchDown="CList_TouchDown" PreviewTouchUp="CList_PreviewTouchUp" PreviewMouseRightButtonDown="CList_PreviewMouseRightButtonDown" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="730"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="dgv_c" Grid.RowSpan="3"  Height="330" VerticalAlignment="Top" ItemsSource="{Binding Coatings}" SelectedIndex="{Binding CoatingIndex}"  Style="{DynamicResource DG_Standart}" ColumnHeaderHeight="50" RowHeight="48" VerticalScrollBarVisibility="Disabled" SelectedCellsChanged="dgv_c_SelectedCellsChanged">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@RecipeSystem.Text7}" Binding="{Binding Header.Name}" Width="300"/>
+                            <DataGridTextColumn Header="{vw:LocalizedTextBinding LocalizableText=@RecipeSystem.Text8}" Binding="{Binding Header.Description}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <vw:TextVarIn  Grid.Row="1" VariableName="__UNLINKED_BSTR" Margin="-2,-2,0,-2" Value="{Binding Filter2, Mode=TwoWay}" Height="45" Style="{DynamicResource TVI_Main}" LocalizableLabelText="@RecipeSystem.Text11" Padding="0,0,50,0" VerticalAlignment="Bottom" />
+                    <vw:Button Grid.Column="2" Margin="0,0,0,0" CornerRadius="0" SymbolResourceKey="Arrow_Up" SymbolHorizontalAlignment="Center" Style="{DynamicResource B_Gray_ns2}"  Command="{Binding CoatingDown}" />
+                    <vw:Button Grid.Row="2" Grid.Column="2" CornerRadius="0"  Margin="0,0,0,0" SymbolResourceKey="Arrow_Down" SymbolHorizontalAlignment="Center" Style="{DynamicResource B_Gray_ns2}" Command="{Binding CoatingUp}" />
+
+                    <Grid Margin="0,0,0,0" Grid.RowSpan="2"  Background="{DynamicResource DialogSurroundBrush}" Visibility="{Binding Wait2}">
+                        <vw:Border Background="White"  Opacity="0.7" CornerRadius="10" Margin="0,0,0,0"  Height="150" Width="290" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Border.Effect>
+                                <BlurEffect Radius="10"/>
+                            </Border.Effect>
+                        </vw:Border>
+                        <Border Background="{DynamicResource FP_Wait}"  Opacity="0.7" Margin="0,0,0,0"  CornerRadius="10" Height="140" Width="280" BorderThickness="3" BorderBrush="Black" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                            <Image x:Name="gif2" Stretch="None"/>
+                        </Border>
+
+                    </Grid>
+                </Grid>
+            </vw:RadioButton>
+        </Grid>
+        
+        <Grid x:Name="DragItem"   Width="500" Height="80" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.RowSpan="3" Grid.ColumnSpan="3" Visibility="Hidden" >
+            <Border Background="{DynamicResource FP_Blue_Gradient}" CornerRadius="40" Opacity="0.8" />
+            <vw:PictureBox x:Name="DragItem_Pic" Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="10,0,0,0"/>
+            <vw:TextBlock x:Name="DragItem_Name" Foreground="White" FontSize="16" FontWeight="Bold" Margin="80,0,5,0" VerticalAlignment="Center"/>
+        </Grid>
+
+    </Grid>
+    
+</vw:View>

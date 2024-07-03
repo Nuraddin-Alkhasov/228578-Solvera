@@ -1,0 +1,23 @@
+﻿<vw:View 
+    x:Class="HMI.MainRegion.Diagnose.Views.Diagnose_Archive"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7" 
+    Width="1832" Height="890" >
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid ClipToBounds="True">
+            <DataGrid ItemContainerStyle="{DynamicResource LBI_Diagnose}"  ItemsSource="{Binding HistoricalAlarms}" Style="{DynamicResource DG_Standart}" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="{vw:LocalizedText Text=@[ClientSystem].Components.AlarmList.ActivationTime}" Binding="{Binding ActivationTime, StringFormat=dd.MM.yyyy HH:mm:ss}" Width="200"  ElementStyle="{StaticResource TB_Center}"/>
+                    <DataGridTextColumn  Header="{vw:LocalizedText Text=@[ClientSystem].Components.AlarmList.DeactivationTime}" Binding="{Binding DeactivationTime, StringFormat=dd.MM.yyyy HH:mm:ss}" Width="200" ElementStyle="{StaticResource TB_Center}"/>
+                    <DataGridTextColumn  Header="{vw:LocalizedText Text=@[ClientSystem].Components.AlarmList.Count}"  Width="100" Binding="{Binding Name}"  ElementStyle="{StaticResource TB_Right}"/>
+                    <DataGridTextColumn  Header="{vw:LocalizedText Text=@[ClientSystem].Components.AlarmList.Text}"  Width="*" Binding="{Binding Text}" />
+                </DataGrid.Columns>
+            </DataGrid>
+            <vw:NavigationButton Style="{DynamicResource B_Filter}" Height="72" Width="80" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="1740,760,0,0" SymbolResourceKey="Filter" Command="{Binding OpenFilter}" AuthorizationRight="DiagnoseArchive" />
+
+        </Grid>
+       
+    </Grid>
+</vw:View>

@@ -1,0 +1,22 @@
+﻿<vw:View 
+    x:Class="HMI.MainRegion.Recipes.Views.Recipe_Article_DC"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7" VerticalAlignment="Center" HorizontalAlignment="Center" Width="500" Opacity="0">
+
+        <vw:GroupBox  Style="{DynamicResource GB_Group}" Tag="55"  Margin="0" Loaded="View_Loaded" LocalizableHeaderText="@RecipeSystem.Text20" >
+            <StackPanel Margin="0">
+            <vw:GroupBox Style="{DynamicResource GB_Group}" Tag="50" Margin="0,0,0,0" LocalizableHeaderText="@RecipeSystem.Text34" >
+                    <StackPanel Margin="5,10,5,5">
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" Height="45" FontWeight="Bold"  LocalizableLabelText="@RecipeSystem.Text37" LocalizableUnitText="@Units.kg" RawLimitMin="0" RawLimitMax="125" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.DC.Weight.Fine dosing" AuthorizationRight="RecipeA"/>
+                    </StackPanel>
+                </vw:GroupBox>
+            <vw:GroupBox Style="{DynamicResource GB_Group}" Tag="50" Margin="0,0,0,0" LocalizableHeaderText="@RecipeSystem.Text35" >
+                    <StackPanel Margin="5,10,5,5">
+                    <vw:NumericVarIn Style="{DynamicResource NVI_Main}" Height="45"  FontWeight="Bold" LocalizableLabelText="@RecipeSystem.Text37" LocalizableUnitText="@Units.m_min" RawLimitMin="1" RawLimitMax="32" FormatString="{}0.0" VariableName="CPU1.PLC.Blocks.01 Basket feeding.01 LD.00 Main.DB LD HMI.PC.Station.DC.Speed.Fine dosing" AuthorizationRight="RecipeA"/>
+                    </StackPanel>
+                </vw:GroupBox>
+            </StackPanel>
+        </vw:GroupBox>
+
+</vw:View>

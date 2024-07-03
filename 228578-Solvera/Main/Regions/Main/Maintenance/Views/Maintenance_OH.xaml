@@ -1,0 +1,20 @@
+﻿<vw:View x:Class="HMI.MainRegion.Maintenance.Views.Maintenance_OH"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vw="http://inosoft.com/visiwin7"
+    Width="1832" Height="890" >
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <vw:NavigationButton Grid.Column="0" Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text3"  SymbolMargin="0,0,0,5"  Grid.Row="1" RegionName="MainRegion" ViewName="MOH_BF" AuthorizationRight="MaintenanceOH"/>
+        <vw:NavigationButton Grid.Column="1" Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text4"  SymbolMargin="0,0,0,10"  Grid.Row="1" RegionName="MainRegion" ViewName="MOH_BH" AuthorizationRight="MaintenanceOH"/>
+        <vw:NavigationButton Grid.Column="2" Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text5"  SymbolMargin="0,0,0,10"  Grid.Row="1" RegionName="MainRegion" ViewName="MOH_Coating" AuthorizationRight="MaintenanceOH"/>
+        <vw:NavigationButton Grid.Column="3" Width="320" Height="320" HorizontalAlignment="Center" VerticalAlignment="Center"  Style="{DynamicResource B_Gray_HM}" LocalizableText="@Maintenance.Text6"  SymbolMargin="0,0,0,5"  Grid.Row="1"  RegionName="MainRegion" ViewName="MOH_TH" AuthorizationRight="MaintenanceOH"/>
+    </Grid>
+</vw:View>
